@@ -19,3 +19,12 @@
 [submodule "TheGameGame/Assets/Audio"]
 	path = TheGameGame/Assets/Audio
 	url = https://github.com/uvuanimationandgamedev/Audio.git
+[submodule "TheGameGame/Assets/Scripts/CollectableScripts"]
+	path = TheGameGame/Assets/Scripts/CollectableScripts
+	url = https://github.com/uvuanimationandgamedev/CollectableScripts.git
+[submodule "TheGameGame/Assets/Scripts/MechanicScripts"]
+	path = TheGameGame/Assets/Scripts/MechanicScripts
+	url = https://github.com/uvuanimationandgamedev/MechanicScripts.git
+[submodule "TheGameGame/Assets/Scripts/CharacterScripts"]
+	path = TheGameGame/Assets/Scripts/CharacterScripts
+	url = https://github.com/uvuanimationandgamedev/CharacterScripts.git
