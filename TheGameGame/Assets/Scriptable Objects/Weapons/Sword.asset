@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8946fcfb987d0cb438e8f892a3d61ac3, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  coolDownTime: 5
+  sound: {fileID: 0}
+  fireVFX: {fileID: 0}
+  waterVFX: {fileID: 0}
+  lightningVFX: {fileID: 0}
+  earthVFX: {fileID: 0}
+  windVFX: {fileID: 0}
+  damageGOPrefab: {fileID: 0}
+  damageGO: {fileID: 0}
+  canCharge: 0
+  maxChargeTime: 0
+  minRange: 0
+  maxRange: 0
+  buffer: 0
+  duration: 0
+  doesDamage: 0
+  minDamage: 0
+  maxDamage: 0
+  minKB: 0
+  maxKB: 0
+  minCost: 0
+  maxCost: 0
+  movingAbility: 0
+  moveSpeed: 0
+  hasImpact: 0
