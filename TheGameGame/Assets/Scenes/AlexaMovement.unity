@@ -2291,10 +2291,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 236023531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2648e8c2618561d45818977db59fbc8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 895105445}
 --- !u!114 &236023534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2303,10 +2302,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 236023531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8273aa06dcea384ab6ae9b5cc53d96c, type: 3}
+  m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Elemental: {fileID: 11400000, guid: 01bdbe3467450d741a92af770a9e0007, type: 2}
+  player: {fileID: 895105445}
 --- !u!23 &236023535
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2366,9 +2365,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 236023531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e5ad462fa3110848b0de7bf9f49e2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  so_Elemental: {fileID: 11400000, guid: 01bdbe3467450d741a92af770a9e0007, type: 2}
 --- !u!54 &236023539
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2393,7 +2393,7 @@ Animator:
   m_GameObject: {fileID: 236023531}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 609cc626a775bf147a100cb9daaf44fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0083f966f613cc24ea7a946adc9fb5ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3325,7 +3325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 416173149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beb40012ceafdee439b80e0b87c669b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 68b0b3b5a92135b4c857c36421105471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   meteor: {fileID: 1396774582}
@@ -3924,7 +3924,7 @@ Animator:
   m_GameObject: {fileID: 499106059}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: faf2855227d1a5247b45173ede9b618d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5f3251ba9c9fcd04e8e4b91437ddf28b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 2
   m_ApplyRootMotion: 0
@@ -8694,7 +8694,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 895105445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b98249483876b41a9a6c2f96ebd9f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 44d7340304bf34849a80c38c1dc914a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   elementSlotOne: {fileID: 898885171}
@@ -8783,7 +8783,7 @@ Animator:
   m_GameObject: {fileID: 895105445}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3db1c890e6ed45b448de5e4b6a4c4d9b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 81c1a717edfb30d4da026d7c320e7665, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11698,10 +11698,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225281343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2648e8c2618561d45818977db59fbc8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 895105445}
 --- !u!114 &1225281346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11710,10 +11709,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225281343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8273aa06dcea384ab6ae9b5cc53d96c, type: 3}
+  m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Elemental: {fileID: 11400000, guid: 8e948316fcc44184b9a7d20ca3bc8906, type: 2}
+  player: {fileID: 895105445}
 --- !u!23 &1225281347
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11773,9 +11772,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225281343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e5ad462fa3110848b0de7bf9f49e2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  so_Elemental: {fileID: 11400000, guid: 8e948316fcc44184b9a7d20ca3bc8906, type: 2}
 --- !u!54 &1225281351
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11800,7 +11800,7 @@ Animator:
   m_GameObject: {fileID: 1225281343}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 609cc626a775bf147a100cb9daaf44fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0083f966f613cc24ea7a946adc9fb5ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13529,8 +13529,8 @@ GameObject:
   - component: {fileID: 1396774586}
   - component: {fileID: 1396774585}
   - component: {fileID: 1396774584}
-  - component: {fileID: 1396774583}
   - component: {fileID: 1396774588}
+  - component: {fileID: 1396774583}
   m_Layer: 0
   m_Name: Meteor
   m_TagString: Untagged
@@ -13546,7 +13546,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1396774582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76f16523bef1dbf4ea445a31e51fefb7, type: 3}
+  m_Script: {fileID: 11500000, guid: 826416f006b4ea5469ed42ee783b047c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1097222019}
@@ -15221,10 +15221,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556595257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2648e8c2618561d45818977db59fbc8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 895105445}
 --- !u!114 &1556595260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15233,10 +15232,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556595257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8273aa06dcea384ab6ae9b5cc53d96c, type: 3}
+  m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Elemental: {fileID: 11400000, guid: 930491260aeeb5d479424c8330fe3f4a, type: 2}
+  player: {fileID: 895105445}
 --- !u!23 &1556595261
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15296,9 +15295,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556595257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e5ad462fa3110848b0de7bf9f49e2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  so_Elemental: {fileID: 11400000, guid: 930491260aeeb5d479424c8330fe3f4a, type: 2}
 --- !u!54 &1556595265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15323,7 +15323,7 @@ Animator:
   m_GameObject: {fileID: 1556595257}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 609cc626a775bf147a100cb9daaf44fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0083f966f613cc24ea7a946adc9fb5ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19468,10 +19468,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1970059072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2648e8c2618561d45818977db59fbc8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 895105445}
 --- !u!114 &1970059075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19480,10 +19479,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1970059072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8273aa06dcea384ab6ae9b5cc53d96c, type: 3}
+  m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Elemental: {fileID: 11400000, guid: 5c5d9aaf1ed42d944853e45c6ebadeee, type: 2}
+  player: {fileID: 895105445}
 --- !u!23 &1970059076
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19543,9 +19542,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1970059072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e5ad462fa3110848b0de7bf9f49e2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  so_Elemental: {fileID: 11400000, guid: 5c5d9aaf1ed42d944853e45c6ebadeee, type: 2}
 --- !u!54 &1970059080
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19570,7 +19570,7 @@ Animator:
   m_GameObject: {fileID: 1970059072}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 609cc626a775bf147a100cb9daaf44fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0083f966f613cc24ea7a946adc9fb5ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -20723,10 +20723,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112689913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2648e8c2618561d45818977db59fbc8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 895105445}
 --- !u!114 &2112689916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20735,10 +20734,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112689913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8273aa06dcea384ab6ae9b5cc53d96c, type: 3}
+  m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Elemental: {fileID: 11400000, guid: 708810aa64797734680449966b0833e1, type: 2}
+  player: {fileID: 895105445}
 --- !u!23 &2112689917
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20798,9 +20797,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112689913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e5ad462fa3110848b0de7bf9f49e2d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  so_Elemental: {fileID: 11400000, guid: 708810aa64797734680449966b0833e1, type: 2}
 --- !u!54 &2112689921
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20825,7 +20825,7 @@ Animator:
   m_GameObject: {fileID: 2112689913}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 609cc626a775bf147a100cb9daaf44fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0083f966f613cc24ea7a946adc9fb5ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
