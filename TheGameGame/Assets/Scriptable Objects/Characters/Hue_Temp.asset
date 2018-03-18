@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Hue_Temp
   m_EditorClassIdentifier: 
   lookSensitivity: 3
-  name: 
+  name: Hue
   gravity: 14
   jumpForce: 10
   jumpCount: 0

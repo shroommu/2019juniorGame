@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Jim_Temp
   m_EditorClassIdentifier: 
   lookSensitivity: 3
-  name: 
+  name: Jim
   gravity: 14
   jumpForce: 10
   jumpCount: 0
