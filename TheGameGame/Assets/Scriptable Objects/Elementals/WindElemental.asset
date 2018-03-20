@@ -20,3 +20,4 @@ MonoBehaviour:
   elementStrengthPathOne: 1
   elementStrengthPathTwo: 3
   elementWeaknessPath: 0
+  elementMaterial: {fileID: 2100000, guid: 8438d8d2dbdacbc4482d619dc9100d71, type: 2}
