@@ -46,6 +46,11 @@ ExportedObj/
 #Ignore Substance Painter
 *.spp
 
+#Ignore Audio files
+*.wav
+*.mp3
+*.ogg
+
 
 # Unity3D generated meta files
 
