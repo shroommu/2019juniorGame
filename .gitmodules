@@ -14,7 +14,7 @@
 	path = TheGameGame/Assets/Scripts/SR_EnemyScripts
 	url = https://github.com/uvuanimationandgamedev/SR_EnemyScripts
 [submodule "CollectableScripts"]
-	path = TheGameGame/Assets/SR_CollectableScripts
+	path = TheGameGame/Assets/Scripts/SR_CollectableScripts
 	url = https://github.com/uvuanimationandgamedev/SR_CollectableScripts
 [submodule "Models"]
 	path = TheGameGame/Assets/SR_Models
