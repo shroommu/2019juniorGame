@@ -31,3 +31,6 @@
 [submodule "MayaFiles"]
 	path = SR_MayaFiles
 	url = https://github.com/uvuanimationandgamedev/SR_MayaFiles
+[submodule "CollectableScripts"]
+	path = TheGameGame/Assets/Scripts/SR_CollectableScripts
+	url = https://github.com/uvuanimationandgamedev/SR_CollectableScripts
