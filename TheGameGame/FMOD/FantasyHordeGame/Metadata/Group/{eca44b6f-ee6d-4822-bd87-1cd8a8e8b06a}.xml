@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{eca44b6f-ee6d-4822-bd87-1cd8a8e8b06a}">
+        <property name="volume">
+            <value>-4.20000029</value>
+        </property>
+        <property name="name">
+            <value>Player Effects</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{513e81df-5e07-4d05-82ed-35e996697a3a}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{c697a25a-ae8d-4f15-9e7e-efa29980efbb}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{e7be26ba-ffcf-42d8-bd7e-bafdce4bb1b4}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{513e81df-5e07-4d05-82ed-35e996697a3a}">
+        <relationship name="effects">
+            <destination>{b3174f7b-9631-462e-8199-0958ba8dd7bb}</destination>
+            <destination>{89122ff2-d26d-4c58-be16-b52fc83bad98}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{c697a25a-ae8d-4f15-9e7e-efa29980efbb}">
+        <property name="surroundPanDirection">
+            <value>-0.00396475382</value>
+        </property>
+        <property name="surroundPanExtent">
+            <value>173.641449</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{b3174f7b-9631-462e-8199-0958ba8dd7bb}"/>
+    <object class="SFXReverbEffect" id="{89122ff2-d26d-4c58-be16-b52fc83bad98}"/>
+</objects>
