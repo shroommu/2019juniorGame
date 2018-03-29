@@ -1,21 +1,30 @@
 [submodule "Animation"]
 	path = TheGameGame/Assets/SR_Animation
 	url = https://github.com/uvuanimationandgamedev/SR_Animation
-[submodule "TheGameGame/Assets/SR_Audio"]
+[submodule "Audio"]
 	path = TheGameGame/Assets/SR_Audio
 	url = https://github.com/uvuanimationandgamedev/SR_Audio
-[submodule "TheGameGame/Assets/Scripts/SR_CharacterScripts"]
+[submodule "CharacterScripts"]
 	path = TheGameGame/Assets/Scripts/SR_CharacterScripts
 	url = https://github.com/uvuanimationandgamedev/SR_CharacterScripts
-[submodule "TheGameGame/Assets/Scripts/SR_MechanicScripts"]
+[submodule "MechanicScripts"]
 	path = TheGameGame/Assets/Scripts/SR_MechanicScripts
 	url = https://github.com/uvuanimationandgamedev/SR_MechanicScripts
-[submodule "TheGameGame/Assets/Scripts/SR_EnemyScripts"]
+[submodule "EnemyScripts"]
 	path = TheGameGame/Assets/Scripts/SR_EnemyScripts
 	url = https://github.com/uvuanimationandgamedev/SR_EnemyScripts
-[submodule "TheGameGame/Assets/SR_CollectableScripts"]
+[submodule "CollectableScripts"]
 	path = TheGameGame/Assets/SR_CollectableScripts
 	url = https://github.com/uvuanimationandgamedev/SR_CollectableScripts
-[submodule "TheGameGame/Assets/SR_Models"]
+[submodule "Models"]
 	path = TheGameGame/Assets/SR_Models
 	url = https://github.com/uvuanimationandgamedev/SR_Models
+[submodule "UIUX"]
+	path = TheGameGame/Assets/SR_UIUX
+	url = https://github.com/uvuanimationandgamedev/SR_UIUX
+[submodule "VFX"]
+	path = TheGameGame/Assets/SR_VFX
+	url = https://github.com/uvuanimationandgamedev/SR_VFX
+[submodule "Scenes"]
+	path = TheGameGame/Assets/SR_Scenes
+	url = https://github.com/uvuanimationandgamedev/SR_Scenes
