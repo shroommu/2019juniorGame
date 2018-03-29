@@ -28,6 +28,3 @@
 [submodule "Scenes"]
 	path = TheGameGame/Assets/SR_Scenes
 	url = https://github.com/uvuanimationandgamedev/SR_Scenes
-[submodule "TheGameGame/Assets/SR_Images"]
-	path = TheGameGame/Assets/SR_Images
-	url = https://github.com/uvuanimationandgamedev/SR_Images
