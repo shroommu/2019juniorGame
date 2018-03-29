@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{83853bdf-f27a-4d76-a9d9-ddf95e253ec7}">
+        <property name="name">
+            <value>CrossbowSound</value>
+        </property>
+        <relationship name="folder">
+            <destination>{64d849d6-7839-4939-98df-898e253e7af4}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{7d53769f-2a01-4d14-800b-4e58b6d33958}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{7d53769f-2a01-4d14-800b-4e58b6d33958}">
+        <property name="isHeld">
+            <value>true</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="isExposedRecursively">
+            <value>false</value>
+        </property>
+    </object>
+</objects>
