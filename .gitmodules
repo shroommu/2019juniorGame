@@ -28,9 +28,9 @@
 [submodule "Scenes"]
 	path = TheGameGame/Assets/SR_Scenes
 	url = https://github.com/uvuanimationandgamedev/SR_Scenes
-[submodule "TheGameGame/Assets/SR_Images"]
+[submodule "Images"]
 	path = TheGameGame/Assets/SR_Images
 	url = https://github.com/uvuanimationandgamedev/SR_Images
-[submodule "SR_MayaFiles"]
+[submodule "MayaFiles"]
 	path = SR_MayaFiles
 	url = https://github.com/uvuanimationandgamedev/SR_MayaFiles
