@@ -31,3 +31,6 @@
 [submodule "TheGameGame/Assets/Scripts/EnemyScripts"]
 	path = TheGameGame/Assets/Scripts/EnemyScripts
 	url = https://github.com/uvuanimationandgamedev/EnemyScripts.git
+[submodule "TheGameGame/Assets/SR_Animation"]
+	path = TheGameGame/Assets/SR_Animation
+	url = https://github.com/uvuanimationandgamedev/SR_Animation
