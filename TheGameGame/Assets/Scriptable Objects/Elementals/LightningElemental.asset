@@ -17,6 +17,7 @@ MonoBehaviour:
   elementStrengthOne: 4
   elementStrengthTwo: 2
   elementWeakness: 5
+  pentagramImg: {fileID: 21300000, guid: 687b5aa9a5821024b94f2c212b668d3b, type: 3}
   elementStrengthPathOne: 5
   elementStrengthPathTwo: 8
   elementWeaknessPath: 1
