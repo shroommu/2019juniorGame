@@ -29,9 +29,9 @@ GameObject:
   - component: {fileID: 114095807724135592}
   - component: {fileID: 114872631584075170}
   - component: {fileID: 114263370030082790}
-  - component: {fileID: 114700577296941576}
   - component: {fileID: 114864279070632988}
   - component: {fileID: 114334748178572042}
+  - component: {fileID: 114360260381137728}
   m_Layer: 0
   m_Name: RB_Player
   m_TagString: Untagged
@@ -577,6 +577,17 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114360260381137728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272074618842068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b4fd4503bfecc4ba7acfd1bd041f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114383664128263288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -590,34 +601,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   elementManager: {fileID: 0}
---- !u!114 &114700577296941576
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1272074618842068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb8f1452b9995ed4ba3b9967e26d8f30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 2d3aa105947dfe442a4bb14847497e46, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: StartDeplete
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
 --- !u!114 &114864279070632988
 MonoBehaviour:
   m_ObjectHideFlags: 1
