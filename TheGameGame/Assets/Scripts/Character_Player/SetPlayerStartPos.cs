@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class SetPlayerStartPos : MonoBehaviour {
 
+	private GameObject player;
 	private GameObject playerStartPos;
 
 	void Start()
 	{
-		playerStartPos = GameObject.Find("StartPoint");
+		player = GameObject.FindGameObjectWithTag("Player");
 	}
 
+	//called by LoadLevel when new level is loaded
 	public void SetPos()
 	{
-		transform.position = playerStartPos.transform.position;
+		playerStartPos = GameObject.Find("StartPoint");
+		print(playerStartPos);
+		print("moving player");
+		player.transform.position = playerStartPos.transform.position;
 	}
 
 }

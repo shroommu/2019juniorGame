@@ -6,30 +6,29 @@ using UnityEngine;
 public class UseZipline : MonoBehaviour {
 
     public Transform endPos;
-    public GameObject player;
 
     public float time = 5;
     private float elapsedTime = 0;
 
     private bool isRunning = false;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider _other)
     {
         //prevents running multiple instances of coroutine per object.
         if(!isRunning)
         {
-            StartCoroutine(Zipline());
+            StartCoroutine(Zipline(_other));
         }
     }
 
     //lerps player from script's parent object to endPos variable
-    IEnumerator Zipline()
+    IEnumerator Zipline(Collider _other)
     {
         isRunning = true;
 
         while (elapsedTime < time)
         {
-            player.transform.position = Vector3.Lerp(transform.position, endPos.position, (elapsedTime / time));
+            _other.transform.position = Vector3.Lerp(transform.position, endPos.position, (elapsedTime / time));
 
             elapsedTime += Time.deltaTime;
 

@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SR_Scenes/AlexaMovement.unity
     guid: b211f8c8ce412b04a9320d4c65e72ab1
-  - enabled: 1
+  - enabled: 0
     path: Assets/SR_Scenes/ChrystelYellowStone.unity
     guid: 8e4462909e5077447b8842ce5ae47e9d
+  - enabled: 1
+    path: Assets/SR_Scenes/Chrystel_Level.unity
+    guid: adb04aebf777a42a4908e1dd4b885fa4
