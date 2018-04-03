@@ -4,9 +4,6 @@
 [submodule "Audio"]
 	path = TheGameGame/Assets/SR_Audio
 	url = https://github.com/uvuanimationandgamedev/SR_Audio
-[submodule "CharacterScripts"]
-	path = TheGameGame/Assets/Scripts/SR_CharacterScripts
-	url = https://github.com/uvuanimationandgamedev/SR_CharacterScripts
 [submodule "MechanicScripts"]
 	path = TheGameGame/Assets/Scripts/SR_MechanicScripts
 	url = https://github.com/uvuanimationandgamedev/SR_MechanicScripts
