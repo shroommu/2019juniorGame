@@ -7,9 +7,6 @@
 [submodule "MechanicScripts"]
 	path = TheGameGame/Assets/Scripts/SR_MechanicScripts
 	url = https://github.com/uvuanimationandgamedev/SR_MechanicScripts
-[submodule "EnemyScripts"]
-	path = TheGameGame/Assets/Scripts/SR_EnemyScripts
-	url = https://github.com/uvuanimationandgamedev/SR_EnemyScripts
 [submodule "Models"]
 	path = TheGameGame/Assets/SR_Models
 	url = https://github.com/uvuanimationandgamedev/SR_Models
