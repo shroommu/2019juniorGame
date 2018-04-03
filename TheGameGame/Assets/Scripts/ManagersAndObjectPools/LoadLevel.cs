@@ -18,7 +18,6 @@ public class LoadLevel : MonoBehaviour {
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
-
 	public void Load()
 	{
 		SceneManager.LoadScene(levelName, LoadSceneMode.Additive);
@@ -26,9 +25,9 @@ public class LoadLevel : MonoBehaviour {
 
 	public void OnSceneLoaded(Scene _scene, LoadSceneMode _loaded)
 	{
+		SceneManager.SetActiveScene(SceneManager.GetSceneByName("Chrystel_Level"));
 		canvasManager.GetComponent<CanvasManager>().ShowMenu(hud_Pnl);
-		player.GetComponent<SetPlayerStartPos>().SetPos();
-
+		GetComponent<SetPlayerStartPos>().SetPos();
 	}
 
 }

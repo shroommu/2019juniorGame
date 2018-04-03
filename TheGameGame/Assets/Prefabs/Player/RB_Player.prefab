@@ -31,10 +31,10 @@ GameObject:
   - component: {fileID: 114263370030082790}
   - component: {fileID: 114864279070632988}
   - component: {fileID: 114334748178572042}
-  - component: {fileID: 114360260381137728}
+  - component: {fileID: 114304906473571798}
   m_Layer: 0
   m_Name: RB_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -185,7 +185,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1272074618842068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0132642, y: 1.2, z: -3.626257}
+  m_LocalPosition: {x: 180.3, y: 86.24, z: 245.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4926624179603086}
@@ -555,6 +555,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+--- !u!114 &114304906473571798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272074618842068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4ff0ad6fb02488e93edc08d250197c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  elementManager: {fileID: 0}
 --- !u!114 &114334748178572042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -575,17 +588,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114360260381137728
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1272074618842068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73b4fd4503bfecc4ba7acfd1bd041f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114383664128263288
