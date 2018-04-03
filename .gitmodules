@@ -4,15 +4,6 @@
 [submodule "Audio"]
 	path = TheGameGame/Assets/SR_Audio
 	url = https://github.com/uvuanimationandgamedev/SR_Audio
-[submodule "CharacterScripts"]
-	path = TheGameGame/Assets/Scripts/SR_CharacterScripts
-	url = https://github.com/uvuanimationandgamedev/SR_CharacterScripts
-[submodule "MechanicScripts"]
-	path = TheGameGame/Assets/Scripts/SR_MechanicScripts
-	url = https://github.com/uvuanimationandgamedev/SR_MechanicScripts
-[submodule "EnemyScripts"]
-	path = TheGameGame/Assets/Scripts/SR_EnemyScripts
-	url = https://github.com/uvuanimationandgamedev/SR_EnemyScripts
 [submodule "Models"]
 	path = TheGameGame/Assets/SR_Models
 	url = https://github.com/uvuanimationandgamedev/SR_Models
@@ -31,6 +22,3 @@
 [submodule "MayaFiles"]
 	path = SR_MayaFiles
 	url = https://github.com/uvuanimationandgamedev/SR_MayaFiles
-[submodule "CollectableScripts"]
-	path = TheGameGame/Assets/Scripts/SR_CollectableScripts
-	url = https://github.com/uvuanimationandgamedev/SR_CollectableScripts
