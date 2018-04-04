@@ -8,9 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SR_Scenes/AlexaMovement.unity
     guid: b211f8c8ce412b04a9320d4c65e72ab1
-  - enabled: 0
-    path: Assets/SR_Scenes/ChrystelYellowStone.unity
-    guid: 8e4462909e5077447b8842ce5ae47e9d
   - enabled: 1
     path: Assets/SR_Scenes/Chrystel_Level.unity
     guid: adb04aebf777a42a4908e1dd4b885fa4
+  - enabled: 1
+    path: Assets/SR_Scenes/Level_Hite_2.unity
+    guid: d2773c8cf31e13341b697e0b01ababa7
+  - enabled: 1
+    path: Assets/SR_Scenes/LSNewVolcanoLevel.unity
+    guid: 0dd50523729f8ff4291fe94aa129985f
+  - enabled: 1
+    path: Assets/SR_Scenes/JakeTestLevel.unity
+    guid: 73805b7608b53d14aa12163e8efefbe8
+  - enabled: 0
+    path: Assets/SR_Scenes/ChrystelYellowStone.unity
+    guid: 8e4462909e5077447b8842ce5ae47e9d
