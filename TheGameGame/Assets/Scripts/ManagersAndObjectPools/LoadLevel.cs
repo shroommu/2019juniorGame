@@ -35,4 +35,9 @@ public class LoadLevel : MonoBehaviour {
 		GetComponent<SetPlayerStartPos>().SetPos();
 	}
 
+	public void Unload()
+	{
+		SceneManager.UnloadSceneAsync(levelName);
+	}
+
 }

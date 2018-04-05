@@ -42,10 +42,10 @@ Shader "Custom/HighLight"
 			{
 				v2f o;
 				o.vertex = UnityObjectToClipPos(v.vertex);
-				float3 normal = mul((float3x3) UNITY_MATRIX_MV, v.vertex);
-				normal.x *= UNITY_MATRIX_P[0][0];
-				normal.y *= UNITY_MATRIX_P[1][1];
-				o.vertex.xy += normal.xy * _Outline * _OutlineThickness;
+				//float3 normal = mul((float3x3) UNITY_MATRIX_MV, v.vertex);
+				//normal.x *= UNITY_MATRIX_P[0][0];
+				//normal.y *= UNITY_MATRIX_P[1][1];
+				//o.vertex.xy += normal.xy * _Outline * _OutlineThickness;
 				return o.vertex;
 			}
 			
