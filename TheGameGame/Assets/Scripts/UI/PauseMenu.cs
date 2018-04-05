@@ -36,6 +36,12 @@ public class PauseMenu : MonoBehaviour
 		gameRunning = false;
 	}
 
+	public void QuitToStart()
+	{
+		pauseMenuUI.SetActive(false);
+		gameRunning = false;
+	}
+
 	// Checks for an escape key press
 	IEnumerator PauseCheck () 
 	{
