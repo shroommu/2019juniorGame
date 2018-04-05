@@ -215,19 +215,19 @@ namespace FMODUnity
             FMODPlatform result;
             switch (UnityEngine.iOS.Device.generation)
             {
-            case UnityEngine.iOS.DeviceGeneration.iPhone5:
-            case UnityEngine.iOS.DeviceGeneration.iPhone5C:
-            case UnityEngine.iOS.DeviceGeneration.iPhone5S:
-            case UnityEngine.iOS.DeviceGeneration.iPadAir1:
-            case UnityEngine.iOS.DeviceGeneration.iPadMini2Gen:
-            case UnityEngine.iOS.DeviceGeneration.iPhone6:
-            case UnityEngine.iOS.DeviceGeneration.iPhone6Plus:
-            case UnityEngine.iOS.DeviceGeneration.iPadMini3Gen:
-            case UnityEngine.iOS.DeviceGeneration.iPadAir2:
-                result = FMODPlatform.MobileHigh;
+                case UnityEngine.iOS.DeviceGeneration.iPad1Gen:
+                case UnityEngine.iOS.DeviceGeneration.iPad2Gen:
+                case UnityEngine.iOS.DeviceGeneration.iPad3Gen:
+                case UnityEngine.iOS.DeviceGeneration.iPadMini1Gen:
+                case UnityEngine.iOS.DeviceGeneration.iPhone:
+                case UnityEngine.iOS.DeviceGeneration.iPhone3G:
+                case UnityEngine.iOS.DeviceGeneration.iPhone3GS:
+                case UnityEngine.iOS.DeviceGeneration.iPhone4:
+                case UnityEngine.iOS.DeviceGeneration.iPhone4S:
+                    result = FMODPlatform.MobileLow;
                 break;
             default:
-                result = FMODPlatform.MobileLow;
+                result = FMODPlatform.MobileHigh;
                 break;
             }
 
@@ -297,6 +297,8 @@ namespace FMODUnity
             return FMODPlatform.UWP;
             #elif UNITY_SWITCH
             return FMODPlatform.Switch;
+            #elif UNITY_WEBGL
+            return FMODPlatform.WebGL;            
             #endif
         }
 
@@ -352,13 +354,15 @@ namespace FMODUnity
                 string pluginFileName = pluginName + ".prx";
             #elif UNITY_ANDROID || UNITY_STANDALONE_LINUX
                 string pluginFileName = "lib" + pluginName + ".so";
+            #elif UNITY_WEBGL
+                string pluginFileName = pluginName + ".bc";
             #endif
 
             #if UNITY_EDITOR_WIN && UNITY_EDITOR_64
                 string pluginFolder = Application.dataPath + "/Plugins/X86_64/";
             #elif UNITY_EDITOR_WIN
                 string pluginFolder = Application.dataPath + "/Plugins/X86/";
-            #elif UNITY_STANDALONE_WIN || UNITY_PS4 || UNITY_XBOXONE || UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
+            #elif UNITY_STANDALONE_WIN || UNITY_PS4 || UNITY_XBOXONE || UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX || UNITY_WEBGL
                 string pluginFolder = Application.dataPath + "/Plugins/";
             #elif UNITY_STANDALONE_LINUX
                 string pluginFolder = Application.dataPath + ((IntPtr.Size == 8) ? "/Plugins/x86_64/" : "/Plugins/x86/");
@@ -451,6 +455,10 @@ namespace FMODUnity
                 #if UNITY_SWITCH
                 case BuildTarget.Switch:
                     return FMODPlatform.Switch;
+                #endif
+                #if UNITY_WEBGL
+                case BuildTarget.WebGL:
+                    return FMODPlatform.WebGL;
                 #endif
                 default:
                     return FMODPlatform.None;

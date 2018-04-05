@@ -8,7 +8,7 @@ public class ElementManager : MonoBehaviour {
 	public Transform elementSlotOne;
 	public Transform elementSlotTwo;
 
-	private PlayerAnimCtrls playerAnimCtrls;
+	private PlayerUIAnimatorCtrls playerUIAnimatorCtrls;
 
 	public SO_Elemental.elementType currentElement = SO_Elemental.elementType.NEUTRAL;
 	public List<GameObject> elementals;
@@ -24,7 +24,7 @@ public class ElementManager : MonoBehaviour {
 	//called with StartGameState GameEvent
 	public void StartGame()
 	{
-		playerAnimCtrls = GetComponent<PlayerAnimCtrls>();
+		playerUIAnimatorCtrls = GetComponent<PlayerUIAnimatorCtrls>();
 
 		elementals.Clear ();
 		currentElement = SO_Elemental.elementType.NEUTRAL;
@@ -47,7 +47,7 @@ public class ElementManager : MonoBehaviour {
 			{
 				usingElement = true;
 				StartCoroutine(UseElement());
-				playerAnimCtrls.UseElement();
+				playerUIAnimatorCtrls.UseElement();
 			}
 		}
 
@@ -71,7 +71,7 @@ public class ElementManager : MonoBehaviour {
 		elementals [0].transform.parent = elementSlotTwo;
 		currentElement = elementals[0].GetComponent<ElementalController>().so_Elemental.type;
 
-		playerAnimCtrls.SwapElement();
+		playerUIAnimatorCtrls.SwapElement();
 	}
 
 	IEnumerator UseElement()
