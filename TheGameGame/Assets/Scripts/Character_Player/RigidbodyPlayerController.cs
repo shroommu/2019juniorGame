@@ -9,7 +9,8 @@ public class RigidbodyPlayerController : MonoBehaviour {
 
 	CapsuleCollider capCollider;
 	Rigidbody rb;
-	public Animator anims;
+	public Animator moveAnims;	//the movement animator controller
+	public Animator attackAnims;	//the animator controller that has all the animations
 	public Camera characterCam;
 
 	public float slopeAngle = 45f;	//make slope character is able to walk at
@@ -34,7 +35,7 @@ public class RigidbodyPlayerController : MonoBehaviour {
 	void Start () {
 		capCollider = GetComponent<CapsuleCollider>();
 		rb = GetComponent<Rigidbody>();
-		anims = GetComponent<Animator>();
+		moveAnims = GetComponent<Animator>();
 		Cursor.lockState = CursorLockMode.Locked;
 	}
 	
@@ -82,6 +83,7 @@ public class RigidbodyPlayerController : MonoBehaviour {
 	{
 		rb.velocity = new Vector3(rb.velocity.x, jumpPower, rb.velocity.z);
 		rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+		attackAnims.SetTrigger("Jump");
 	}
 
 	public bool RBGrounded() //returns a bool of if the player is grounded or not
@@ -99,9 +101,9 @@ public class RigidbodyPlayerController : MonoBehaviour {
 
 	void Inputs()	//deternine the moveVector and mouse controls
 	{
-		moveVector = (transform.right * anims.GetFloat("MoveX") + transform.forward * anims.GetFloat("MoveZ")) * moveSpeed;
+		moveVector = (transform.right * moveAnims.GetFloat("MoveX") + transform.forward * moveAnims.GetFloat("MoveZ")) * moveSpeed;
 
-		if(moveVector == Vector3.zero && rb.velocity != Vector3.zero && anims.GetBool("IsGrounded"))
+		if(moveVector == Vector3.zero && rb.velocity != Vector3.zero && moveAnims.GetBool("IsGrounded"))
 		{
 			Decel();
 		}
