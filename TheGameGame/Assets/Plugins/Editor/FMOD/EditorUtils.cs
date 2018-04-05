@@ -175,7 +175,6 @@ namespace FMODUnity
         {
             EditorApplication.update += Update;
             #if UNITY_2017_2_OR_NEWER
-            EditorApplication.playModeStateChanged += HandleOnPlayModeChanged;
             EditorApplication.pauseStateChanged += HandleOnPausedModeChanged;
             #else
             EditorApplication.playmodeStateChanged += HandleOnPlayModeChanged;
@@ -193,24 +192,9 @@ namespace FMODUnity
         }
         #endif
 
-        #if UNITY_2017_2_OR_NEWER
-        static void HandleOnPlayModeChanged(PlayModeStateChange state)
-        {
-            if (state == PlayModeStateChange.ExitingPlayMode)
-            {
-                DestroySystem();
-            }
-        }
-        #else
+        #if !UNITY_2017_2_OR_NEWER
         static void HandleOnPlayModeChanged()
         {
-            // Ensure we don't leak system handles in the DLL
-            if (EditorApplication.isPlayingOrWillChangePlaymode &&
-                !EditorApplication.isPaused)
-            {
-        	    DestroySystem();
-            }
-            
             if (RuntimeManager.IsInitialized && RuntimeManager.HasBanksLoaded)
             {
                 if (EditorApplication.isPlayingOrWillChangePlaymode)
@@ -220,7 +204,7 @@ namespace FMODUnity
                 }
             }
         }
-#endif
+        #endif
 
         static void Update()
         {
@@ -376,7 +360,7 @@ namespace FMODUnity
             uint version;
             CheckResult(lowlevel.getVersion(out version));
 
-            EditorUtility.DisplayDialog("FMOD Studio Unity Integration", "Version: " + VerionNumberToString(version) + "\n\nCopyright \u00A9 Firelight Technologies Pty, Ltd. 2014-2017 \n\nSee LICENSE.TXT for additional license information.", "OK");
+            EditorUtility.DisplayDialog("FMOD Studio Unity Integration", "Version: " + VerionNumberToString(version) + "\n\nCopyright \u00A9 Firelight Technologies Pty, Ltd. 2014-2018 \n\nSee LICENSE.TXT for additional license information.", "OK");
         }
 
         static FMOD.Studio.Bank masterBank;
