@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{a77753b2-c85d-4283-91cf-73b557442f31}">
+        <property name="assetPath">
+            <value>whoosh 4 Low.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.25133786848072565</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ec5a210-a67c-439a-976a-887a29c69b28}</destination>
+        </relationship>
+    </object>
+</objects>

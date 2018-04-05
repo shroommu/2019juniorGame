@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{f8f105cc-c5b4-4964-988d-0fc9aaeb0d76}">
+        <property name="assetPath">
+            <value>Ambiance/boiling fire.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>14.811428571428571</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ec5a210-a67c-439a-976a-887a29c69b28}</destination>
+        </relationship>
+    </object>
+</objects>

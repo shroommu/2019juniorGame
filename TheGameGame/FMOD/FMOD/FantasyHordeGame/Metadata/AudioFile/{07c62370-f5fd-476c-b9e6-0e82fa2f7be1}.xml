@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{07c62370-f5fd-476c-b9e6-0e82fa2f7be1}">
+        <property name="assetPath">
+            <value>Characters/PlayableCharacters/Jim/267547__mshahen__knives-axes-swords-ring-effect.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>4.5462083333333334</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ec5a210-a67c-439a-976a-887a29c69b28}</destination>
+        </relationship>
+    </object>
+</objects>

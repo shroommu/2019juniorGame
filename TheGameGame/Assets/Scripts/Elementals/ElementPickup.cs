@@ -8,7 +8,7 @@ public class ElementPickup : MonoBehaviour {
 	private GameObject player;
 
 	private ElementManager elementManager;
-	private PlayerAnimCtrls playerAnimCtrls;
+	private PlayerUIAnimatorCtrls playerUIAnimatorCtrls;
 
 	private ElementalAnimsCtrl elementalAnimsCtrl;
 	private SO_Elemental so_Elemental;
@@ -20,7 +20,7 @@ public class ElementPickup : MonoBehaviour {
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
 		elementManager = player.GetComponent<ElementManager>();
-		playerAnimCtrls = player.GetComponent<PlayerAnimCtrls>();
+		playerUIAnimatorCtrls = player.GetComponent<PlayerUIAnimatorCtrls>();
 
 		elementalAnimsCtrl = GetComponent<ElementalAnimsCtrl>();		
 		so_Elemental = GetComponent<ElementalController> ().so_Elemental;
@@ -100,7 +100,7 @@ public class ElementPickup : MonoBehaviour {
 		}
 
 		//sends animator call to update UI
-		playerAnimCtrls.PickUpElement();
+		playerUIAnimatorCtrls.PickUpElement();
 	}
 
 	void DropElement()
@@ -117,7 +117,7 @@ public class ElementPickup : MonoBehaviour {
 		elementManager.elementals [0].GetComponent<BoxCollider> ().isTrigger = false;
 
 		//sends animator call to update UI
-		playerAnimCtrls.PickUpElement();
+		playerUIAnimatorCtrls.PickUpElement();
 		//animator call for elemental to enter Idle state
 		elementalAnimsCtrl.Idle();
 	}

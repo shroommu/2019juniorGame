@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{88fabbc2-c293-49cd-b9c6-124892697200}">
+        <property name="assetPath">
+            <value>Ambiance/Thunder_03.ogg</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>15.874041666666667</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ec5a210-a67c-439a-976a-887a29c69b28}</destination>
+        </relationship>
+    </object>
+</objects>
