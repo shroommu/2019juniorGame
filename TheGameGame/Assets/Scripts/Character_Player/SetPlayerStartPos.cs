@@ -7,7 +7,7 @@ public class SetPlayerStartPos : MonoBehaviour {
 	private GameObject player;
 	private GameObject playerStartPos;
 
-	void Start()
+	void Awake()
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
 	}
@@ -16,8 +16,6 @@ public class SetPlayerStartPos : MonoBehaviour {
 	public void SetPos()
 	{
 		playerStartPos = GameObject.Find("StartPoint");
-		print(playerStartPos);
-		print("moving player");
 		player.transform.position = playerStartPos.transform.position;
 	}
 
