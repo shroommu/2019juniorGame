@@ -11,18 +11,22 @@ public class EnemySpawner : MonoBehaviour {
 	public int defaultEnemyPoolSize = 20;														//default number of enemies that the game will use, used when instancating the first pools of enemies
 	public SO_Enemy smallEnemySO;
 	public SO_Enemy medEnemySO;
-	public SO_Enemy bigEnemySO;																	//stores the enemy Scriptable objects, used to instanciate more enemies
+	public SO_Enemy bigEnemySO;
 	
-	[HideInInspector] public List<GameObject> smallEnemies, medEnemies, bigEnemies;				//list of enemy GOs that are pooled offscreen
-	[HideInInspector] public int lastSmlEn, lastMedEn, lastBigEn;								//stores the index of the last enemy accessed in each list, for ease of access
-	[HideInInspector] public int waveEnemy = 0, currentWave = 0;												//stores the index of the last enemy spawned from the round data
+	//list of enemy GOs that are pooled offscreen
+	[HideInInspector] public List<GameObject> smallEnemies, medEnemies, bigEnemies;	
+	//stores the index of the last enemy accessed in each list, for ease of access			
+	[HideInInspector] public int lastSmlEn, lastMedEn, lastBigEn;	
+	//stores the index of the last enemy spawned from the round data							
+	[HideInInspector] public int waveEnemy = 0, currentWave = 0;
+	//transform set in inspector, location used to store all unused "deactivated" enemies											
 	public Transform poolLocation;																//transform set in inspector, location used to store all unused "deactivated" enemies
 
 	public Transform playerPos;																	//stores the location of the player, used to find the closest spawn point
 	public Transform[] enemySpawnPoints;														//an array of enemy spawn points, used to set the enemys position on spawn
 	[HideInInspector]public bool playerActive = true;													//bool used to stop the round manager if the player is killed
 
-	private void Start()
+	public void StartGame()
 	{
 		SetUpSpawning ();
 	}
@@ -56,7 +60,7 @@ public class EnemySpawner : MonoBehaviour {
 		_pool.Add (enemyArch.CreateEnemyInstance(loc, toActivate));									//Adds an enemy to the list
 	}
 
-	private GameObject FindInactive(List<GameObject> pool, SO_Enemy _enemyArch, int lastActive)		//Finds the next inactive (not currently chasing the player) enemy by iterating through the list of enemies that its given. if none are found then it adds another by calling expandPool()
+	private GameObject FindNextActive(List<GameObject> pool, SO_Enemy _enemyArch, int lastActive)		//Finds the next inactive (not currently chasing the player) enemy by iterating through the list of enemies that its given. if none are found then it adds another by calling expandPool()
 	{
 		bool _foundGO = false;																		//temp bool used to break out of for loops
 		
@@ -86,13 +90,13 @@ public class EnemySpawner : MonoBehaviour {
 
 	void PullEnemy(Vector3 loc){
 		if(currentRound.roundWaves[currentWave].enemies[waveEnemy].EnemyType == smallEnemySO.EnemyType){
-			currentRound.roundWaves[currentWave].EnemySpawn (FindInactive (smallEnemies, smallEnemySO, lastSmlEn), loc);
+			currentRound.roundWaves[currentWave].EnemySpawn (FindNextActive (smallEnemies, smallEnemySO, lastSmlEn), loc);
 		}
 		if (currentRound.roundWaves[currentWave].enemies[waveEnemy].EnemyType == bigEnemySO.EnemyType) {
-			currentRound.roundWaves[currentWave].EnemySpawn (FindInactive (bigEnemies, bigEnemySO, lastBigEn), loc);
+			currentRound.roundWaves[currentWave].EnemySpawn (FindNextActive (bigEnemies, bigEnemySO, lastBigEn), loc);
 		}
 		if (currentRound.roundWaves[currentWave].enemies[waveEnemy].EnemyType == medEnemySO.EnemyType) {
-			currentRound.roundWaves[currentWave].EnemySpawn (FindInactive (medEnemies, medEnemySO, lastBigEn), loc);
+			currentRound.roundWaves[currentWave].EnemySpawn (FindNextActive (medEnemies, medEnemySO, lastBigEn), loc);
 		}
 	}
 
@@ -107,12 +111,17 @@ public class EnemySpawner : MonoBehaviour {
 	IEnumerator RoundManager(){		
 		for (int i = 0; i < currentRound.roundWaves.Count; i++) {
 			currentWave = i;
+
 			yield return new WaitForSeconds (currentRound.roundWaves [i].waveDelay);
+
 			waveEnemy = 0;
+
 			for (int a = 0; a < currentRound.roundWaves [i].enemies.Length; a++) {
-				Vector3 SP = currentRound.roundWaves[i].FindClosest (playerPos, enemySpawnPoints);
+
+				Vector3 _spawnPoint = currentRound.roundWaves[i].FindClosest (playerPos, enemySpawnPoints);
+
 				for(int x = 0; x < currentRound.roundWaves[i].enemiesPerSpawn; x++){
-					PullEnemy(SP);                                                                  //Calls pull enemy to activate, passes the spawn Point location 
+					PullEnemy(_spawnPoint);                                                                  //Calls pull enemy to activate, passes the spawn Point location 
 					waveEnemy++; 
 					yield return null;	
 				}
