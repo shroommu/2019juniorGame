@@ -13,7 +13,8 @@ public class Damager : MonoBehaviour {
 
 		if (objHealth != null)
 		{
-			objHealth.TakeDamage (baseDamage, baseKnockBack, elementManager.currentElement, other.transform.position - this.transform.position);	//Damage the other thing, creature or player
+		//	objHealth.TakeDamage (baseDamage, baseKnockBack, elementManager.currentElement, other.transform.position - this.transform.position);
+			objHealth.TakeDamage (baseDamage, baseKnockBack, Vector3.Normalize(other.transform.position - this.transform.position));	//Damage the other thing, creature or player
 		}
 	}
 

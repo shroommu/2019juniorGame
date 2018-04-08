@@ -26,15 +26,19 @@ public class NavRigid : MonoBehaviour {
 	{
 
 	//	print(Vector3.Dot(new Vector3(12, 15, 15), new Vector3(12, 15, -15)));
-
+		print("enemy start");
 		rb = GetComponent<Rigidbody>();
 		agent = GetComponent<NavMeshAgent>();
+		print(destination.position);
 		agent.SetDestination(destination.position);
+		Push(Vector3.up);
 	}
 
 	void FixedUpdate()
 	{
 		lfVelocity = rb.velocity;
+		if(agent.enabled)
+			agent.SetDestination(destination.position);
 	}
 
 	public void Push(Vector3 _force)
@@ -44,7 +48,7 @@ public class NavRigid : MonoBehaviour {
 	//	rb.AddForce(_force);
 		rb.velocity += _force / pushbackMod;
 	//	print(_force);
-	//	print("Pushed! " + rb.velocity);
+		print("Pushed! " + rb.velocity);
 		isGrounded = false;
 		StopAllCoroutines();
 		StartCoroutine(CheckGrounding());
@@ -53,6 +57,7 @@ public class NavRigid : MonoBehaviour {
 	void OnCollisionEnter(Collision other)	//when something bumps into this object
 	{
 	//	print(other.relativeVelocity);
+		print("Collided");
 		LastFrameVelocity collNR = other.gameObject.GetComponent<LastFrameVelocity>();
 		if(collNR != null && rb.isKinematic == true) //if this rigidbody is kinimatic/has the agent enabled
 		{
@@ -74,6 +79,7 @@ public class NavRigid : MonoBehaviour {
 	void OnCollisionStay(Collision other)
 	{
 	//	CollisionCheck(other);
+		print("Colliding");
 	}
 
 	void CollisionCheck(Collision other) 
@@ -153,6 +159,7 @@ public class NavRigid : MonoBehaviour {
 		rb.isKinematic = true;
 		agent.enabled = true;
 		agent.SetDestination(destination.position);
+		print(destination.position);
 
 	}
 
