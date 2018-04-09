@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 95448060622375244}
   - component: {fileID: 114252428132630292}
   - component: {fileID: 114472684515771812}
-  - component: {fileID: 114659309724338682}
+  - component: {fileID: 114284050668419854}
   m_Layer: 0
   m_Name: WaterElemental
   m_TagString: Untagged
@@ -141,6 +141,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114284050668419854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953240911625830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76cc7163bae06f842852c664f5ddbd7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_Elemental: {fileID: 11400000, guid: 930491260aeeb5d479424c8330fe3f4a, type: 2}
 --- !u!114 &114472684515771812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,15 +164,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114659309724338682
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1953240911625830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  so_Elemental: {fileID: 11400000, guid: 930491260aeeb5d479424c8330fe3f4a, type: 2}

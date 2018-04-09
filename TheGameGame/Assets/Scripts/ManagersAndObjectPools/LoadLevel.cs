@@ -7,7 +7,8 @@ public class LoadLevel : MonoBehaviour {
 
 	public string levelName;
 	
-	public CanvasManager canvasManager;
+	public GameObject canvasManager;
+	public GameObject gameStateManager;
 
 	public MenuMethods hud_Pnl;
 
@@ -25,6 +26,7 @@ public class LoadLevel : MonoBehaviour {
 
 	public void Load()
 	{
+		gameStateManager.GetComponent<Animator>().SetTrigger("LoadScene");
 		SceneManager.LoadScene(levelName, LoadSceneMode.Additive);
 	}
 
@@ -33,6 +35,7 @@ public class LoadLevel : MonoBehaviour {
 		SceneManager.SetActiveScene(SceneManager.GetSceneByName(levelName));
 		canvasManager.GetComponent<CanvasManager>().ShowMenu(hud_Pnl);
 		GetComponent<SetPlayerStartPos>().SetPos();
+		gameStateManager.GetComponent<Animator>().SetTrigger("StartGame");
 	}
 
 	public void Unload()

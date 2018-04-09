@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 95586936588968022}
   - component: {fileID: 114539115749677840}
   - component: {fileID: 114406227032590044}
-  - component: {fileID: 114043671960959274}
+  - component: {fileID: 114108141895689012}
   m_Layer: 0
   m_Name: WindElemental
   m_TagString: Untagged
@@ -130,7 +130,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114043671960959274
+--- !u!114 &114108141895689012
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1875849228095022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 76cc7163bae06f842852c664f5ddbd7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   so_Elemental: {fileID: 11400000, guid: 5c5d9aaf1ed42d944853e45c6ebadeee, type: 2}

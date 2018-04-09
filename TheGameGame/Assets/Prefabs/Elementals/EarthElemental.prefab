@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 95083187744108082}
   - component: {fileID: 114400174376894754}
   - component: {fileID: 114256684180181292}
-  - component: {fileID: 114925927446343440}
+  - component: {fileID: 114474452624469104}
   m_Layer: 0
   m_Name: EarthElemental
   m_TagString: Untagged
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09d9c30b3c3eec145a341acabc0e4fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114925927446343440
+--- !u!114 &114474452624469104
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1953664314267660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 76cc7163bae06f842852c664f5ddbd7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   so_Elemental: {fileID: 11400000, guid: 01bdbe3467450d741a92af770a9e0007, type: 2}

@@ -69,7 +69,7 @@ public class ElementManager : MonoBehaviour {
 		elementals [1].transform.parent = elementSlotOne;
 		elementals [0].transform.position = elementSlotTwo.position;
 		elementals [0].transform.parent = elementSlotTwo;
-		currentElement = elementals[0].GetComponent<ElementalController>().so_Elemental.type;
+		currentElement = elementals[0].GetComponent<ElementalData>().so_Elemental.type;
 
 		playerUIAnimatorCtrls.SwapElement();
 	}
