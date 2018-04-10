@@ -44,6 +44,7 @@ public class PlayerAttack : MonoBehaviour {
 	{
 		if(canAttack)
 		{
+			print("attacking");
 			attackAnimator.SetTrigger("Attack1");
 			attackAnimator.SetTrigger("AttackTrigger");
 			
@@ -100,7 +101,7 @@ public class PlayerAttack : MonoBehaviour {
 
 	IEnumerator Attack3SlamDelay()
 	{
-		yield return new WaitForSeconds(.1f);
+		yield return new WaitForSeconds(.2f);
 		attackAnimator.SetTrigger("Attack3SlamReady");
 	}
 }
