@@ -8,7 +8,7 @@ public class RoundAndWaveManager : MonoBehaviour {
 	public List<GameObject> enemyList;
 
 	//list of places that enemies can spawn (self-configuring)
-	private GameObject[] enemySpawnPointArray;
+	public GameObject[] enemySpawnPointArray;
 
 	private SO_Round_Simple currentRound;
 	private int currentRoundNum;
@@ -30,6 +30,7 @@ public class RoundAndWaveManager : MonoBehaviour {
 	{
 		//searches active scene for all enemy spawn points and stores them for easy access
 		enemySpawnPointArray = GameObject.FindGameObjectsWithTag("EnemySpawnPoint");
+		print("starting RoundAndWaveManager");
 
 		//sets round back to unplayed default before starting
 		finishedRoundsList.Clear();
@@ -75,8 +76,11 @@ public class RoundAndWaveManager : MonoBehaviour {
 			//random int to decide whether to spawn a small, medium, or large enemy
 			int _enemySpawnNum = Random.Range(0, enemyList.Count);
 
+			print(_tempWaveDanger);
+			print(_enemySpawnNum);
+
 			//checks to make sure this enemy can be spawned without going over the danger level
-			if(_tempWaveDanger - enemyList[_enemySpawnNum].GetComponent<EnemyController>().so_Enemy.dangerRating < 0)
+			if(_tempWaveDanger - enemyList[_enemySpawnNum].GetComponent<EnemyData>().so_Enemy.dangerRating < 0)
 			{
 				_enemySpawnNum = Random.Range(0, (_tempWaveDanger - 1));
 			}
@@ -86,7 +90,7 @@ public class RoundAndWaveManager : MonoBehaviour {
 			activeEnemiesList.Add(_enemy);
 
 			//sets new value of currentwave.wavedngval
-			currentRound.currentWave.waveDngVal -= enemyList[_enemySpawnNum].GetComponent<EnemyController>().so_Enemy.dangerRating;
+			currentRound.currentWave.waveDngVal -= enemyList[_enemySpawnNum].GetComponent<EnemyData>().so_Enemy.dangerRating;
 			//print("currentWave danger value" + currentRound.currentWave.waveDngVal);
 
 			//pauses before spawning next enemy
