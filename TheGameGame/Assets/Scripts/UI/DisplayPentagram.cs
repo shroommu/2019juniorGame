@@ -26,7 +26,7 @@ public class DisplayPentagram : MonoBehaviour {
 	
 	public void Display()
 	{
-		pentagramImg.sprite = elementManager.currentElemental.GetComponent<ElementalController>().so_Elemental.pentagramImg;
+		pentagramImg.sprite = elementManager.currentElemental.GetComponent<ElementalData>().so_Elemental.pentagramImg;
 	}
 
 }

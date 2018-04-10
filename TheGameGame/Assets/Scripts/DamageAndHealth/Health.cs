@@ -42,7 +42,7 @@ public class Health : MonoBehaviour {
 
 	public void TakeDamage(int _dam, int _kBForce, SO_Elemental.elementType damElement, Vector3 _dir )		//takes the damage, knockback force, element, and force direction
 	{
-		SO_Elemental _so_Elemental = elementManager.currentElemental.GetComponent<ElementalController>().so_Elemental;
+		SO_Elemental _so_Elemental = elementManager.currentElemental.GetComponent<ElementalData>().so_Elemental;
 
 
 		//if the damager's element is not NEUTRAL

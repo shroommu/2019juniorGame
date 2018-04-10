@@ -23,7 +23,7 @@ public class ElementPickup : MonoBehaviour {
 		playerUIAnimatorCtrls = player.GetComponent<PlayerUIAnimatorCtrls>();
 
 		elementalAnimsCtrl = GetComponent<ElementalAnimsCtrl>();		
-		so_Elemental = GetComponent<ElementalController> ().so_Elemental;
+		so_Elemental = GetComponent<ElementalData> ().so_Elemental;
 		rend = GetComponent<Renderer> ();
 	}
 

@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class SpawnCharacter : MonoBehaviour {
 
-	public GameObject player;
-	public GameObject[] playerSpawnLocation;
+	private GameObject player;
+	private GameObject playerSpawnLocation;
+
+	void Start()
+	{
+		player = GameObject.FindGameObjectWithTag("Player");
+		playerSpawnLocation = GameObject.Find("StartPoint");
+	}
 
 	void OnTriggerEnter(Collider other)
 	{
-		if(other.gameObject.tag == "Player")
+		if(other.tag == "Player")
 		{
 			SpawnPlayer();
 		}
@@ -17,8 +23,8 @@ public class SpawnCharacter : MonoBehaviour {
 
 	public void SpawnPlayer ()
 	{
-		player.transform.position = playerSpawnLocation[Random.Range(0, playerSpawnLocation.Length)].transform.position;
-		player.transform.rotation = playerSpawnLocation [Random.Range (0, playerSpawnLocation.Length)].transform.rotation;
+		player.transform.position = playerSpawnLocation.transform.position;
+		player.transform.rotation = playerSpawnLocation.transform.rotation;
 	}
 }
 
