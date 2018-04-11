@@ -1,24 +1,3 @@
-[submodule "Animation"]
-	path = TheGameGame/Assets/SR_Animation
-	url = https://github.com/uvuanimationandgamedev/SR_Animation
-[submodule "Audio"]
-	path = TheGameGame/Assets/SR_Audio
-	url = https://github.com/uvuanimationandgamedev/SR_Audio
-[submodule "Models"]
-	path = TheGameGame/Assets/SR_Models
-	url = https://github.com/uvuanimationandgamedev/SR_Models
-[submodule "UIUX"]
-	path = TheGameGame/Assets/SR_UIUX
-	url = https://github.com/uvuanimationandgamedev/SR_UIUX
 [submodule "VFX"]
 	path = TheGameGame/Assets/SR_VFX
 	url = https://github.com/uvuanimationandgamedev/SR_VFX
-[submodule "Scenes"]
-	path = TheGameGame/Assets/SR_Scenes
-	url = https://github.com/uvuanimationandgamedev/SR_Scenes
-[submodule "Images"]
-	path = TheGameGame/Assets/SR_Images
-	url = https://github.com/uvuanimationandgamedev/SR_Images
-[submodule "MayaFiles"]
-	path = SR_MayaFiles
-	url = https://github.com/uvuanimationandgamedev/SR_MayaFiles
