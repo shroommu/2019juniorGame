@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 95568475189501250}
   - component: {fileID: 114487896967564484}
   - component: {fileID: 114013697141940532}
-  - component: {fileID: 114213537542044068}
+  - component: {fileID: 114362670244438098}
   m_Layer: 0
   m_Name: LightningElemental
   m_TagString: Untagged
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 135ac55e462398c4083afdc25e4d9208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114213537542044068
+--- !u!114 &114362670244438098
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178414832141076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 174ca9c50b724004db7f32a8053fe9a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 76cc7163bae06f842852c664f5ddbd7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   so_Elemental: {fileID: 11400000, guid: 708810aa64797734680449966b0833e1, type: 2}
