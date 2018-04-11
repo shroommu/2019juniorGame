@@ -1,6 +1,3 @@
-[submodule "Animation"]
-	path = TheGameGame/Assets/SR_Animation
-	url = https://github.com/uvuanimationandgamedev/SR_Animation
 [submodule "Audio"]
 	path = TheGameGame/Assets/SR_Audio
 	url = https://github.com/uvuanimationandgamedev/SR_Audio
