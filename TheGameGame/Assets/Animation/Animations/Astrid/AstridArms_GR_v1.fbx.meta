@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 8f9685da2525e0d489c295a30fba4024
+timeCreated: 1522560503
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Astrid_Arm_Geo
+    100002: AstridArms
+    100004: //RootNode
+    100006: AstridHammer
+    100008: AstridHammer_Head_Geo
+    100010: AstridHammer_Shaft_Geo
+    100012: Chest_01_Jnt
+    100014: Controls
+    100016: Deformers
+    100018: L_Arm_01_FK_Jnt
+    100020: L_Arm_01_IK_Jnt
+    100022: L_Arm_01_RK_Jnt
+    100024: L_Arm_02_FK_Jnt
+    100026: L_Arm_02_IK_Jnt
+    100028: L_Arm_02_RK_Jnt
+    100030: L_Arm_03_FK_Jnt
+    100032: L_Arm_03_IK_Jnt
+    100034: L_Arm_03_RK_Jnt
+    100036: L_Arm_Geo
+    100038: L_Arm_Geo 1
+    100040: L_Arm_IK_Ctrl
+    100042: L_Arm_IK_Ctrl_Grp
+    100044: L_Arm_IK_Hndl
+    100046: L_Arm_PV
+    100048: L_Forearm_Bracer_Geo
+    100050: L_Hand_Geo
+    100052: L_Pauldron_01_Geo
+    100054: L_Pauldron_02_Geo
+    100056: L_Pauldron_03_Geo
+    100058: L_Underarm_Bracer_Geo
+    100060: MainViewCamera
+    100062: R_Arm_01_FK_Jnt
+    100064: R_Arm_01_IK_Jnt
+    100066: R_Arm_01_RK_Jnt
+    100068: R_Arm_02_FK_Jnt
+    100070: R_Arm_02_IK_Jnt
+    100072: R_Arm_02_RK_Jnt
+    100074: R_Arm_03_FK_Jnt
+    100076: R_Arm_03_IK_Jnt
+    100078: R_Arm_03_RK_Jnt
+    100080: R_Arm_Geo
+    100082: R_Arm_Geo 1
+    100084: R_Arm_IK_Ctrl
+    100086: R_Arm_IK_Ctrl_Grp
+    100088: R_Arm_IK_Hndl
+    100090: R_Arm_PV
+    100092: R_Forearm_Bracer_Geo
+    100094: R_Hand_Geo
+    100096: R_Pauldron_01_Geo
+    100098: R_Pauldron_02_Geo
+    100100: R_Pauldron_03_Geo
+    100102: R_Underarm_Bracer_Geo
+    100104: Skeleton
+    100106: Transform_Ctrl
+    100108: Transform_Ctrl_Grp
+    100110: MuddaFkinCamra
+    400000: Astrid_Arm_Geo
+    400002: AstridArms
+    400004: //RootNode
+    400006: AstridHammer
+    400008: AstridHammer_Head_Geo
+    400010: AstridHammer_Shaft_Geo
+    400012: Chest_01_Jnt
+    400014: Controls
+    400016: Deformers
+    400018: L_Arm_01_FK_Jnt
+    400020: L_Arm_01_IK_Jnt
+    400022: L_Arm_01_RK_Jnt
+    400024: L_Arm_02_FK_Jnt
+    400026: L_Arm_02_IK_Jnt
+    400028: L_Arm_02_RK_Jnt
+    400030: L_Arm_03_FK_Jnt
+    400032: L_Arm_03_IK_Jnt
+    400034: L_Arm_03_RK_Jnt
+    400036: L_Arm_Geo
+    400038: L_Arm_Geo 1
+    400040: L_Arm_IK_Ctrl
+    400042: L_Arm_IK_Ctrl_Grp
+    400044: L_Arm_IK_Hndl
+    400046: L_Arm_PV
+    400048: L_Forearm_Bracer_Geo
+    400050: L_Hand_Geo
+    400052: L_Pauldron_01_Geo
+    400054: L_Pauldron_02_Geo
+    400056: L_Pauldron_03_Geo
+    400058: L_Underarm_Bracer_Geo
+    400060: MainViewCamera
+    400062: R_Arm_01_FK_Jnt
+    400064: R_Arm_01_IK_Jnt
+    400066: R_Arm_01_RK_Jnt
+    400068: R_Arm_02_FK_Jnt
+    400070: R_Arm_02_IK_Jnt
+    400072: R_Arm_02_RK_Jnt
+    400074: R_Arm_03_FK_Jnt
+    400076: R_Arm_03_IK_Jnt
+    400078: R_Arm_03_RK_Jnt
+    400080: R_Arm_Geo
+    400082: R_Arm_Geo 1
+    400084: R_Arm_IK_Ctrl
+    400086: R_Arm_IK_Ctrl_Grp
+    400088: R_Arm_IK_Hndl
+    400090: R_Arm_PV
+    400092: R_Forearm_Bracer_Geo
+    400094: R_Hand_Geo
+    400096: R_Pauldron_01_Geo
+    400098: R_Pauldron_02_Geo
+    400100: R_Pauldron_03_Geo
+    400102: R_Underarm_Bracer_Geo
+    400104: Skeleton
+    400106: Transform_Ctrl
+    400108: Transform_Ctrl_Grp
+    400110: MuddaFkinCamra
+    2000000: MainViewCamera
+    2000002: MuddaFkinCamra
+    2300000: AstridHammer_Head_Geo
+    2300002: AstridHammer_Shaft_Geo
+    2300004: L_Hand_Geo
+    2300006: R_Hand_Geo
+    3300000: AstridHammer_Head_Geo
+    3300002: AstridHammer_Shaft_Geo
+    3300004: L_Hand_Geo
+    3300006: R_Hand_Geo
+    4300000: AstridHammer_Shaft_Geo
+    4300002: AstridHammer_Head_Geo
+    4300004: R_Forearm_Bracer_Geo
+    4300006: R_Pauldron_03_Geo
+    4300008: R_Pauldron_02_Geo
+    4300010: R_Pauldron_01_Geo
+    4300012: R_Underarm_Bracer_Geo
+    4300014: R_Hand_Geo
+    4300016: R_Arm_Geo
+    4300018: L_Forearm_Bracer_Geo
+    4300020: L_Pauldron_03_Geo
+    4300022: L_Pauldron_02_Geo
+    4300024: L_Pauldron_01_Geo
+    4300026: L_Underarm_Bracer_Geo
+    4300028: L_Hand_Geo
+    4300030: L_Arm_Geo
+    7400000: Hammer
+    7400002: Magics
+    7400004: Running
+    9500000: //RootNode
+    13700000: L_Arm_Geo 1
+    13700002: L_Forearm_Bracer_Geo
+    13700004: L_Pauldron_01_Geo
+    13700006: L_Pauldron_02_Geo
+    13700008: L_Pauldron_03_Geo
+    13700010: L_Underarm_Bracer_Geo
+    13700012: R_Arm_Geo 1
+    13700014: R_Forearm_Bracer_Geo
+    13700016: R_Pauldron_01_Geo
+    13700018: R_Pauldron_02_Geo
+    13700020: R_Pauldron_03_Geo
+    13700022: R_Underarm_Bracer_Geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: AstridArms/Skeleton/Chest_01_Jnt
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hammer
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Magics
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Chest_01_Jnt
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

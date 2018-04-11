@@ -1,0 +1,4014 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: '!JimRun'
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.7071002, y: 0.7071002, z: 0.0030477573, w: 0.0030477573}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.7071002, y: 0.7071002, z: 0.0030477573, w: 0.0030477573}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 6.123234e-17, y: -2.8327693e-16, z: 1.110223e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 6.123234e-17, y: -2.8327693e-16, z: 1.110223e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/Head_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.21015005, y: 0.9573735, z: 0.1456217, w: 0.13441457}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.54166794
+        value: {x: -0.21015005, y: 0.9573735, z: 0.1456217, w: 0.13441457}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.21015005, y: 0.9573735, z: 0.1456217, w: 0.13441457}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.2431109, y: 0.3136192, z: 0.040142257, w: 0.9170217}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.54166794
+        value: {x: -0.2431109, y: 0.3136192, z: 0.040142257, w: 0.9170217}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.2431109, y: 0.3136192, z: 0.040142257, w: 0.9170217}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt/L_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.092422836, y: 0.18262635, z: -0.114488356, w: 0.9721101}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333588
+        value: {x: 0.092422836, y: 0.18262635, z: -0.114488356, w: 0.9721101}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.092422836, y: 0.18262635, z: -0.114488356, w: 0.9721101}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt/L_Elbow_Jnt/L_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1995789, y: 0.69972587, z: -0.64670205, w: -0.22873169}
+        inSlope: {x: -0.0011234063, y: -0.0016214142, z: -0.0018108856, w: 0.0008519488}
+        outSlope: {x: -0.0011234063, y: -0.0016214142, z: -0.0018108856, w: 0.0008519488}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.20004927, y: 0.6990176, z: -0.6474637, w: -0.22835384}
+        inSlope: {x: -0.004615426, y: -0.007023902, z: -0.007481672, w: 0.003761042}
+        outSlope: {x: -0.004615426, y: -0.007023902, z: -0.007481672, w: 0.003761042}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.2062616, y: 0.6893643, z: -0.657557, w: -0.22314823}
+        inSlope: {x: -0.0057385224, y: -0.008989212, z: -0.00933198, w: 0.004860495}
+        outSlope: {x: -0.0057385224, y: -0.008989212, z: -0.00933198, w: 0.004860495}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.15835612, y: -0.7473618, z: 0.121071175, w: 0.63381034}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.15835612, y: -0.7473618, z: 0.121071175, w: 0.63381034}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt/R_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.49561578, y: 0.17099123, z: -0.2921391, w: 0.79986364}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.49561578, y: 0.17099123, z: -0.2921391, w: 0.79986364}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt/R_Elbow_Jnt/R_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0050575463, y: -0.040669646, z: 0.069614105, w: 0.99672025}
+        inSlope: {x: 0.0058492324, y: -0.0008523553, z: 0.000031250453, w: -0.0001131855}
+        outSlope: {x: 0.0058492324, y: -0.0008523553, z: 0.000031250453, w: -0.0001131855}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0143270055, y: -0.043490663, z: 0.06968484, w: 0.99644196}
+        inSlope: {x: 0.016725302, y: -0.0024328788, z: 0.00005072109, w: -0.00020961359}
+        outSlope: {x: 0.016725302, y: -0.0024328788, z: 0.00005072109, w: -0.00020961359}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine__Ctrl_Grp/Spine_Ctrl/R_Shoulder_Grp/R_Shoulder_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.26894316, y: 0.3266874, z: -0.5997861, w: 0.67908907}
+        inSlope: {x: -0.0011090905, y: 0.0013663395, z: -0.00402107, w: -0.003958571}
+        outSlope: {x: -0.0011090905, y: 0.0013663395, z: -0.00402107, w: -0.003958571}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.26523492, y: 0.3312647, z: -0.61333025, w: 0.666024}
+        inSlope: {x: -0.003185894, y: 0.003934381, z: -0.011657703, w: -0.011187922}
+        outSlope: {x: -0.003185894, y: 0.003934381, z: -0.011657703, w: -0.011187922}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/Jim_sAX_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.26991558, y: 0.35738906, z: -0.54201734, w: 0.7110533}
+        inSlope: {x: -0.000751348, y: 0.0014959583, z: -0.0041779545, w: -0.0038311123}
+        outSlope: {x: -0.000751348, y: 0.0014959583, z: -0.0041779545, w: -0.0038311123}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.2673983, y: 0.3624072, z: -0.5560764, w: 0.69841725}
+        inSlope: {x: -0.002163793, y: 0.0043148403, z: -0.012097872, w: -0.010818736}
+        outSlope: {x: -0.002163793, y: 0.0043148403, z: -0.012097872, w: -0.010818736}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.04618981, y: 0.54243046, z: -0.35416672, w: 0.7603957}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.04618981, y: 0.54243046, z: -0.35416672, w: 0.7603957}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 8.6736174e-19, y: 6.071532e-17, z: 3.8857806e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 8.6736174e-19, y: 6.071532e-17, z: 3.8857806e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/Torso
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.091447935, y: -0.102409154, z: -0.7201561, w: 0.68010557}
+        inSlope: {x: -0.004037478, y: 0.0034527704, z: -0.0030001276, w: -0.0032626553}
+        outSlope: {x: -0.004037478, y: 0.0034527704, z: -0.0030001276, w: -0.0032626553}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.10147032, y: -0.09379893, z: -0.7275834, w: 0.671953}
+        inSlope: {x: -0.008833229, y: 0.0076495577, z: -0.006515669, w: -0.007268219}
+        outSlope: {x: -0.008833229, y: 0.0076495577, z: -0.006515669, w: -0.007268219}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.31412616, y: -0.011060986, z: -0.033117954, w: 0.9487333}
+        inSlope: {x: -0.00023950353, y: 0.0024383133, z: -0.0013755829, w: -0.000028495806}
+        outSlope: {x: -0.00023950353, y: 0.0024383133, z: -0.0013755829, w: -0.000028495806}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.31421152, y: -0.010016868, z: -0.033707168, w: 0.94870156}
+        inSlope: {x: -0.0007996664, y: 0.01030375, z: -0.005815015, w: -0.00036263926}
+        outSlope: {x: -0.0007996664, y: 0.01030375, z: -0.005815015, w: -0.00036263926}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.31518686, y: 0.0040094107, z: -0.041624255, w: 0.9480787}
+        inSlope: {x: -0.0008642473, y: 0.013013594, z: -0.0073459437, w: -0.00062434486}
+        outSlope: {x: -0.0008642473, y: 0.013013594, z: -0.0073459437, w: -0.00062434486}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.31412616, y: -0.011060986, z: -0.033117954, w: 0.9487333}
+        inSlope: {x: -0.00023950353, y: 0.0024383133, z: -0.0013755829, w: -0.000028495806}
+        outSlope: {x: -0.00023950353, y: 0.0024383133, z: -0.0013755829, w: -0.000028495806}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.31421152, y: -0.010016868, z: -0.033707168, w: 0.94870156}
+        inSlope: {x: -0.0007996664, y: 0.01030375, z: -0.005815015, w: -0.00036263926}
+        outSlope: {x: -0.0007996664, y: 0.01030375, z: -0.005815015, w: -0.00036263926}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.31518686, y: 0.0040094107, z: -0.041624255, w: 0.9480787}
+        inSlope: {x: -0.0008642473, y: 0.013013594, z: -0.0073459437, w: -0.00062434486}
+        outSlope: {x: -0.0008642473, y: 0.013013594, z: -0.0073459437, w: -0.00062434486}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.013134095, y: 0.44676176, z: -0.29731146, w: 0.8437045}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.013134095, y: 0.44676176, z: -0.29731146, w: 0.8437045}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.22047752, y: 0.54967624, z: -0.10118249, w: 0.79937965}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.54166794
+        value: {x: 0.22047752, y: 0.54967624, z: -0.10118249, w: 0.79937965}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.22047752, y: 0.54967624, z: -0.10118249, w: 0.79937965}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.22047752, y: 0.54967624, z: -0.10118249, w: 0.79937965}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.54166794
+        value: {x: 0.22047752, y: 0.54967624, z: -0.10118249, w: 0.79937965}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.22047752, y: 0.54967624, z: -0.10118249, w: 0.79937965}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333588
+        value: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:camera2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.7071002, y: 0.7071002, z: 0.0030477573, w: 0.0030477573}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.7071002, y: 0.7071002, z: 0.0030477573, w: 0.0030477573}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333588
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 6.123234e-17, y: -2.8327693e-16, z: 1.110223e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333588
+        value: {x: 6.123234e-17, y: -2.8327693e-16, z: 1.110223e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 6.123234e-17, y: -2.8327693e-16, z: 1.110223e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:Head_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.11325085, y: 0.95461, z: 0.25002995, w: 0.11566823}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.11325085, y: 0.95461, z: 0.25002995, w: 0.11566823}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.21796075, y: 0.40585783, z: 0.052351654, w: 0.8860277}
+        inSlope: {x: -0.00002945425, y: 0.0031361408, z: -0.0015860127, w: -0.0013656815}
+        outSlope: {x: -0.00002945425, y: 0.0031361408, z: -0.0015860127, w: -0.0013656815}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583359
+        value: {x: -0.21798535, y: 0.40847552, z: 0.051027842, w: 0.88488775}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.21798535, y: 0.40847552, z: 0.051027842, w: 0.88488775}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.012180291, y: 0.098593056, z: -0.16542701, w: 0.9812059}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.012180291, y: 0.098593056, z: -0.16542701, w: 0.9812059}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.97648716, y: 0.20423694, z: 0.056816615, w: -0.03914157}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.97648716, y: 0.20423694, z: 0.056816615, w: -0.03914157}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.97648716, y: 0.20423694, z: 0.056816615, w: -0.03914157}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333588
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333588
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky01_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9765565, y: 0.2043103, z: 0.055823002, w: -0.038452335}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.9765565, y: 0.2043103, z: 0.055823002, w: -0.038452335}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.9765565, y: 0.2043103, z: 0.055823002, w: -0.038452335}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9455869, y: 0.3143397, z: 0.004245176, w: -0.083892815}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.9455869, y: 0.3143397, z: 0.004245176, w: -0.083892815}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.9455869, y: 0.3143397, z: 0.004245176, w: -0.083892815}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.003961926, y: -0.0053012385, z: 0.02450236, w: 0.9996779}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833588
+        value: {x: -0.003961926, y: -0.0053012385, z: 0.02450236, w: 0.9996779}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.003961926, y: -0.0053012385, z: 0.02450236, w: 0.9996779}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.977398, y: 0.20557994, z: 0.040626157, w: -0.027920233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.977398, y: 0.20557994, z: 0.040626157, w: -0.027920233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.977398, y: 0.20557994, z: 0.040626157, w: -0.027920233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.04166794
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.8091945, y: -0.026372528, z: 0.18378645, w: 0.5574327}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.8091945, y: -0.026372528, z: 0.18378645, w: 0.5574327}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.8091945, y: -0.026372528, z: 0.18378645, w: 0.5574327}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.13443707, w: 0.99092215}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.13443707, w: 0.99092215}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0032747868, y: 0.08931367, z: 0.097967856, w: 0.9911683}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0032747868, y: 0.08931367, z: 0.097967856, w: 0.9911683}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb01_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.33426958, y: 0.64896566, z: -0.6035347, w: -0.32300833}
+        inSlope: {x: -0.018175006, y: -0.028773308, z: 0.12491107, w: -0.28884375}
+        outSlope: {x: -0.018175006, y: -0.028773308, z: 0.12491107, w: -0.28884375}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.33522707, y: 0.6522793, z: -0.59466577, w: -0.32943454}
+        inSlope: {x: -0.005969628, y: 0.058494963, z: 0.02416556, w: 0.07852058}
+        outSlope: {x: -0.005969628, y: 0.058494963, z: 0.02416556, w: 0.07852058}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.66666794
+        value: {x: -0.33635277, y: 0.67496157, z: -0.59718454, w: -0.27324808}
+        inSlope: {x: 0.0029550875, y: -0.025147736, z: -0.0065961056, w: -0.05120064}
+        outSlope: {x: 0.0029550875, y: -0.025147736, z: -0.0065961056, w: -0.05120064}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.33407918, y: 0.6497416, z: -0.6030792, w: -0.31989515}
+        inSlope: {x: 0.002060156, y: -0.02196439, z: -0.005223771, w: -0.041201156}
+        outSlope: {x: 0.002060156, y: -0.02196439, z: -0.005223771, w: -0.041201156}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.16574353, y: -0.74625254, z: 0.11402005, w: 0.6336012}
+        inSlope: {x: 0.10302957, y: -0.034595013, z: -0.092468284, w: -0.050426405}
+        outSlope: {x: 0.10302957, y: -0.034595013, z: -0.092468284, w: -0.050426405}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.1745347, y: -0.7507293, z: 0.1063577, w: 0.6281969}
+        inSlope: {x: -0.125458, y: 0.03298588, z: 0.11394681, w: 0.05487876}
+        outSlope: {x: -0.125458, y: 0.03298588, z: 0.11394681, w: 0.05487876}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0.1667979, y: -0.74905556, z: 0.11348537, w: 0.631043}
+        inSlope: {x: 0.12462146, y: -0.031393047, z: -0.11083381, w: -0.050409686}
+        outSlope: {x: 0.12462146, y: -0.031393047, z: -0.11083381, w: -0.050409686}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000038
+        value: {x: 0.17672005, y: -0.75143653, z: 0.104714006, w: 0.6270153}
+        inSlope: {x: -0.12161191, y: 0.025537284, z: 0.10898927, w: 0.04650966}
+        outSlope: {x: -0.12161191, y: 0.025537284, z: 0.10898927, w: 0.04650966}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.16088748, y: -0.7479842, z: 0.11884281, w: 0.63293606}
+        inSlope: {x: -0.042714782, y: 0.009714075, z: 0.037921503, w: 0.015541417}
+        outSlope: {x: -0.042714782, y: 0.009714075, z: 0.037921503, w: 0.015541417}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:R_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.38255537, y: 0.33089903, z: -0.19913356, w: 0.8393468}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.38255537, y: 0.33089903, z: -0.19913356, w: 0.8393468}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:R_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:R_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:Head_Grp/Jim_WhiteboxAnimationSetup04:Head_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.43236664, y: 0.23052335, z: 0.14297098, w: 0.8599287}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.43236664, y: 0.23052335, z: 0.14297098, w: 0.8599287}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.16035745, y: 0.3289718, z: 0.082286656, w: 0.9269872}
+        inSlope: {x: -0.000069758935, y: 0.003340747, z: -0.0013645228, w: -0.0010915381}
+        outSlope: {x: -0.000069758935, y: 0.003340747, z: -0.0013645228, w: -0.0010915381}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583359
+        value: {x: -0.16041566, y: 0.3317603, z: 0.08114771, w: 0.9260761}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.16041566, y: 0.3317603, z: 0.08114771, w: 0.9260761}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.012180291, y: 0.098593056, z: -0.16542701, w: 0.9812059}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.012180291, y: 0.098593056, z: -0.16542701, w: 0.9812059}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.083190575, w: 0.99653363}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833588
+        value: {x: 0, y: -0, z: -0.083190575, w: 0.99653363}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.083190575, w: 0.99653363}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Ctrl/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb01_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Ctrl/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb01_Ctrl/Jim_WhiteboxAnimationSetup04:L_Thumb02_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb02_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0053131897, y: -0.039954472, z: -0.13171355, w: 0.9904681}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.29166794
+        value: {x: -0.0053131897, y: -0.039954472, z: -0.13171355, w: 0.9904681}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0053131897, y: -0.039954472, z: -0.13171355, w: 0.9904681}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_Thumb_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.13443705, w: 0.99092215}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.13443705, w: 0.99092215}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_Thumb_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Ctrl/Jim_WhiteboxAnimationSetup04:L_Thumb_01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb01_Ctrl
+      1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.005188227, y: 0.089222975, z: 0.09796785, w: 0.9911683}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.005188227, y: 0.089222975, z: 0.09796785, w: 0.9911683}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_Thumb_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Ctrl/Jim_WhiteboxAnimationSetup04:L_Thumb_01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb01_Ctrl
+      1/Jim_WhiteboxAnimationSetup04:L_Thumb02_Ctrl_Grp 1/Jim_WhiteboxAnimationSetup04:L_Thumb02_Ctrl
+      1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.04166794
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Ctrl/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.08921604, w: 0.99601233}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Ctrl/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Ctrl/Jim_WhiteboxAnimationSetup04:L_MiddleFinger02_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger02_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_RingFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_RingFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Ctrl/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Ctrl_Grp
+      1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.1398764, w: 0.990169}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_RingFinger_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Ctrl/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Ctrl_Grp
+      1/Jim_WhiteboxAnimationSetup04:L_RingFinger02_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger02_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.22355743, w: 0.9746908}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_Pinky_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333588
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_Pinky_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Ctrl/Jim_WhiteboxAnimationSetup04:L_Pinky01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky01_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333588
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0, y: -0, z: -0.27046865, w: 0.9627288}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:L_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:L_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:L_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl/Jim_WhiteboxAnimationSetup04:L_Pinky_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Ctrl/Jim_WhiteboxAnimationSetup04:L_Pinky01_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky01_Ctrl/Jim_WhiteboxAnimationSetup04:L_Pinky02_Ctrl_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky02_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.018403186, y: -0.058000565, z: -0.10539658, w: 0.9933125}
+        inSlope: {x: -0.12420116, y: 0.16314167, z: -0.24103826, w: -0.008399487}
+        outSlope: {x: -0.12420116, y: 0.16314167, z: -0.24103826, w: -0.008399487}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: 0.009186444, y: -0.057264816, z: -0.11208537, w: 0.9920047}
+        inSlope: {x: -0.034404356, y: -0.07947914, z: 0.05198915, w: 0.0015227642}
+        outSlope: {x: -0.034404356, y: -0.07947914, z: 0.05198915, w: 0.0015227642}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.66666794
+        value: {x: 0.009191464, y: -0.10195675, z: -0.071079284, w: 0.99220365}
+        inSlope: {x: 0.008253231, y: 0.045296635, z: -0.034404963, w: 0.0020749653}
+        outSlope: {x: 0.008253231, y: 0.045296635, z: -0.034404963, w: 0.0020749653}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0182343, y: -0.06029902, z: -0.10324522, w: 0.9925636}
+        inSlope: {x: 0.007782993, y: 0.03673259, z: -0.028297218, w: 0.0005262484}
+        outSlope: {x: 0.007782993, y: 0.03673259, z: -0.028297218, w: 0.0005262484}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:R_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:R_Shoulder_Ctrl
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.12500338, y: -0.68581724, z: 0.15223862, w: 0.6997622}
+        inSlope: {x: 0.098864965, y: -0.045337122, z: -0.09716827, w: -0.0403835}
+        outSlope: {x: 0.098864965, y: -0.045337122, z: -0.09716827, w: -0.0403835}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.13353248, y: -0.691271, z: 0.14428648, w: 0.6953381}
+        inSlope: {x: -0.11983478, y: 0.045709737, z: 0.12033673, w: 0.043388028}
+        outSlope: {x: -0.11983478, y: 0.045709737, z: 0.12033673, w: 0.043388028}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: 0.12618724, y: -0.68884444, z: 0.15183595, w: 0.69750696}
+        inSlope: {x: 0.11893321, y: -0.043557744, z: -0.11731446, w: -0.03911972}
+        outSlope: {x: 0.11893321, y: -0.043557744, z: -0.11731446, w: -0.03911972}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000038
+        value: {x: 0.1356625, y: -0.6921921, z: 0.14253928, w: 0.6943691}
+        inSlope: {x: -0.11583325, y: 0.037295595, z: 0.11570234, w: 0.03590722}
+        outSlope: {x: -0.11583325, y: 0.037295595, z: 0.11570234, w: 0.03590722}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.120588906, y: -0.68722475, z: 0.1575323, w: 0.6988998}
+        inSlope: {x: -0.04064517, y: 0.013750605, z: 0.04022163, w: 0.011760542}
+        outSlope: {x: -0.04064517, y: 0.013750605, z: 0.04022163, w: 0.011760542}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:R_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:R_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:R_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl
+      1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.38255537, y: 0.33089903, z: -0.19913356, w: 0.8393468}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.38255537, y: 0.33089903, z: -0.19913356, w: 0.8393468}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine__Ctrl_Grp/Jim_WhiteboxAnimationSetup04:Spine_Ctrl/Jim_WhiteboxAnimationSetup04:R_Shoulder_Grp/Jim_WhiteboxAnimationSetup04:R_Shoulder_Ctrl/Jim_WhiteboxAnimationSetup04:R_Elbow_Grp/Jim_WhiteboxAnimationSetup04:L_Elbow_Ctrl
+      1/Jim_WhiteboxAnimationSetup04:L_Wrist_Grp 1/Jim_WhiteboxAnimationSetup04:L_Wrist_Ctrl
+      1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.121426664, y: 0.11251465, z: -0.5338002, w: 0.8300012}
+        inSlope: {x: -0.23416376, y: -0.041603863, z: 0.0055246353, w: 0.048286915}
+        outSlope: {x: -0.23416376, y: -0.041603863, z: 0.0055246353, w: 0.048286915}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: 0.119401366, y: 0.11126251, z: -0.5450445, w: 0.8223688}
+        inSlope: {x: 0.098414674, y: -0.0053049494, z: -0.07885824, w: -0.065936044}
+        outSlope: {x: 0.098414674, y: -0.0053049494, z: -0.07885824, w: -0.065936044}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45833588
+        value: {x: 0.16566516, y: 0.10021488, z: -0.5434006, w: 0.8168402}
+        inSlope: {x: 0.13797686, y: -0.07722327, z: 0.096660286, w: 0.04590085}
+        outSlope: {x: 0.13797686, y: -0.07722327, z: 0.096660286, w: 0.04590085}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7500038
+        value: {x: 0.1690391, y: 0.103722915, z: -0.54907066, w: 0.81190443}
+        inSlope: {x: -0.0984859, y: 0.10176148, z: -0.121150985, w: -0.07444909}
+        outSlope: {x: -0.0984859, y: 0.10176148, z: -0.121150985, w: -0.07444909}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000038
+        value: {x: 0.13669962, y: 0.11424284, z: -0.5492819, w: 0.81642586}
+        inSlope: {x: -0.12362817, y: -0.03742279, z: 0.14205101, w: 0.121421784}
+        outSlope: {x: -0.12362817, y: -0.03742279, z: 0.14205101, w: 0.121421784}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.12332278, y: 0.10890456, z: -0.530986, w: 0.83135426}
+        inSlope: {x: -0.029271381, y: -0.015402247, z: 0.048967447, w: 0.03782142}
+        outSlope: {x: -0.029271381, y: -0.015402247, z: 0.048967447, w: 0.03782142}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:Jim_sAX_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.10340664, y: 0.1522474, z: -0.48218977, w: 0.85724527}
+        inSlope: {x: -0.2379728, y: -0.028645396, z: -0.00014591217, w: 0.038393974}
+        outSlope: {x: -0.2379728, y: -0.028645396, z: -0.00014591217, w: 0.038393974}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: 0.10196698, y: 0.15140684, z: -0.49389976, w: 0.8501422}
+        inSlope: {x: 0.10296002, y: -0.0084400885, z: -0.0796075, w: -0.05719052}
+        outSlope: {x: 0.10296002, y: -0.0084400885, z: -0.0796075, w: -0.05719052}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45833588
+        value: {x: 0.14775704, y: 0.13783284, z: -0.4918116, w: 0.8469305}
+        inSlope: {x: 0.12907416, y: -0.087135516, z: 0.09888645, w: 0.049188066}
+        outSlope: {x: 0.12907416, y: -0.087135516, z: 0.09888645, w: 0.049188066}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7500038
+        value: {x: 0.15167268, y: 0.14128678, z: -0.4974676, w: 0.8423535}
+        inSlope: {x: -0.086508766, y: 0.10996534, z: -0.12259655, w: -0.075290985}
+        outSlope: {x: -0.086508766, y: 0.10996534, z: -0.12259655, w: -0.075290985}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000038
+        value: {x: 0.11975094, y: 0.15354031, z: -0.49783212, w: 0.8451321}
+        inSlope: {x: -0.13444859, y: -0.034288436, z: 0.14282924, w: 0.10933305}
+        outSlope: {x: -0.13444859, y: -0.034288436, z: 0.14282924, w: 0.10933305}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.1049797, y: 0.1484598, z: -0.4794278, w: 0.85863423}
+        inSlope: {x: -0.032980476, y: -0.015095451, z: 0.04927317, w: 0.03433421}
+        outSlope: {x: -0.032980476, y: -0.015095451, z: 0.04927317, w: 0.03433421}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.13195384, y: 0.33737472, z: -0.35063377, w: 0.86361015}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.13195384, y: 0.33737472, z: -0.35063377, w: 0.86361015}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.33630785, y: 0.44729412, z: -0.19823273, w: 0.80469173}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.33630785, y: 0.44729412, z: -0.19823273, w: 0.80469173}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.3370618, y: 0.44070044, z: -0.06593176, w: 0.82935244}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.3370618, y: 0.44070044, z: -0.06593176, w: 0.82935244}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.28469184, y: 0.39067844, z: -0.17362289, w: 0.858007}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.28469184, y: 0.39067844, z: -0.17362289, w: 0.858007}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.6538673, y: 0.5065, z: -0.07124923, w: 0.5575292}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.6538673, y: 0.5065, z: -0.07124923, w: 0.5575292}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.78101766, y: 0.49993977, z: 0.07638447, w: 0.36638376}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.78101766, y: 0.49993977, z: 0.07638447, w: 0.36638376}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.47797617, y: 0.47530445, z: -0.21357183, w: 0.70711493}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.47797617, y: 0.47530445, z: -0.21357183, w: 0.70711493}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.47534415, y: 0.48235548, z: -0.21617052, w: 0.7033146}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.47534415, y: 0.48235548, z: -0.21617052, w: 0.7033146}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.53632, y: 0.49930814, z: -0.17199904, w: 0.6583833}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.53632, y: 0.49930814, z: -0.17199904, w: 0.6583833}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.5930185, y: 0.51227874, z: -0.12645568, w: 0.6082011}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.5930185, y: 0.51227874, z: -0.12645568, w: 0.6082011}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.65732485, y: 0.50774324, z: -0.067942925, w: 0.5527247}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.65732485, y: 0.50774324, z: -0.067942925, w: 0.5527247}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.5732089, y: 0.4966243, z: -0.1422333, w: 0.63605464}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.5732089, y: 0.4966243, z: -0.1422333, w: 0.63605464}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.47782275, y: 0.4757405, z: -0.21372692, w: 0.7068785}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.47782275, y: 0.4757405, z: -0.21372692, w: 0.7068785}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.4590997, y: 0.49349374, z: -0.192538, w: 0.71317637}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.4590997, y: 0.49349374, z: -0.192538, w: 0.71317637}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Index_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.5100162, y: 0.51421005, z: -0.14342166, w: 0.67446405}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.5100162, y: 0.51421005, z: -0.14342166, w: 0.67446405}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Index01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.6291843, y: 0.5520769, z: -0.0064663547, w: 0.54707986}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.6291843, y: 0.5520769, z: -0.0064663547, w: 0.54707986}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Index02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 8.6736174e-19, y: 6.071532e-17, z: 3.8857806e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333588
+        value: {x: 8.6736174e-19, y: 6.071532e-17, z: 3.8857806e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 8.6736174e-19, y: 6.071532e-17, z: 3.8857806e-16, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:Torso
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20839486, y: -0.22402963, z: -0.7166234, w: 0.6277594}
+        inSlope: {x: -0.18872422, y: -0.117510796, z: 0.096702576, w: 0.012199879}
+        outSlope: {x: -0.18872422, y: -0.117510796, z: 0.096702576, w: 0.012199879}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.2145348, y: -0.2215971, z: -0.7233937, w: 0.61771446}
+        inSlope: {x: 0.052607566, y: 0.05444869, z: -0.09530039, w: -0.0739321}
+        outSlope: {x: 0.052607566, y: 0.05444869, z: -0.09530039, w: -0.0739321}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45833588
+        value: {x: -0.17127681, y: -0.21675232, z: -0.7421364, w: 0.61066866}
+        inSlope: {x: 0.17896047, y: -0.056104913, z: 0.004164807, w: 0.035484187}
+        outSlope: {x: 0.17896047, y: -0.056104913, z: 0.004164807, w: 0.035484187}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7500038
+        value: {x: -0.17163318, y: -0.21038148, z: -0.7470667, w: 0.60677266}
+        inSlope: {x: -0.16131568, y: 0.10127176, z: -0.03447267, w: -0.052990355}
+        outSlope: {x: -0.16131568, y: 0.10127176, z: -0.03447267, w: -0.052990355}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000038
+        value: {x: -0.20219283, y: -0.211729, z: -0.7331971, w: 0.61376786}
+        inSlope: {x: -0.03717508, y: -0.12559293, z: 0.14431883, w: 0.116716005}
+        outSlope: {x: -0.03717508, y: -0.12559293, z: 0.14431883, w: 0.116716005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.20464432, y: -0.22737306, z: -0.71560955, w: 0.62808436}
+        inSlope: {x: -0.0006080749, y: -0.04018127, z: 0.04459597, w: 0.03631242}
+        outSlope: {x: -0.0006080749, y: -0.04018127, z: 0.04459597, w: 0.03631242}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.47389388, y: -0.014990928, z: -0.065464094, w: 0.8788604}
+        inSlope: {x: -0.22030687, y: -0.08415727, z: 0.18575448, w: -0.100346565}
+        outSlope: {x: -0.22030687, y: -0.08415727, z: 0.18575448, w: -0.100346565}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.47884652, y: -0.024026386, z: -0.061767288, w: 0.8753934}
+        inSlope: {x: 0.05585906, y: -0.054353982, z: -0.05930818, w: 0.024785778}
+        outSlope: {x: 0.05585906, y: -0.054353982, z: -0.05930818, w: 0.024785778}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.66666794
+        value: {x: -0.43792853, y: -0.035321098, z: -0.101548545, w: 0.8925575}
+        inSlope: {x: -0.036427353, y: 0.019899491, z: 0.037661083, w: -0.012843877}
+        outSlope: {x: -0.036427353, y: 0.019899491, z: 0.037661083, w: -0.012843877}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.4714422, y: -0.015723813, z: -0.06745093, w: 0.8790653}
+        inSlope: {x: -0.029559676, y: 0.017112587, z: 0.03014216, w: -0.011674203}
+        outSlope: {x: -0.029559676, y: 0.017112587, z: 0.03014216, w: -0.011674203}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.47389388, y: -0.014990928, z: -0.065464094, w: 0.8788604}
+        inSlope: {x: -0.22030687, y: -0.08415727, z: 0.18575448, w: -0.100346565}
+        outSlope: {x: -0.22030687, y: -0.08415727, z: 0.18575448, w: -0.100346565}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.47884652, y: -0.024026386, z: -0.061767288, w: 0.8753934}
+        inSlope: {x: 0.05585906, y: -0.054353982, z: -0.05930818, w: 0.024785778}
+        outSlope: {x: 0.05585906, y: -0.054353982, z: -0.05930818, w: 0.024785778}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.66666794
+        value: {x: -0.43792853, y: -0.035321098, z: -0.101548545, w: 0.8925575}
+        inSlope: {x: -0.036427353, y: 0.019899491, z: 0.037661083, w: -0.012843877}
+        outSlope: {x: -0.036427353, y: 0.019899491, z: 0.037661083, w: -0.012843877}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.4714422, y: -0.015723813, z: -0.06745093, w: 0.8790653}
+        inSlope: {x: -0.029559676, y: 0.017112587, z: 0.03014216, w: -0.011674203}
+        outSlope: {x: -0.029559676, y: 0.017112587, z: 0.03014216, w: -0.011674203}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.091637276, y: 0.35715353, z: -0.327418, w: 0.8699664}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.091637276, y: 0.35715353, z: -0.327418, w: 0.8699664}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.14494729, y: 0.46771574, z: -0.045193076, w: 0.870741}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.14494729, y: 0.46771574, z: -0.045193076, w: 0.870741}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.14494729, y: 0.46771574, z: -0.045193076, w: 0.870741}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.14494729, y: 0.46771574, z: -0.045193076, w: 0.870741}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Arm
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: 0.07570689, z: -0.00018578727}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0, y: 0.07570689, z: -0.00018578727}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: -3.5527136e-17, z: -2.7755575e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0, y: -3.5527136e-17, z: -2.7755575e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00948234, y: -2.0603481e-17, z: 6.7654213e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.00948234, y: -2.0603481e-17, z: 6.7654213e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/Head_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0016539454, y: -0.0016171467, z: 0.0121526355}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0016539454, y: -0.0016171467, z: 0.0121526355}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.023707232, y: -8.881784e-18, z: -1.3322676e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.023707232, y: -8.881784e-18, z: -1.3322676e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt/L_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.023501873, y: -3.5527136e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.023501873, y: -3.5527136e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt/L_Elbow_Jnt/L_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0016539509, y: -0.0016171499, z: -0.012152648}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0016539509, y: -0.0016171499, z: -0.012152648}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02371837, y: 0, z: 2.8865798e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02371837, y: 0, z: 2.8865798e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt/R_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02359078, y: 1.7763568e-17, z: -1.7763568e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02359078, y: 1.7763568e-17, z: -1.7763568e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt/R_Elbow_Jnt/R_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.026161091, y: 0.01752452, z: 0.021361534}
+        inSlope: {x: -0.000030028634, y: 0.0000734973, z: 0.000068073685}
+        outSlope: {x: -0.000030028634, y: 0.0000734973, z: 0.000068073685}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.29166794
+        value: {x: -0.02620411, y: 0.017624317, z: 0.021454379}
+        inSlope: {x: -0.000274974, y: 0.0006321986, z: 0.0005885979}
+        outSlope: {x: -0.0002751266, y: 0.0006323471, z: 0.0005883145}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.026459675, y: 0.018245514, z: 0.022030205}
+        inSlope: {x: -0.00024709155, y: 0.0006205976, z: 0.0005741245}
+        outSlope: {x: -0.00024709155, y: 0.0006205976, z: 0.0005741245}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/Jim_sAX_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02454218, y: 0.020291675, z: 0.025763744}
+        inSlope: {x: -0.0000073701985, y: 0.000053126605, z: 0.00004845391}
+        outSlope: {x: -0.0000073701985, y: 0.000053126605, z: 0.00004845391}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: -0.024571816, y: 0.020442821, z: 0.025902323}
+        inSlope: {x: -0.00014168168, y: 0.0006999891, z: 0.00064214645}
+        outSlope: {x: -0.00014222662, y: 0.0006997575, z: 0.0006423944}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.024666235, y: 0.020946285, z: 0.026363753}
+        inSlope: {x: -0.00009640257, y: 0.0005500744, z: 0.0005035043}
+        outSlope: {x: -0.00009640257, y: 0.0005500744, z: 0.0005035043}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.024514701, y: -0.0029950293, z: -0.010694803}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.024514701, y: -0.0029950293, z: -0.010694803}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00043218987, y: 0.0130747445, z: -0.00016055656}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.00043218987, y: 0.0130747445, z: -0.00016055656}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/Torso
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.006444764, y: 0.021572767, z: 0.024862908}
+        inSlope: {x: -0.000041781466, y: 0.00007530306, z: 0.00007030611}
+        outSlope: {x: -0.000041781466, y: 0.00007530306, z: 0.00007030611}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0065875575, y: 0.021824744, z: 0.025098274}
+        inSlope: {x: -0.00012531511, y: 0.00021928144, z: 0.000204937}
+        outSlope: {x: -0.00012531511, y: 0.00021928144, z: 0.000204937}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00028294345, y: 0.024138084, z: 0.021897309}
+        inSlope: {x: -0.00005048531, y: 0.000018125713, z: 0.000018834364}
+        outSlope: {x: -0.00005048531, y: 0.000018125713, z: 0.000018834364}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.00012615223, y: 0.024193678, z: 0.021955132}
+        inSlope: {x: -0.00013207944, y: 0.000046735397, z: 0.000048642403}
+        outSlope: {x: -0.00013207944, y: 0.000046735397, z: 0.000048642403}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0011177937, y: 0.033752628, z: 0.014751043}
+        inSlope: {x: -0.000008370003, y: 0.0000022545034, z: 0.0000024834576}
+        outSlope: {x: -0.000008370003, y: 0.0000022545034, z: 0.0000024834576}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833588
+        value: {x: 0.0011124719, y: 0.0337541, z: 0.014752662}
+        inSlope: {x: -0.00004382127, y: 0.000012173961, z: 0.000013391901}
+        outSlope: {x: -0.000043837288, y: 0.000012613792, z: 0.000013714671}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0010573512, y: 0.033770412, z: 0.014769957}
+        inSlope: {x: -0.000052319407, y: 0.000015622378, z: 0.000016443928}
+        outSlope: {x: -0.000052319407, y: 0.000015622378, z: 0.000016443928}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/R_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.011879283, y: 0.011584453, z: -0.015676992}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.375
+        value: {x: -0.011879283, y: 0.011584453, z: -0.015676992}
+        inSlope: {x: -9.5167785e-17, y: 9.5167785e-17, z: -4.7583892e-17}
+        outSlope: {x: -2.2203783e-16, y: 2.2203783e-16, z: -1.11018914e-16}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.011879283, y: 0.011584453, z: -0.015676992}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0047920123, y: 0.022823228, z: -0.01604342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416679
+        value: {x: -0.0047920123, y: 0.022823228, z: -0.01604342}
+        inSlope: {x: -2.3789769e-17, y: 1.4273862e-16, z: -1.4273862e-16}
+        outSlope: {x: -5.5509457e-17, y: 3.3305674e-16, z: -3.3305674e-16}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0047920123, y: 0.02282323, z: -0.01604342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00006205286, y: 0.03342021, z: -0.013145804}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: 0.00006205286, y: 0.03342021, z: -0.013145804}
+        inSlope: {x: -1.1770979e-18, y: 1.9031815e-16, z: -0}
+        outSlope: {x: 5.5757267e-19, y: 4.4407566e-16, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.00006205286, y: 0.03342021, z: -0.013145804}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/rstPersonJim_Geo_Grp/L_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 5.5254507e-17, y: 0.100053445, z: -0.00005764753}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.29166794
+        value: {x: 5.5254507e-17, y: 0.100053445, z: -0.00005764753}
+        inSlope: {x: 1.6903648e-31, y: 3.806363e-16, z: -0}
+        outSlope: {x: 3.9441842e-31, y: 8.881513e-16, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 5.5254507e-17, y: 0.100053445, z: -0.00005764753}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:camera2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: 0.07570689, z: -0.00018578727}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0, y: 0.07570689, z: -0.00018578727}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: -3.5527136e-17, z: -2.7755575e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0, y: -3.5527136e-17, z: -2.7755575e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00948234, y: -2.0603481e-17, z: 6.7654213e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.00948234, y: -2.0603481e-17, z: 6.7654213e-19}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:Head_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0016539454, y: -0.0016171467, z: 0.0121526355}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0016539454, y: -0.0016171467, z: 0.0121526355}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.023707232, y: -8.881784e-18, z: -1.3322676e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.023707232, y: -8.881784e-18, z: -1.3322676e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.023501873, y: -3.5527136e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.023501873, y: -3.5527136e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.009844137, y: 0.00035200972, z: -0.0031791728}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.009844137, y: 0.00035200972, z: -0.0031791728}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0027896788, y: -3.5527136e-17, z: 4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0027896788, y: -3.5527136e-17, z: 4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0027344946, y: -0.00000000106007, z: 1.0178585e-10}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0027344946, y: -0.00000000106007, z: 1.0178585e-10}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky01_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0104071805, y: 0.00067974976, z: -0.0009728725}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0104071805, y: 0.00067974976, z: -0.0009728725}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0031400742, y: 1.7763568e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0031400742, y: 1.7763568e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0032335047, y: -5.550233e-10, z: -1.3598274e-10}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0032335047, y: -5.550233e-10, z: -1.3598274e-10}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.010288099, y: 0.0005622284, z: 0.004287866}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.010288099, y: 0.0005622284, z: 0.004287866}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00378082, y: -1.7763568e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.00378082, y: -1.7763568e-17, z: -4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0029337257, y: -1.7763568e-17, z: 8.881784e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0029337257, y: -1.7763568e-17, z: 8.881784e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.010658878, y: 0.00083940325, z: 0.001335067}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.010658878, y: 0.00083940325, z: 0.001335067}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0033272079, y: -1.7763568e-17, z: 4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0033272079, y: -1.7763568e-17, z: 4.440892e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0032613906, y: -0.0000000022164774, z: 7.2424046e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0032613906, y: -0.0000000022164774, z: 7.2424046e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0009277192, y: -0.0003332892, z: 0.0041812873}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0009277192, y: -0.0003332892, z: 0.0041812873}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0062566283, y: 0.000005200281, z: 2.7755576e-17}
+        inSlope: {x: -2.3791946e-17, y: 3.4851484e-20, z: 2.5357792e-31}
+        outSlope: {x: -5.5509457e-17, y: 8.131268e-20, z: 5.916276e-31}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0062566283, y: 0.000005200281, z: 2.7755576e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0030158428, y: 0.000003407801, z: -0.0000018098118}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0030158428, y: 0.0000034078007, z: -0.0000018098117}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb01_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb02_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0016539509, y: -0.0016171499, z: -0.012152648}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0016539509, y: -0.0016171499, z: -0.012152648}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02371837, y: -8.881784e-18, z: 2.6645352e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02371837, y: -8.881784e-18, z: 2.6645352e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:R_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02359078, y: 0, z: -1.3322676e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02359078, y: 0, z: -1.3322676e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:R_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:R_Wrist_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02550862, y: 0.022291733, z: 0.02760286}
+        inSlope: {x: 0.0058575273, y: 0.0044064, z: 0.012387902}
+        outSlope: {x: 0.0058575273, y: 0.0044064, z: 0.012387902}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666794
+        value: {x: -0.025618095, y: 0.023273477, z: 0.027896868}
+        inSlope: {x: -0.0038197653, y: 0.0042182608, z: -0.0041853874}
+        outSlope: {x: -0.003820141, y: 0.004217983, z: -0.004184992}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666794
+        value: {x: -0.026813526, y: 0.023024702, z: 0.025466}
+        inSlope: {x: -0.003678694, y: -0.0071400004, z: -0.0131732775}
+        outSlope: {x: -0.0036788057, y: -0.0071398667, z: -0.013173735}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.66666794
+        value: {x: -0.027148861, y: 0.022384757, z: 0.024152981}
+        inSlope: {x: 0.0005121592, y: 0.0060262494, z: 0.006736797}
+        outSlope: {x: 0.0005120311, y: 0.0060261213, z: 0.0067370282}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583359
+        value: {x: -0.026282696, y: 0.02352564, z: 0.026918132}
+        inSlope: {x: 0.0050444584, y: -0.0059049106, z: 0.0048561296}
+        outSlope: {x: 0.0050478713, y: -0.0059099356, z: 0.004858604}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02542803, y: 0.022116516, z: 0.027334455}
+        inSlope: {x: 0.0016018292, y: -0.0032172035, z: 0.0002050886}
+        outSlope: {x: 0.0016018292, y: -0.0032172035, z: 0.0002050886}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:Jim_sAX_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.025719311, y: 0.027075281, z: 0.030309057}
+        inSlope: {x: 0.006156571, y: 0.0055000708, z: 0.010812849}
+        outSlope: {x: 0.006156571, y: 0.0055000708, z: 0.010812849}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.20833588
+        value: {x: -0.025908252, y: 0.028166473, z: 0.030297616}
+        inSlope: {x: -0.003943396, y: 0.0026264118, z: -0.0053202147}
+        outSlope: {x: -0.0039463863, y: 0.0026279278, z: -0.005324505}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.45833588
+        value: {x: -0.02720344, y: 0.027294299, z: 0.02780529}
+        inSlope: {x: -0.004481456, y: -0.007599461, z: -0.011602514}
+        outSlope: {x: -0.0044843433, y: -0.00760501, z: -0.011610553}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7083359
+        value: {x: -0.027374085, y: 0.027230024, z: 0.027431121}
+        inSlope: {x: 0.0030037505, y: 0.007727634, z: 0.00943993}
+        outSlope: {x: 0.003006317, y: 0.007733159, z: 0.009447}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583359
+        value: {x: -0.026312046, y: 0.028170647, z: 0.029703006}
+        inSlope: {x: 0.0037544079, y: -0.005246356, z: 0.003737065}
+        outSlope: {x: 0.0037568118, y: -0.005250438, z: 0.0037392331}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.025777124, y: 0.026854213, z: 0.029934768}
+        inSlope: {x: 0.0008562324, y: -0.0030682567, z: -0.00013443093}
+        outSlope: {x: 0.0008562324, y: -0.0030682567, z: -0.00013443093}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.019854702, y: -0.0036799717, z: -0.0076166126}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.019854702, y: -0.0036799717, z: -0.0076166126}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.015279318, y: -0.00048914016, z: 0.04522527}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.015279318, y: -0.00048914016, z: 0.04522527}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.018187359, y: -0.0021105323, z: 0.047254153}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.018187359, y: -0.0021105323, z: 0.047254156}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02019966, y: -0.00336755, z: 0.04840638}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02019966, y: -0.00336755, z: 0.04840638}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Thumb02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02851091, y: -0.007820024, z: 0.04978492}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.028510908, y: -0.007820024, z: 0.04978492}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.028230637, y: -0.008956672, z: 0.051677305}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.028230637, y: -0.008956672, z: 0.0516773}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.027616449, y: -0.0059902486, z: 0.047929276}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.027616449, y: -0.0059902486, z: 0.047929276}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Pinky_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.025990903, y: -0.00249507, z: 0.05109578}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.025990903, y: -0.00249507, z: 0.05109578}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.027658595, y: -0.0047048554, z: 0.05306902}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.027658595, y: -0.0047048554, z: 0.05306902}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.028641565, y: -0.0064544654, z: 0.05494164}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.028641565, y: -0.0064544654, z: 0.05494164}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_MiddleFinger02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.026438266, y: 0.047982916, z: -0.0033392524}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.026438266, y: 0.047982916, z: -0.0033392524}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.025838517, y: 0.049640205, z: -0.0052184295}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.025838517, y: 0.04964021, z: -0.0052184295}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02444696, y: 0.051793143, z: -0.0071164654}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02444696, y: 0.051793143, z: -0.0071164654}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_RingFinger_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.023377294, y: 0.00020244866, z: 0.052498296}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.023377294, y: 0.00020244866, z: 0.052498296}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Index_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.024913026, y: -0.0017254007, z: 0.054311328}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.024913026, y: -0.0017254007, z: 0.054311328}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Index01_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02553429, y: -0.0032423302, z: 0.056084838}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.02553429, y: -0.0032423304, z: 0.056084838}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Index02_Geo
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00043218987, y: 0.0130747445, z: -0.00016055656}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.29166794
+        value: {x: 0.00043218987, y: 0.0130747445, z: -0.00016055656}
+        inSlope: {x: 2.9737211e-18, y: 4.7579538e-17, z: -3.7171514e-19}
+        outSlope: {x: 6.938682e-18, y: 1.11018914e-16, z: -8.6733527e-19}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0004321899, y: 0.0130747445, z: -0.00016055656}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:Torso
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.007641861, y: 0.02760456, z: 0.029733552}
+        inSlope: {x: 0.0048546046, y: 0.0067576766, z: 0.006054908}
+        outSlope: {x: 0.0048546046, y: 0.0067576766, z: 0.006054908}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333588
+        value: {x: -0.0075120223, y: 0.027952833, z: 0.029946355}
+        inSlope: {x: -0.00016769517, y: 0.0025980943, z: 0.0008705198}
+        outSlope: {x: -0.00016829892, y: 0.0025995395, z: 0.00087049895}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: -0.009270948, y: 0.026829623, z: 0.02820424}
+        inSlope: {x: -0.0036047723, y: -0.0039400863, z: -0.0048255124}
+        outSlope: {x: -0.0036018472, y: -0.0039367503, z: -0.0048212097}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: {x: -0.008049785, y: 0.027633332, z: 0.029433323}
+        inSlope: {x: 0.0034497045, y: -0.00038706823, z: 0.0019975326}
+        outSlope: {x: 0.0034471394, y: -0.00038745502, z: 0.0019960664}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.007703609, y: 0.027601488, z: 0.029636063}
+        inSlope: {x: 0.0006655405, y: 0.000014513731, z: 0.00041985512}
+        outSlope: {x: 0.0006655405, y: 0.000014513731, z: 0.00041985512}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000747477, y: 0.028470706, z: 0.026146863}
+        inSlope: {x: 0.0040755407, y: 0.0052813636, z: 0.0045245118}
+        outSlope: {x: 0.0040716617, y: 0.005276099, z: 0.004520395}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.04166794
+        value: {x: -0.000669989, y: 0.028595818, z: 0.026247554}
+        inSlope: {x: 0.0010654059, y: 0.0022211648, z: 0.0017289394}
+        outSlope: {x: 0.0010654076, y: 0.002221519, z: 0.001729133}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: -0.0022567695, y: 0.027553461, z: 0.025091328}
+        inSlope: {x: -0.00055452116, y: -0.00041692812, z: -0.00051198195}
+        outSlope: {x: -0.0005545568, y: -0.00041703726, z: -0.00051219796}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0007610436, y: 0.028461665, z: 0.026138145}
+        inSlope: {x: 0.0007740882, y: 0.0005142599, z: 0.0004988435}
+        outSlope: {x: 0.00077404757, y: 0.0005147177, z: 0.0004990043}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0007818027, y: 0.034982163, z: 0.016174069}
+        inSlope: {x: 0.0012023256, y: 0.0013509599, z: 0.0013666287}
+        outSlope: {x: 0.0012023256, y: 0.0013509599, z: 0.0013666287}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.04166794
+        value: {x: 0.0008116314, y: 0.035020597, z: 0.016210908}
+        inSlope: {x: 0.0003996086, y: 0.00062293187, z: 0.0005999367}
+        outSlope: {x: 0.00039961282, y: 0.00062310626, z: 0.00059990544}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833359
+        value: {x: 0.00032436012, y: 0.034727946, z: 0.015813839}
+        inSlope: {x: -0.00017505127, y: -0.00011432023, z: -0.00017409469}
+        outSlope: {x: -0.00017507076, y: -0.000115017414, z: -0.0001742115}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.91666794
+        value: {x: 0.0005720809, y: 0.034859207, z: 0.01601506}
+        inSlope: {x: 0.0011437545, y: 0.0006473233, z: 0.0008966566}
+        outSlope: {x: 0.0011437539, y: 0.00064680295, z: 0.0008966444}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.0007776358, y: 0.03498111, z: 0.01617116}
+        inSlope: {x: 0.00026309548, y: 0.00016449827, z: 0.00019235423}
+        outSlope: {x: 0.00026309548, y: 0.00016449827, z: 0.00019235423}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:R_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.00724657, y: 0.010789419, z: -0.013843134}
+        inSlope: {x: 0.0000013755271, y: -0.0000005623702, z: 0.0000021573915}
+        outSlope: {x: 0.0000013755271, y: -0.0000005623702, z: 0.0000021573915}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.007216367, y: 0.010777071, z: -0.013795757}
+        inSlope: {x: 0.000017717231, y: -0.00000724331, z: 0.000027791726}
+        outSlope: {x: 0.000017717231, y: -0.00000724331, z: 0.000027791726}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Arm01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0015557052, y: 0.021715116, z: -0.015350289}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: -0.0015557052, y: 0.021715116, z: -0.015350289}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Arm02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0010216564, y: 0.033168837, z: -0.012802905}
+        inSlope: {x: -0.00000015394771, y: 0.00000013411054, z: -0.0000010004645}
+        outSlope: {x: -0.00000015394771, y: 0.00000013411054, z: -0.0000010004645}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 0.001018276, y: 0.033171777, z: -0.012824867}
+        inSlope: {x: -0.0000019830477, y: 0.0000017255555, z: -0.000012882658}
+        outSlope: {x: -0.0000019830477, y: 0.0000017255555, z: -0.000012882658}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:rstPersonJim_Geo_Grp/Jim_WhiteboxAnimationSetup04:L_Arm
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/L_Shoulder_Jnt/L_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: rstPersonJim/Spine_Jnt_Grp/rstPersonJim_Jnt/Back01_Jnt/R_Shoulder_Jnt/R_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:camera2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Pinky_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_RingFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger_Jnt/Jim_WhiteboxAnimationSetup04:L_IndexFinger01_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_MiddleFinger_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:L_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:L_Elbow_Jnt/Jim_WhiteboxAnimationSetup04:L_Wrist_Jnt/Jim_WhiteboxAnimationSetup04:L_Thumb_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666679
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Jim_WhiteboxAnimationSetup03:rstPersonJim/Jim_WhiteboxAnimationSetup04:Spine_Jnt_Grp/Jim_WhiteboxAnimationSetup04:rstPersonJim_Jnt/Jim_WhiteboxAnimationSetup04:Back01_Jnt/Jim_WhiteboxAnimationSetup04:R_Shoulder_Jnt/Jim_WhiteboxAnimationSetup04:R_Elbow_Jnt
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.1666679
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 1
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
