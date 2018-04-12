@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MovePlayer : StateMachineBehaviour {
 
-	Rigidbody rb;
+	//Rigidbody rb;
 	RigidbodyPlayerController player;
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-		rb = animator.GetComponent<Rigidbody>();
+		//rb = animator.GetComponent<Rigidbody>();
 		player = animator.GetComponent<RigidbodyPlayerController>();
 	}
 

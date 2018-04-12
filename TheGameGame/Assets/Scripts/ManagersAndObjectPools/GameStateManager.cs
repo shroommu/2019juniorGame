@@ -21,6 +21,11 @@ public class GameStateManager : MonoBehaviour {
 		gameStateMachine.SetTrigger("ExitToStart");
 	}
 
+	public void LoadSceneState()
+	{
+		gameStateMachine.SetTrigger("LoadGame");
+	}
+
 	//call this method to start playing the game once the player has chosen their character and rules and whatever
 	public void IngameState()
 	{
