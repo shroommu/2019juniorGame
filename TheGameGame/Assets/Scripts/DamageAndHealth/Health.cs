@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
-	public int currentHealth;
+	public int currentDamage;
 
 	public ElementManager elementManager;
 	private SO_Elemental.elementType elementType;
@@ -14,7 +14,6 @@ public class Health : MonoBehaviour {
 	private NavRigid NR;
     
 	private bool isMoveable = false;
-	private bool usesCC;
     private bool usesNav;
 
 	void Start(){
@@ -51,25 +50,25 @@ public class Health : MonoBehaviour {
 			//if the damager's element is weak against the damager's element, apply double damage
 			if (_so_Elemental.elementStrengthOne == damElement || _so_Elemental.elementStrengthTwo == damElement)
 			{	
-				currentHealth += _dam / 2;
+				currentDamage += _dam / 2;
 			}
 
 			//if the damager's element is strong against the damager's element, apply double damage
 			if (_so_Elemental.elementWeakness == damElement)
 			{	
-				currentHealth += _dam * 2;
+				currentDamage += _dam * 2;
 			}
 		}
 		
 		else
 		{
-			currentHealth += _dam;
+			currentDamage += _dam;
 		}													//if there are no elements just apply damage normally
 
-        print(currentHealth);
+        print(currentDamage);
 
-		//_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
-		_dir = calculateForce(_dir, currentHealth, .01f) + calculateForce(_dir, _kBForce, .05f);		//trying different ways of calculating the force
+		//_dir = calculateForce (_dir, currentDamage * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
+		_dir = calculateForce(_dir, currentDamage, .01f) + calculateForce(_dir, _kBForce, .05f);		//trying different ways of calculating the force
 		if(isMoveable)
 		{																        //determines if the object can be moved
             if (usesNav)
@@ -79,14 +78,7 @@ public class Health : MonoBehaviour {
             }
 			else
 			{
-			    if (usesCC)
-				{																//if it has a character controller
-				    StartCoroutine (ApplyForceCC (_dir));									//use the character controller mehtod of adding force
-			    }
-				else
-				{
-					AddForce( _dir, RB);
-				}												//else, ie if it has a RB, add force using the RB method
+				AddForce( _dir, RB);											//else, ie if it has a RB, add force using the RB method
         	}
 		}
 	}
@@ -94,29 +86,21 @@ public class Health : MonoBehaviour {
 	public void TakeDamage(int _dam, int _kBForce, Vector3 _dir )		//takes the damage, knockback force, element, and force direction
 	{
 
-		currentHealth += _dam;
+		currentDamage += _dam;
 
-        print(currentHealth);
+        print(currentDamage);
 
-		//_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
-		_dir = calculateForce(_dir, currentHealth, _kBForce);		//trying different ways of calculating the force
+		//_dir = calculateForce (_dir, currentDamage * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
+		_dir = calculateForce(_dir, currentDamage, _kBForce);		//trying different ways of calculating the force
 		if(isMoveable)
 		{																        //determines if the object can be moved
             if (usesNav)
 			{
-             //   StartCoroutine(ApplyForceNav(_dir));
 				NR.Push(_dir);				
             }
 			else
 			{
-			    if (usesCC)
-				{																//if it has a character controller
-				    StartCoroutine (ApplyForceCC (_dir));									//use the character controller mehtod of adding force
-			    }
-				else
-				{
-					AddForce( _dir, RB);
-				}												//else, ie if it has a RB, add force using the RB method
+				AddForce( _dir, RB);												//else, ie if it has a RB, add force using the RB method
         	}
 		}
 	}
@@ -136,22 +120,4 @@ public class Health : MonoBehaviour {
 		_CC.Move (_force);																	//uses move method to move the character
 		return _force -= calculateForce (_force, Time.deltaTime, 3f);						//applys a negitive acceleration to the force (slows it down)
 	}
-
-	IEnumerator ApplyForceCC(Vector3 _impactForce){											//Coroutine used by CC
-		Vector3 _force = _impactForce;														//stores the initial force on a temp varaible
-		while(Vector3.Distance(_force, Vector3.zero) > .1f){								//enclosing loop, while there is still force to be applied
-			_force = AddForce(_force ,CC);													//Method call to apply forces to the CC
-			yield return null;																//wait a frame before going around again
-		}
-	}
-
-    // IEnumerator ApplyForceNav(Vector3 _impactForce){                                        //Coroutine used by CC
-    //     Vector3 _force = _impactForce;                                                      //stores the initial force on a temp varaible
-    //     while (Vector3.Distance(_force, Vector3.zero) > .1f){                               //enclosing loop, while there is still force to be applied
-    //         eNav.ApplyForce(_force, true);                                                  //Method call to apply forces to the NavMesh
-    //         _force -= calculateForce(_force, Time.deltaTime, 3f);
-    //         yield return null;                                                              //wait a frame before going around again
-    //     }
-    //     eNav.ApplyForce(_force, false);
-    // }
 }

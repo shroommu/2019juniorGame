@@ -24,12 +24,11 @@ public class NavRigid : MonoBehaviour {
 
 	void Start()
 	{
-
 	//	print(Vector3.Dot(new Vector3(12, 15, 15), new Vector3(12, 15, -15)));
 		print("enemy start");
 		rb = GetComponent<Rigidbody>();
-		agent = GetComponent<NavMeshAgent>();
-		print(destination.position);
+		agent = GetComponent<NavMeshAgent>();	
+		destination = GameObject.FindGameObjectWithTag("Player").transform;
 		agent.SetDestination(destination.position);
 		Push(Vector3.up);
 	}
@@ -79,7 +78,7 @@ public class NavRigid : MonoBehaviour {
 	void OnCollisionStay(Collision other)
 	{
 	//	CollisionCheck(other);
-		print("Colliding");
+		//print("Colliding");
 	}
 
 	void CollisionCheck(Collision other) 
