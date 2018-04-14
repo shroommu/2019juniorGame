@@ -16,7 +16,7 @@ public class SO_ThrustAbility : ABS_Abilities {
 		}
 
 		float abilityRange = Mathf.Lerp (minRange, maxRange, _charge);
-		float cost= Mathf.Lerp(minCost, maxCost, _charge);
+		//float cost= Mathf.Lerp(minCost, maxCost, _charge);
 		if (doesDamage) {
 			SetDamage (Mathf.Lerp (minDamage, maxDamage, _charge), Mathf.Lerp (minKB, maxKB, _charge));
 		}
