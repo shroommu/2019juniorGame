@@ -8,7 +8,7 @@ public class Damager : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other) {			
 		
-		ElementManager elementManager = GetComponent<ElementManager>();
+		//ElementManager elementManager = GetComponent<ElementManager>();
 		Health objHealth = other.GetComponent<Health> ();						//gets the health script from the collider data, it pulls it either way so might as well use the data
 
 		if (objHealth != null)

@@ -19,7 +19,7 @@ public class SO_Melee : ABS_Abilities
 		}
 
 		float abilityRange = Mathf.Lerp (minRange, maxRange, _charge);													//sets the ability range
-		float cost= Mathf.Lerp(minCost, maxCost, _charge);																//sets the ability cost (--ammo)
+		//float cost= Mathf.Lerp(minCost, maxCost, _charge);																//sets the ability cost (--ammo)
 		if (doesDamage) {																								//if it does damage
 			SetDamage (Mathf.Lerp (minDamage, maxDamage, _charge), Mathf.Lerp (minKB, maxKB, _charge));					//set damage and knockback based on charge
 		}
