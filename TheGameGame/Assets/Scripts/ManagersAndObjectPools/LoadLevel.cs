@@ -30,7 +30,10 @@ public class LoadLevel : MonoBehaviour {
 		if(_scene.name != "UI_Master_Scene")
 		{
 			SceneManager.SetActiveScene(SceneManager.GetSceneByName(levelName));
-			GetComponent<SetPlayerStartPos>().SetPos();
+
+			PlayerSpawnManager _playerSpawnManager = GameObject.Find("PlayerSpawnManager").GetComponent<PlayerSpawnManager>();
+			_playerSpawnManager.SetPos();
+
 			gameStateManager.GetComponent<Animator>().SetTrigger("StartGame");
 		}
 	}

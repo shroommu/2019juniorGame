@@ -350,11 +350,10 @@ GameObject:
   - component: {fileID: 54595694287115658}
   - component: {fileID: 114106078250687846}
   - component: {fileID: 114095807724135592}
-  - component: {fileID: 114371520802914624}
   - component: {fileID: 114263370030082790}
   - component: {fileID: 114864279070632988}
   - component: {fileID: 114334748178572042}
-  - component: {fileID: 114304906473571798}
+  - component: {fileID: 114932834031814636}
   m_Layer: 0
   m_Name: RB_Player
   m_TagString: Player
@@ -4182,7 +4181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89937739891060f46aeb98b194833b26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Player: {fileID: 11400000, guid: 5ea15d637cfe03d48af703e01bba03b3, type: 2}
   anims: {fileID: 0}
   characterCam: {fileID: 20646312951880500}
   slopeAngle: 45
@@ -4262,7 +4260,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114371520802914624}
+      - m_Target: {fileID: 0}
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -4300,19 +4298,6 @@ MonoBehaviour:
   hitBoxes:
   - {fileID: 1173310962163410}
   - {fileID: 1259343526188648}
---- !u!114 &114304906473571798
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1272074618842068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a4ff0ad6fb02488e93edc08d250197c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentDamage: 0
-  elementManager: {fileID: 0}
 --- !u!114 &114334748178572042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4322,17 +4307,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26b404389b911e4438f6f089935d7557, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114371520802914624
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1272074618842068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114383664128263288
@@ -4389,6 +4363,20 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+--- !u!114 &114932834031814636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272074618842068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995eef74c588e3c4b981605bf06b092b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_Player: {fileID: 0}
+  so_Temp_Player: {fileID: 11400000, guid: 1ef275e7aae536a45ab19860eae0ff1b, type: 2}
+  canvasManager: {fileID: 0}
 --- !u!124 &124779609192983450
 Behaviour:
   m_ObjectHideFlags: 1

@@ -5,8 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class RigidbodyPlayerController : MonoBehaviour {
 
-	public SO_Player so_Player;
-
 	CapsuleCollider capCollider;
 	Rigidbody rb;
 	public Animator anims;
