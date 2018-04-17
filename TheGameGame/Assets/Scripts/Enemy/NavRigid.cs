@@ -28,7 +28,7 @@ public class NavRigid : MonoBehaviour {
 		print("enemy start");
 		rb = GetComponent<Rigidbody>();
 		agent = GetComponent<NavMeshAgent>();	
-//		destination = GameObject.FindGameObjectWithTag("Player").transform;
+		destination = GameObject.FindGameObjectWithTag("Player").transform;
 		agent.SetDestination(destination.position);
 		Push(Vector3.up);
 	}
