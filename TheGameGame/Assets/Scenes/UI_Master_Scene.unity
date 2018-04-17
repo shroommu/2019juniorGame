@@ -2412,7 +2412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeMenu: {fileID: 1329529623}
-  player: {fileID: 408551083}
+  player: {fileID: 0}
 --- !u!114 &405198211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,11 +2704,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
---- !u!1 &408551083 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1272074618842068, guid: 9e9f578fc10c9094a976429e47f83be0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1863884161}
 --- !u!1 &423585577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,7 +2859,7 @@ GameObject:
   - component: {fileID: 445260672}
   - component: {fileID: 445260671}
   m_Layer: 5
-  m_Name: CharSelector
+  m_Name: CharacterSelector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2888,6 +2883,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e731d5cf6b8b7304a83345e2f67a50c6, type: 2}
   - {fileID: 11400000, guid: 13090d1bf45b8c24da516af3e33c74c3, type: 2}
   canvasManager: {fileID: 405198209}
+  so_Temp_Player: {fileID: 11400000, guid: 1ef275e7aae536a45ab19860eae0ff1b, type: 2}
 --- !u!224 &445260672
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5618,7 +5614,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9075,7 +9071,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11428,9 +11424,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114371520802914624, guid: 9e9f578fc10c9094a976429e47f83be0, type: 2}
-    - {fileID: 114304906473571798, guid: 9e9f578fc10c9094a976429e47f83be0, type: 2}
+    - target: {fileID: 1272074618842068, guid: 9e9f578fc10c9094a976429e47f83be0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e9f578fc10c9094a976429e47f83be0, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1867109153
