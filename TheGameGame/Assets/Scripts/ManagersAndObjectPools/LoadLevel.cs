@@ -7,12 +7,7 @@ public class LoadLevel : MonoBehaviour {
 
 	public string levelName;
 	
-	public GameObject canvasManager;
 	public GameObject gameStateManager;
-
-	public MenuMethods hud_Pnl;
-
-	public GameObject player;
 
 	void Awake()
 	{
@@ -26,21 +21,25 @@ public class LoadLevel : MonoBehaviour {
 
 	public void Load()
 	{
-		gameStateManager.GetComponent<Animator>().SetTrigger("LoadScene");
+		gameStateManager.GetComponent<Animator>().SetTrigger("LoadLevel");
 		SceneManager.LoadScene(levelName, LoadSceneMode.Additive);
 	}
 
 	public void OnSceneLoaded(Scene _scene, LoadSceneMode _loaded)
 	{
-		SceneManager.SetActiveScene(SceneManager.GetSceneByName(levelName));
-		canvasManager.GetComponent<CanvasManager>().ShowMenu(hud_Pnl);
-		GetComponent<SetPlayerStartPos>().SetPos();
-		gameStateManager.GetComponent<Animator>().SetTrigger("StartGame");
+		if(_scene.name != "UI_Master_Scene")
+		{
+			SceneManager.SetActiveScene(SceneManager.GetSceneByName(levelName));
+
+			PlayerSpawnManager _playerSpawnManager = GameObject.Find("PlayerSpawnManager").GetComponent<PlayerSpawnManager>();
+			_playerSpawnManager.SetPos();
+
+			gameStateManager.GetComponent<Animator>().SetTrigger("StartGame");
+		}
 	}
 
 	public void Unload()
 	{
 		SceneManager.UnloadSceneAsync(levelName);
 	}
-
 }

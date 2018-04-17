@@ -17,7 +17,7 @@ public class SO_JumpAbility : ABS_Abilities {
 		Debug.Log ("Jump");
 
 		float abilityRange = Mathf.Lerp (minRange, maxRange, _charge);
-		float cost= Mathf.Lerp(minCost, maxCost, _charge);
+		//float cost= Mathf.Lerp(minCost, maxCost, _charge);
 		/*if (doesDamage) {																								//if it does damage
 			SetDamage (Mathf.Lerp (minDamage, maxDamage, _charge), Mathf.Lerp (minKB, maxKB, _charge));					//set damage and knockback based on charge
 		}*/
