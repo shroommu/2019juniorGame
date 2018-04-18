@@ -83,13 +83,13 @@ public class Health : MonoBehaviour {
 		}
 	}
 
-	public void TakeDamage(int _dam, int _kBForce, Vector3 _dir )		//takes the damage, knockback force, element, and force direction
+	public void TakeDamage(int _dam, int _kBForce, Vector3 _dir )		//takes the damage, knockback force, and force direction
 	{
 
 		currentDamage += _dam;
 
         print(currentDamage);
-
+		_dir = Vector3.Normalize(_dir);
 		//_dir = calculateForce (_dir, currentDamage * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
 		_dir = calculateForce(_dir, currentDamage, _kBForce);		//trying different ways of calculating the force
 		if(isMoveable)
@@ -100,7 +100,8 @@ public class Health : MonoBehaviour {
             }
 			else
 			{
-				AddForce( _dir, RB);												//else, ie if it has a RB, add force using the RB method
+				RB.AddForce(_dir, ForceMode.Impulse);
+				//AddForce( _dir, RB);												//else, ie if it has a RB, add force using the RB method
         	}
 		}
 	}
@@ -109,7 +110,7 @@ public class Health : MonoBehaviour {
 		// _forceVec.x *= num2 * num;
 		// _forceVec.y *= num2 * num;
 		// _forceVec.z *= num2 * num;
-		return _forceVec *= num2 * num;
+		return _forceVec *= num2 + num;
 	}
 
 	public void AddForce(Vector3 _force, Rigidbody _RB){									//RB overload method of adding force
