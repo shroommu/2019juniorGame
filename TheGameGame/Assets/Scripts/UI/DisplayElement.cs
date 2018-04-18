@@ -17,13 +17,9 @@ public class DisplayElement : MonoBehaviour {
 
 	private GameObject player;
 
-	void Awake()
+	void StartGame()
 	{
 		player = canvasManager.GetComponent<CanvasManager>().player;
-	}
-
-	void Start()
-	{
 		elementManager = player.GetComponent<ElementManager>();
 	}
 

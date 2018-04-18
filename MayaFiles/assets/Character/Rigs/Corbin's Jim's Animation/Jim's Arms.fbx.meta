@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: c046171e957294f64b5afc6b2d4ce255
+timeCreated: 1522534307
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armor
+    100002: Armor__Piece_3
+    100004: Armor_Piece_1
+    100006: Armor_Piece_2
+    100008: Armor_Piece_4
+    100010: Armor_Piece_5
+    100012: Arms
+    100014: Fur
+    100016: //RootNode
+    100018: Jim_s_Arm
+    100020: pTorus10
+    100022: pTorus11
+    100024: pTorus2
+    100026: pTorus3
+    100028: pTorus4
+    100030: pTorus5
+    100032: pTorus6
+    100034: pTorus7
+    100036: pTorus8
+    100038: pTorus9
+    400000: Armor
+    400002: Armor__Piece_3
+    400004: Armor_Piece_1
+    400006: Armor_Piece_2
+    400008: Armor_Piece_4
+    400010: Armor_Piece_5
+    400012: Arms
+    400014: Fur
+    400016: //RootNode
+    400018: Jim_s_Arm
+    400020: pTorus10
+    400022: pTorus11
+    400024: pTorus2
+    400026: pTorus3
+    400028: pTorus4
+    400030: pTorus5
+    400032: pTorus6
+    400034: pTorus7
+    400036: pTorus8
+    400038: pTorus9
+    2300000: Armor__Piece_3
+    2300002: Armor_Piece_1
+    2300004: Armor_Piece_2
+    2300006: Armor_Piece_4
+    2300008: Armor_Piece_5
+    2300010: Fur
+    2300012: Jim_s_Arm
+    2300014: pTorus10
+    2300016: pTorus11
+    2300018: pTorus2
+    2300020: pTorus3
+    2300022: pTorus4
+    2300024: pTorus5
+    2300026: pTorus6
+    2300028: pTorus7
+    2300030: pTorus8
+    2300032: pTorus9
+    3300000: Armor__Piece_3
+    3300002: Armor_Piece_1
+    3300004: Armor_Piece_2
+    3300006: Armor_Piece_4
+    3300008: Armor_Piece_5
+    3300010: Fur
+    3300012: Jim_s_Arm
+    3300014: pTorus10
+    3300016: pTorus11
+    3300018: pTorus2
+    3300020: pTorus3
+    3300022: pTorus4
+    3300024: pTorus5
+    3300026: pTorus6
+    3300028: pTorus7
+    3300030: pTorus8
+    3300032: pTorus9
+    4300000: Armor_Piece_1
+    4300002: pTorus2
+    4300004: pTorus3
+    4300006: Armor_Piece_2
+    4300008: pTorus5
+    4300010: pTorus4
+    4300012: Armor__Piece_3
+    4300014: pTorus7
+    4300016: pTorus6
+    4300018: Armor_Piece_4
+    4300020: pTorus8
+    4300022: pTorus9
+    4300024: Armor_Piece_5
+    4300026: pTorus11
+    4300028: pTorus10
+    4300030: Fur
+    4300032: Jim_s_Arm
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
