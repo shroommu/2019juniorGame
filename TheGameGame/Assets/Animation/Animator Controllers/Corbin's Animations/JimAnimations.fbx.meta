@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: d05ebe9196bf61445a750e42e92094df
+timeCreated: 1524098705
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ambientLight1
+    100002: Back01_Jnt
+    100004: camera2
+    100006: Game_axe:fangs
+    100008: Game_axe:Head_1
+    100010: Game_axe:Head_2
+    100012: Game_axe:Head_3
+    100014: Game_axe:Head_4
+    100016: Game_axe:Hilt
+    100018: Game_axe:Hilt_1
+    100020: Game_axe:Hilt_4
+    100022: Game_axe:Hilt_5
+    100024: Game_axe:Hilt_6
+    100026: Game_axe:Jim_s_Axe
+    100028: Game_axe:Jim_WhiteboxAnimationSetup01:transform1
+    100030: Game_axe:Jim_WhiteboxAnimationSetup01:transform2
+    100032: Game_axe:Jim_WhiteboxAnimationSetup03:transform1
+    100034: Game_axe:Jim_WhiteboxAnimationSetup03:transform2
+    100036: Game_axe:Leather_wrap
+    100038: Game_axe:Leather_wrap_1
+    100040: Game_axe:leather_wrap_10
+    100042: Game_axe:Leather_wrap_2
+    100044: Game_axe:Leather_wrap_3
+    100046: Game_axe:Leather_wrap_4
+    100048: Game_axe:Leather_wrap_5
+    100050: Game_axe:Leather_wrap_6
+    100052: Game_axe:Leather_wrap_7
+    100054: Game_axe:Leather_wrap_8
+    100056: Game_axe:Leather_wrap_9
+    100058: Game_axe:polySurface34
+    100060: Game_axe:polySurface35
+    100062: Game_axe:polySurface36
+    100064: Game_axe:polySurface37
+    100066: Game_axe:polySurface38
+    100068: Game_axe:polySurface39
+    100070: Game_axe:polySurface40
+    100072: Game_axe:Rivot_14
+    100074: Game_axe:Rivot_15
+    100076: Game_axe:Rivot_19
+    100078: Game_axe:Rivot_20
+    100080: Game_axe:Rivot_21
+    100082: Game_axe:Rivot_3
+    100084: Game_axe:Spike
+    100086: Game_axe:Spike_1
+    100088: Game_axe:Spike_2
+    100090: Game_axe:Wolf_Head
+    100092: Head_Ctrl
+    100094: Head_Grp
+    100096: Head_Jnt
+    100098: Jim_sAX_Geo
+    100100: Jim_WhiteboxAnimation_Attack2_1:Jim_WhiteboxAnimationSetup03:transform1
+    100102: Jim_WhiteboxAnimation_Attack2_1:Jim_WhiteboxAnimationSetup03:transform2
+    100104: Jim_WhiteboxAnimation_Attack2_1:pCube4
+    100106: Jim_WhiteboxAnimation_Attack2_1:transform1
+    100108: Jim_WhiteboxAnimation_Attack2_1:transform2
+    100110: //RootNode
+    100112: JimArms_Rough__Corbin_:Armor
+    100114: JimArms_Rough__Corbin_:Armor__Piece_3
+    100116: JimArms_Rough__Corbin_:Armor_Piece_1
+    100118: JimArms_Rough__Corbin_:Armor_Piece_2
+    100120: JimArms_Rough__Corbin_:Armor_Piece_4
+    100122: JimArms_Rough__Corbin_:Armor_Piece_5
+    100124: JimArms_Rough__Corbin_:Arms
+    100126: JimArms_Rough__Corbin_:Fur
+    100128: JimArms_Rough__Corbin_:Geometry
+    100130: JimArms_Rough__Corbin_:Jim_s_Arm
+    100132: JimArms_Rough__Corbin_:pTorus10
+    100134: JimArms_Rough__Corbin_:pTorus11
+    100136: JimArms_Rough__Corbin_:pTorus2
+    100138: JimArms_Rough__Corbin_:pTorus3
+    100140: JimArms_Rough__Corbin_:pTorus4
+    100142: JimArms_Rough__Corbin_:pTorus5
+    100144: JimArms_Rough__Corbin_:pTorus6
+    100146: JimArms_Rough__Corbin_:pTorus7
+    100148: JimArms_Rough__Corbin_:pTorus8
+    100150: JimArms_Rough__Corbin_:pTorus9
+    100152: L_Arm
+    100154: L_Elbow_Ctrl
+    100156: L_Elbow_Ctrl 1
+    100158: L_Elbow_Grp
+    100160: L_Elbow_Jnt
+    100162: L_Finger
+    100164: L_Finger 1
+    100166: L_Finger 2
+    100168: L_Finger_1
+    100170: L_finger_1
+    100172: L_finger_1 1
+    100174: L_Finger__tip_1
+    100176: L_Finger__tip_1 1
+    100178: L_Finger_Tip
+    100180: L_Finger_Tip 1
+    100182: L_forearm
+    100184: L_Hand
+    100186: L_Index
+    100188: L_index
+    100190: L_Index 1
+    100192: L_IndexFinger01_Ctrl_Grp
+    100194: L_IndexFinger01_Jnt
+    100196: L_IndexFinger02_Jnt
+    100198: L_IndexFinger_Ctrl
+    100200: L_IndexFinger_Ctrl_Grp
+    100202: L_IndexFinger_Jnt
+    100204: L_indexTip
+    100206: L_indexTip 1
+    100208: L_MiddleFinger01_Ctrl
+    100210: L_MiddleFinger01_Ctrl_Grp
+    100212: L_MiddleFinger01_Jnt
+    100214: L_MiddleFinger02_Ctrl
+    100216: L_MiddleFinger02_Ctrl_Grp
+    100218: L_MiddleFinger02_Jnt
+    100220: L_MiddleFinger_Ctrl
+    100222: L_MiddleFinger_Ctrl_Grp
+    100224: L_MiddleFinger_Jnt
+    100226: L_Pinky
+    100228: L_Pinky 1
+    100230: L_Pinky 2
+    100232: L_Pinky01_Ctrl
+    100234: L_Pinky01_Ctrl_Grp
+    100236: L_Pinky01_Jnt
+    100238: L_Pinky02_Ctrl
+    100240: L_Pinky02_Ctrl_Grp
+    100242: L_Pinky02_Jnt
+    100244: L_Pinky_Ctrl
+    100246: L_Pinky_Ctrl_Grp
+    100248: L_Pinky_Jnt
+    100250: L_Pinkytip
+    100252: L_Pinkytip 1
+    100254: L_RingFinger01_Ctrl_Grp
+    100256: L_RingFinger01_Ctrl_Grp 1
+    100258: L_RingFinger01_Jnt
+    100260: L_RingFinger02_Ctrl
+    100262: L_RingFinger02_Ctrl_Grp
+    100264: L_RingFinger02_Jnt
+    100266: L_RingFinger_Ctrl
+    100268: L_RingFinger_Ctrl_Grp
+    100270: L_RingFinger_Jnt
+    100272: L_Shoulder
+    100274: L_Shoulder_Ctrl
+    100276: L_Shoulder_Grp
+    100278: L_Shoulder_Jnt
+    100280: L_Thumb
+    100282: L_Thumb 1
+    100284: L_Thumb 2
+    100286: L_Thumb 3
+    100288: L_Thumb 4
+    100290: L_Thumb01_Ctrl
+    100292: L_Thumb01_Ctrl 1
+    100294: L_Thumb01_Jnt
+    100296: L_Thumb02_Ctrl
+    100298: L_Thumb02_Ctrl 1
+    100300: L_Thumb02_Ctrl_Grp
+    100302: L_Thumb02_Ctrl_Grp 1
+    100304: L_Thumb02_Jnt
+    100306: L_Thumb_01_Ctrl_Grp
+    100308: L_Thumb_Ctrl
+    100310: L_Thumb_Ctrl_Grp
+    100312: L_Thumb_Jnt
+    100314: L_Wrist_Ctrl
+    100316: L_Wrist_Ctrl 1
+    100318: L_Wrist_Grp
+    100320: L_Wrist_Grp 1
+    100322: L_Wrist_Jnt
+    100324: R__Arm
+    100326: R_Arm
+    100328: R_Elbow_Grp
+    100330: R_Elbow_Jnt
+    100332: R_Finger
+    100334: R_Finger1
+    100336: R_Forearm
+    100338: R_Hand
+    100340: R_Index
+    100342: R_Pinky
+    100344: R_shoulder
+    100346: R_Shoulder_Ctrl
+    100348: R_Shoulder_Grp
+    100350: R_Shoulder_Jnt
+    100352: R_Thumb
+    100354: R_Wrist_Jnt
+    100356: rstPersonJim
+    100358: rstPersonJim_Geo_Grp
+    100360: rstPersonJim_Jnt
+    100362: Spine__Ctrl_Grp
+    100364: Spine_Ctrl
+    100366: Spine_Jnt_Grp
+    100368: top1
+    100370: top2
+    100372: transform1
+    100374: transform2
+    100376: wolverinecapthor3_0004:directionalLight18
+    400000: ambientLight1
+    400002: Back01_Jnt
+    400004: camera2
+    400006: Game_axe:fangs
+    400008: Game_axe:Head_1
+    400010: Game_axe:Head_2
+    400012: Game_axe:Head_3
+    400014: Game_axe:Head_4
+    400016: Game_axe:Hilt
+    400018: Game_axe:Hilt_1
+    400020: Game_axe:Hilt_4
+    400022: Game_axe:Hilt_5
+    400024: Game_axe:Hilt_6
+    400026: Game_axe:Jim_s_Axe
+    400028: Game_axe:Jim_WhiteboxAnimationSetup01:transform1
+    400030: Game_axe:Jim_WhiteboxAnimationSetup01:transform2
+    400032: Game_axe:Jim_WhiteboxAnimationSetup03:transform1
+    400034: Game_axe:Jim_WhiteboxAnimationSetup03:transform2
+    400036: Game_axe:Leather_wrap
+    400038: Game_axe:Leather_wrap_1
+    400040: Game_axe:leather_wrap_10
+    400042: Game_axe:Leather_wrap_2
+    400044: Game_axe:Leather_wrap_3
+    400046: Game_axe:Leather_wrap_4
+    400048: Game_axe:Leather_wrap_5
+    400050: Game_axe:Leather_wrap_6
+    400052: Game_axe:Leather_wrap_7
+    400054: Game_axe:Leather_wrap_8
+    400056: Game_axe:Leather_wrap_9
+    400058: Game_axe:polySurface34
+    400060: Game_axe:polySurface35
+    400062: Game_axe:polySurface36
+    400064: Game_axe:polySurface37
+    400066: Game_axe:polySurface38
+    400068: Game_axe:polySurface39
+    400070: Game_axe:polySurface40
+    400072: Game_axe:Rivot_14
+    400074: Game_axe:Rivot_15
+    400076: Game_axe:Rivot_19
+    400078: Game_axe:Rivot_20
+    400080: Game_axe:Rivot_21
+    400082: Game_axe:Rivot_3
+    400084: Game_axe:Spike
+    400086: Game_axe:Spike_1
+    400088: Game_axe:Spike_2
+    400090: Game_axe:Wolf_Head
+    400092: Head_Ctrl
+    400094: Head_Grp
+    400096: Head_Jnt
+    400098: Jim_sAX_Geo
+    400100: Jim_WhiteboxAnimation_Attack2_1:Jim_WhiteboxAnimationSetup03:transform1
+    400102: Jim_WhiteboxAnimation_Attack2_1:Jim_WhiteboxAnimationSetup03:transform2
+    400104: Jim_WhiteboxAnimation_Attack2_1:pCube4
+    400106: Jim_WhiteboxAnimation_Attack2_1:transform1
+    400108: Jim_WhiteboxAnimation_Attack2_1:transform2
+    400110: //RootNode
+    400112: JimArms_Rough__Corbin_:Armor
+    400114: JimArms_Rough__Corbin_:Armor__Piece_3
+    400116: JimArms_Rough__Corbin_:Armor_Piece_1
+    400118: JimArms_Rough__Corbin_:Armor_Piece_2
+    400120: JimArms_Rough__Corbin_:Armor_Piece_4
+    400122: JimArms_Rough__Corbin_:Armor_Piece_5
+    400124: JimArms_Rough__Corbin_:Arms
+    400126: JimArms_Rough__Corbin_:Fur
+    400128: JimArms_Rough__Corbin_:Geometry
+    400130: JimArms_Rough__Corbin_:Jim_s_Arm
+    400132: JimArms_Rough__Corbin_:pTorus10
+    400134: JimArms_Rough__Corbin_:pTorus11
+    400136: JimArms_Rough__Corbin_:pTorus2
+    400138: JimArms_Rough__Corbin_:pTorus3
+    400140: JimArms_Rough__Corbin_:pTorus4
+    400142: JimArms_Rough__Corbin_:pTorus5
+    400144: JimArms_Rough__Corbin_:pTorus6
+    400146: JimArms_Rough__Corbin_:pTorus7
+    400148: JimArms_Rough__Corbin_:pTorus8
+    400150: JimArms_Rough__Corbin_:pTorus9
+    400152: L_Arm
+    400154: L_Elbow_Ctrl
+    400156: L_Elbow_Ctrl 1
+    400158: L_Elbow_Grp
+    400160: L_Elbow_Jnt
+    400162: L_Finger
+    400164: L_Finger 1
+    400166: L_Finger 2
+    400168: L_Finger_1
+    400170: L_finger_1
+    400172: L_finger_1 1
+    400174: L_Finger__tip_1
+    400176: L_Finger__tip_1 1
+    400178: L_Finger_Tip
+    400180: L_Finger_Tip 1
+    400182: L_forearm
+    400184: L_Hand
+    400186: L_Index
+    400188: L_index
+    400190: L_Index 1
+    400192: L_IndexFinger01_Ctrl_Grp
+    400194: L_IndexFinger01_Jnt
+    400196: L_IndexFinger02_Jnt
+    400198: L_IndexFinger_Ctrl
+    400200: L_IndexFinger_Ctrl_Grp
+    400202: L_IndexFinger_Jnt
+    400204: L_indexTip
+    400206: L_indexTip 1
+    400208: L_MiddleFinger01_Ctrl
+    400210: L_MiddleFinger01_Ctrl_Grp
+    400212: L_MiddleFinger01_Jnt
+    400214: L_MiddleFinger02_Ctrl
+    400216: L_MiddleFinger02_Ctrl_Grp
+    400218: L_MiddleFinger02_Jnt
+    400220: L_MiddleFinger_Ctrl
+    400222: L_MiddleFinger_Ctrl_Grp
+    400224: L_MiddleFinger_Jnt
+    400226: L_Pinky
+    400228: L_Pinky 1
+    400230: L_Pinky 2
+    400232: L_Pinky01_Ctrl
+    400234: L_Pinky01_Ctrl_Grp
+    400236: L_Pinky01_Jnt
+    400238: L_Pinky02_Ctrl
+    400240: L_Pinky02_Ctrl_Grp
+    400242: L_Pinky02_Jnt
+    400244: L_Pinky_Ctrl
+    400246: L_Pinky_Ctrl_Grp
+    400248: L_Pinky_Jnt
+    400250: L_Pinkytip
+    400252: L_Pinkytip 1
+    400254: L_RingFinger01_Ctrl_Grp
+    400256: L_RingFinger01_Ctrl_Grp 1
+    400258: L_RingFinger01_Jnt
+    400260: L_RingFinger02_Ctrl
+    400262: L_RingFinger02_Ctrl_Grp
+    400264: L_RingFinger02_Jnt
+    400266: L_RingFinger_Ctrl
+    400268: L_RingFinger_Ctrl_Grp
+    400270: L_RingFinger_Jnt
+    400272: L_Shoulder
+    400274: L_Shoulder_Ctrl
+    400276: L_Shoulder_Grp
+    400278: L_Shoulder_Jnt
+    400280: L_Thumb
+    400282: L_Thumb 1
+    400284: L_Thumb 2
+    400286: L_Thumb 3
+    400288: L_Thumb 4
+    400290: L_Thumb01_Ctrl
+    400292: L_Thumb01_Ctrl 1
+    400294: L_Thumb01_Jnt
+    400296: L_Thumb02_Ctrl
+    400298: L_Thumb02_Ctrl 1
+    400300: L_Thumb02_Ctrl_Grp
+    400302: L_Thumb02_Ctrl_Grp 1
+    400304: L_Thumb02_Jnt
+    400306: L_Thumb_01_Ctrl_Grp
+    400308: L_Thumb_Ctrl
+    400310: L_Thumb_Ctrl_Grp
+    400312: L_Thumb_Jnt
+    400314: L_Wrist_Ctrl
+    400316: L_Wrist_Ctrl 1
+    400318: L_Wrist_Grp
+    400320: L_Wrist_Grp 1
+    400322: L_Wrist_Jnt
+    400324: R__Arm
+    400326: R_Arm
+    400328: R_Elbow_Grp
+    400330: R_Elbow_Jnt
+    400332: R_Finger
+    400334: R_Finger1
+    400336: R_Forearm
+    400338: R_Hand
+    400340: R_Index
+    400342: R_Pinky
+    400344: R_shoulder
+    400346: R_Shoulder_Ctrl
+    400348: R_Shoulder_Grp
+    400350: R_Shoulder_Jnt
+    400352: R_Thumb
+    400354: R_Wrist_Jnt
+    400356: rstPersonJim
+    400358: rstPersonJim_Geo_Grp
+    400360: rstPersonJim_Jnt
+    400362: Spine__Ctrl_Grp
+    400364: Spine_Ctrl
+    400366: Spine_Jnt_Grp
+    400368: top1
+    400370: top2
+    400372: transform1
+    400374: transform2
+    400376: wolverinecapthor3_0004:directionalLight18
+    2000000: camera2
+    2000002: top1
+    2000004: top2
+    2300000: Game_axe:Head_1
+    2300002: Game_axe:Head_2
+    2300004: Game_axe:Head_3
+    2300006: Game_axe:Head_4
+    2300008: Game_axe:Hilt
+    2300010: Game_axe:Hilt_1
+    2300012: Game_axe:Hilt_4
+    2300014: Game_axe:Hilt_5
+    2300016: Game_axe:Hilt_6
+    2300018: Game_axe:Leather_wrap
+    2300020: Game_axe:Leather_wrap_1
+    2300022: Game_axe:leather_wrap_10
+    2300024: Game_axe:Leather_wrap_2
+    2300026: Game_axe:Leather_wrap_3
+    2300028: Game_axe:Leather_wrap_4
+    2300030: Game_axe:Leather_wrap_5
+    2300032: Game_axe:Leather_wrap_6
+    2300034: Game_axe:Leather_wrap_7
+    2300036: Game_axe:Leather_wrap_8
+    2300038: Game_axe:Leather_wrap_9
+    2300040: Game_axe:polySurface34
+    2300042: Game_axe:polySurface35
+    2300044: Game_axe:polySurface36
+    2300046: Game_axe:polySurface37
+    2300048: Game_axe:polySurface38
+    2300050: Game_axe:polySurface39
+    2300052: Game_axe:polySurface40
+    2300054: Game_axe:Rivot_14
+    2300056: Game_axe:Rivot_15
+    2300058: Game_axe:Rivot_19
+    2300060: Game_axe:Rivot_20
+    2300062: Game_axe:Rivot_21
+    2300064: Game_axe:Rivot_3
+    2300066: Game_axe:Spike
+    2300068: Game_axe:Spike_1
+    2300070: Game_axe:Spike_2
+    2300072: Game_axe:Wolf_Head
+    2300074: Jim_WhiteboxAnimation_Attack2_1:pCube4
+    2300076: JimArms_Rough__Corbin_:Armor__Piece_3
+    2300078: JimArms_Rough__Corbin_:Armor_Piece_1
+    2300080: JimArms_Rough__Corbin_:Armor_Piece_2
+    2300082: JimArms_Rough__Corbin_:Armor_Piece_4
+    2300084: JimArms_Rough__Corbin_:Armor_Piece_5
+    2300086: JimArms_Rough__Corbin_:Fur
+    2300088: JimArms_Rough__Corbin_:pTorus10
+    2300090: JimArms_Rough__Corbin_:pTorus11
+    2300092: JimArms_Rough__Corbin_:pTorus2
+    2300094: JimArms_Rough__Corbin_:pTorus3
+    2300096: JimArms_Rough__Corbin_:pTorus4
+    2300098: JimArms_Rough__Corbin_:pTorus5
+    2300100: JimArms_Rough__Corbin_:pTorus6
+    2300102: JimArms_Rough__Corbin_:pTorus7
+    2300104: JimArms_Rough__Corbin_:pTorus8
+    2300106: JimArms_Rough__Corbin_:pTorus9
+    2300108: L_Arm
+    2300110: L_Finger
+    2300112: L_Finger 1
+    2300114: L_Finger 2
+    2300116: L_Finger_1
+    2300118: L_finger_1
+    2300120: L_finger_1 1
+    2300122: L_Finger__tip_1
+    2300124: L_Finger__tip_1 1
+    2300126: L_Finger_Tip
+    2300128: L_Finger_Tip 1
+    2300130: L_forearm
+    2300132: L_Hand
+    2300134: L_Index
+    2300136: L_index
+    2300138: L_Index 1
+    2300140: L_indexTip
+    2300142: L_indexTip 1
+    2300144: L_Pinky
+    2300146: L_Pinky 1
+    2300148: L_Pinky 2
+    2300150: L_Pinkytip
+    2300152: L_Pinkytip 1
+    2300154: L_Shoulder
+    2300156: L_Thumb
+    2300158: L_Thumb 1
+    2300160: L_Thumb 2
+    2300162: L_Thumb 3
+    2300164: L_Thumb 4
+    2300166: R__Arm
+    2300168: R_Arm
+    2300170: R_Finger
+    2300172: R_Finger1
+    2300174: R_Forearm
+    2300176: R_Hand
+    2300178: R_Index
+    2300180: R_Pinky
+    2300182: R_shoulder
+    2300184: R_Thumb
+    3300000: Game_axe:Head_1
+    3300002: Game_axe:Head_2
+    3300004: Game_axe:Head_3
+    3300006: Game_axe:Head_4
+    3300008: Game_axe:Hilt
+    3300010: Game_axe:Hilt_1
+    3300012: Game_axe:Hilt_4
+    3300014: Game_axe:Hilt_5
+    3300016: Game_axe:Hilt_6
+    3300018: Game_axe:Leather_wrap
+    3300020: Game_axe:Leather_wrap_1
+    3300022: Game_axe:leather_wrap_10
+    3300024: Game_axe:Leather_wrap_2
+    3300026: Game_axe:Leather_wrap_3
+    3300028: Game_axe:Leather_wrap_4
+    3300030: Game_axe:Leather_wrap_5
+    3300032: Game_axe:Leather_wrap_6
+    3300034: Game_axe:Leather_wrap_7
+    3300036: Game_axe:Leather_wrap_8
+    3300038: Game_axe:Leather_wrap_9
+    3300040: Game_axe:polySurface34
+    3300042: Game_axe:polySurface35
+    3300044: Game_axe:polySurface36
+    3300046: Game_axe:polySurface37
+    3300048: Game_axe:polySurface38
+    3300050: Game_axe:polySurface39
+    3300052: Game_axe:polySurface40
+    3300054: Game_axe:Rivot_14
+    3300056: Game_axe:Rivot_15
+    3300058: Game_axe:Rivot_19
+    3300060: Game_axe:Rivot_20
+    3300062: Game_axe:Rivot_21
+    3300064: Game_axe:Rivot_3
+    3300066: Game_axe:Spike
+    3300068: Game_axe:Spike_1
+    3300070: Game_axe:Spike_2
+    3300072: Game_axe:Wolf_Head
+    3300074: Jim_WhiteboxAnimation_Attack2_1:pCube4
+    3300076: JimArms_Rough__Corbin_:Armor__Piece_3
+    3300078: JimArms_Rough__Corbin_:Armor_Piece_1
+    3300080: JimArms_Rough__Corbin_:Armor_Piece_2
+    3300082: JimArms_Rough__Corbin_:Armor_Piece_4
+    3300084: JimArms_Rough__Corbin_:Armor_Piece_5
+    3300086: JimArms_Rough__Corbin_:Fur
+    3300088: JimArms_Rough__Corbin_:pTorus10
+    3300090: JimArms_Rough__Corbin_:pTorus11
+    3300092: JimArms_Rough__Corbin_:pTorus2
+    3300094: JimArms_Rough__Corbin_:pTorus3
+    3300096: JimArms_Rough__Corbin_:pTorus4
+    3300098: JimArms_Rough__Corbin_:pTorus5
+    3300100: JimArms_Rough__Corbin_:pTorus6
+    3300102: JimArms_Rough__Corbin_:pTorus7
+    3300104: JimArms_Rough__Corbin_:pTorus8
+    3300106: JimArms_Rough__Corbin_:pTorus9
+    3300108: L_Arm
+    3300110: L_Finger
+    3300112: L_Finger 1
+    3300114: L_Finger 2
+    3300116: L_Finger_1
+    3300118: L_finger_1
+    3300120: L_finger_1 1
+    3300122: L_Finger__tip_1
+    3300124: L_Finger__tip_1 1
+    3300126: L_Finger_Tip
+    3300128: L_Finger_Tip 1
+    3300130: L_forearm
+    3300132: L_Hand
+    3300134: L_Index
+    3300136: L_index
+    3300138: L_Index 1
+    3300140: L_indexTip
+    3300142: L_indexTip 1
+    3300144: L_Pinky
+    3300146: L_Pinky 1
+    3300148: L_Pinky 2
+    3300150: L_Pinkytip
+    3300152: L_Pinkytip 1
+    3300154: L_Shoulder
+    3300156: L_Thumb
+    3300158: L_Thumb 1
+    3300160: L_Thumb 2
+    3300162: L_Thumb 3
+    3300164: L_Thumb 4
+    3300166: R__Arm
+    3300168: R_Arm
+    3300170: R_Finger
+    3300172: R_Finger1
+    3300174: R_Forearm
+    3300176: R_Hand
+    3300178: R_Index
+    3300180: R_Pinky
+    3300182: R_shoulder
+    3300184: R_Thumb
+    4300000: Game_axe:Wolf_Head
+    4300002: Game_axe:polySurface34
+    4300004: Game_axe:polySurface35
+    4300006: Game_axe:polySurface36
+    4300008: Game_axe:polySurface37
+    4300010: Game_axe:polySurface38
+    4300012: Game_axe:polySurface39
+    4300014: Game_axe:polySurface40
+    4300016: Game_axe:Leather_wrap
+    4300018: Game_axe:Leather_wrap_3
+    4300020: Game_axe:Leather_wrap_2
+    4300022: Game_axe:Leather_wrap_1
+    4300024: Game_axe:Leather_wrap_4
+    4300026: Game_axe:Leather_wrap_6
+    4300028: Game_axe:Leather_wrap_5
+    4300030: Game_axe:Leather_wrap_7
+    4300032: Game_axe:leather_wrap_10
+    4300034: Game_axe:Leather_wrap_9
+    4300036: Game_axe:Leather_wrap_8
+    4300038: Game_axe:Hilt
+    4300040: Game_axe:Hilt_4
+    4300042: Game_axe:Hilt_5
+    4300044: Game_axe:Hilt_6
+    4300046: Game_axe:Hilt_1
+    4300048: Game_axe:Spike_2
+    4300050: Game_axe:Spike_1
+    4300052: Game_axe:Spike
+    4300054: Game_axe:Head_3
+    4300056: Game_axe:Head_4
+    4300058: Game_axe:Head_2
+    4300060: Game_axe:Head_1
+    4300062: Game_axe:Rivot_15
+    4300064: Game_axe:Rivot_14
+    4300066: Game_axe:Rivot_21
+    4300068: Game_axe:Rivot_20
+    4300070: Game_axe:Rivot_3
+    4300072: Game_axe:Rivot_19
+    4300074: JimArms_Rough__Corbin_:Armor_Piece_1
+    4300076: JimArms_Rough__Corbin_:pTorus2
+    4300078: JimArms_Rough__Corbin_:pTorus3
+    4300080: JimArms_Rough__Corbin_:Armor_Piece_2
+    4300082: JimArms_Rough__Corbin_:pTorus5
+    4300084: JimArms_Rough__Corbin_:pTorus4
+    4300086: JimArms_Rough__Corbin_:Armor__Piece_3
+    4300088: JimArms_Rough__Corbin_:pTorus7
+    4300090: JimArms_Rough__Corbin_:pTorus6
+    4300092: JimArms_Rough__Corbin_:Armor_Piece_4
+    4300094: JimArms_Rough__Corbin_:pTorus8
+    4300096: JimArms_Rough__Corbin_:pTorus9
+    4300098: JimArms_Rough__Corbin_:Armor_Piece_5
+    4300100: JimArms_Rough__Corbin_:pTorus11
+    4300102: JimArms_Rough__Corbin_:pTorus10
+    4300104: JimArms_Rough__Corbin_:Fur
+    4300106: R_Arm
+    4300108: L_Shoulder
+    4300110: L_Arm
+    4300112: L_forearm
+    4300114: L_Hand
+    4300116: L_Pinky
+    4300118: L_Pinky
+    4300120: L_Pinkytip
+    4300122: L_Thumb
+    4300124: L_Thumb
+    4300126: L_Thumb
+    4300128: L_Finger
+    4300130: L_Finger
+    4300132: L_Finger_Tip
+    4300134: L_index
+    4300136: L_Index
+    4300138: L_indexTip
+    4300140: L_Finger_1
+    4300142: L_finger_1
+    4300144: L_Finger__tip_1
+    4300146: R_shoulder
+    4300148: R__Arm
+    4300150: R_Forearm
+    4300152: R_Hand
+    4300154: R_Pinky
+    4300156: L_Pinky
+    4300158: L_Pinkytip
+    4300160: R_Thumb
+    4300162: L_Thumb
+    4300164: L_Thumb
+    4300166: R_Finger
+    4300168: L_Finger
+    4300170: L_Finger_Tip
+    4300172: R_Index
+    4300174: L_Index
+    4300176: L_indexTip
+    4300178: R_Finger1
+    4300180: L_finger_1
+    4300182: L_Finger__tip_1
+    4300184: Jim_WhiteboxAnimation_Attack2_1:pCube4
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: ambientLight1
+    10800002: wolverinecapthor3_0004:directionalLight18
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
