@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 114867410458729920}
   - component: {fileID: 114958656833188448}
   - component: {fileID: 114366335998114132}
-  - component: {fileID: 114729834370235044}
   m_Layer: 12
   m_Name: Test Enemy (L)
   m_TagString: Untagged
@@ -195,19 +194,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
---- !u!114 &114729834370235044
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1868071661920794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62316e4356dd340e3b530710ef9736c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  baseDamage: 0
-  baseKnockBack: 0
 --- !u!114 &114867410458729920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -234,6 +220,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseDamage: 5
   baseKnockBack: 1
+  hitboxType: 0
+  directionalObject: {fileID: 0}
 --- !u!114 &114958656833188448
 MonoBehaviour:
   m_ObjectHideFlags: 1
