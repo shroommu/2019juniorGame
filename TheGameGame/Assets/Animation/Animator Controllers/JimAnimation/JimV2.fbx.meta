@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: b8fc4b7db59aa2c48b3656573a82093f
+timeCreated: 1524111343
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Back01_Jnt
+    100002: Game_axe:fangs
+    100004: Game_axe:Head_1
+    100006: Game_axe:Head_2
+    100008: Game_axe:Head_3
+    100010: Game_axe:Head_4
+    100012: Game_axe:Hilt
+    100014: Game_axe:Hilt_1
+    100016: Game_axe:Hilt_4
+    100018: Game_axe:Hilt_5
+    100020: Game_axe:Hilt_6
+    100022: Game_axe:Jim_s_Axe
+    100024: Game_axe:Leather_wrap
+    100026: Game_axe:Leather_wrap_1
+    100028: Game_axe:leather_wrap_10
+    100030: Game_axe:Leather_wrap_2
+    100032: Game_axe:Leather_wrap_3
+    100034: Game_axe:Leather_wrap_4
+    100036: Game_axe:Leather_wrap_5
+    100038: Game_axe:Leather_wrap_6
+    100040: Game_axe:Leather_wrap_7
+    100042: Game_axe:Leather_wrap_8
+    100044: Game_axe:Leather_wrap_9
+    100046: Game_axe:polySurface34
+    100048: Game_axe:polySurface35
+    100050: Game_axe:polySurface36
+    100052: Game_axe:polySurface37
+    100054: Game_axe:polySurface38
+    100056: Game_axe:polySurface39
+    100058: Game_axe:polySurface40
+    100060: Game_axe:Rivot_14
+    100062: Game_axe:Rivot_15
+    100064: Game_axe:Rivot_19
+    100066: Game_axe:Rivot_20
+    100068: Game_axe:Rivot_21
+    100070: Game_axe:Rivot_3
+    100072: Game_axe:Spike
+    100074: Game_axe:Spike_1
+    100076: Game_axe:Spike_2
+    100078: Game_axe:Wolf_Head
+    100080: Head_Jnt
+    100082: Jim_sAX_Geo
+    100084: JimArms_Rough__Corbin_:Armor
+    100086: JimArms_Rough__Corbin_:Armor__Piece_3
+    100088: JimArms_Rough__Corbin_:Armor_Piece_1
+    100090: JimArms_Rough__Corbin_:Armor_Piece_2
+    100092: JimArms_Rough__Corbin_:Armor_Piece_4
+    100094: JimArms_Rough__Corbin_:Armor_Piece_5
+    100096: JimArms_Rough__Corbin_:Arms
+    100098: JimArms_Rough__Corbin_:Fur
+    100100: JimArms_Rough__Corbin_:Geometry
+    100102: JimArms_Rough__Corbin_:Jim_s_Arm
+    100104: JimArms_Rough__Corbin_:pTorus10
+    100106: JimArms_Rough__Corbin_:pTorus11
+    100108: JimArms_Rough__Corbin_:pTorus2
+    100110: JimArms_Rough__Corbin_:pTorus3
+    100112: JimArms_Rough__Corbin_:pTorus4
+    100114: JimArms_Rough__Corbin_:pTorus5
+    100116: JimArms_Rough__Corbin_:pTorus6
+    100118: JimArms_Rough__Corbin_:pTorus7
+    100120: JimArms_Rough__Corbin_:pTorus8
+    100122: JimArms_Rough__Corbin_:pTorus9
+    100124: //RootNode
+    100126: L_Arm
+    100128: L_Elbow_Jnt
+    100130: L_Finger
+    100132: L_Finger 1
+    100134: L_Finger 2
+    100136: L_Finger_1
+    100138: L_finger_1
+    100140: L_finger_1 1
+    100142: L_Finger__tip_1
+    100144: L_Finger__tip_1 1
+    100146: L_Finger_Tip
+    100148: L_Finger_Tip 1
+    100150: L_forearm
+    100152: L_Hand
+    100154: L_Index
+    100156: L_index
+    100158: L_Index 1
+    100160: L_IndexFinger01_Jnt
+    100162: L_IndexFinger02_Jnt
+    100164: L_IndexFinger_Jnt
+    100166: L_indexTip
+    100168: L_indexTip 1
+    100170: L_MiddleFinger01_Jnt
+    100172: L_MiddleFinger02_Jnt
+    100174: L_MiddleFinger_Jnt
+    100176: L_Pinky
+    100178: L_Pinky 1
+    100180: L_Pinky 2
+    100182: L_Pinky01_Jnt
+    100184: L_Pinky02_Jnt
+    100186: L_Pinky_Jnt
+    100188: L_Pinkytip
+    100190: L_Pinkytip 1
+    100192: L_RingFinger01_Jnt
+    100194: L_RingFinger02_Jnt
+    100196: L_RingFinger_Jnt
+    100198: L_Shoulder
+    100200: L_Shoulder_Jnt
+    100202: L_Thumb
+    100204: L_Thumb 1
+    100206: L_Thumb 2
+    100208: L_Thumb 3
+    100210: L_Thumb 4
+    100212: L_Thumb01_Jnt
+    100214: L_Thumb02_Jnt
+    100216: L_Thumb_Jnt
+    100218: L_Wrist_Jnt
+    100220: R__Arm
+    100222: R_Arm
+    100224: R_Elbow_Jnt
+    100226: R_Finger
+    100228: R_Finger1
+    100230: R_Forearm
+    100232: R_Hand
+    100234: R_Index
+    100236: R_Pinky
+    100238: R_shoulder
+    100240: R_Shoulder_Jnt
+    100242: R_Thumb
+    100244: R_Wrist_Jnt
+    100246: rstPersonJim_Geo_Grp
+    100248: rstPersonJim_Jnt
+    100250: Spine_Jnt_Grp
+    400000: Back01_Jnt
+    400002: Game_axe:fangs
+    400004: Game_axe:Head_1
+    400006: Game_axe:Head_2
+    400008: Game_axe:Head_3
+    400010: Game_axe:Head_4
+    400012: Game_axe:Hilt
+    400014: Game_axe:Hilt_1
+    400016: Game_axe:Hilt_4
+    400018: Game_axe:Hilt_5
+    400020: Game_axe:Hilt_6
+    400022: Game_axe:Jim_s_Axe
+    400024: Game_axe:Leather_wrap
+    400026: Game_axe:Leather_wrap_1
+    400028: Game_axe:leather_wrap_10
+    400030: Game_axe:Leather_wrap_2
+    400032: Game_axe:Leather_wrap_3
+    400034: Game_axe:Leather_wrap_4
+    400036: Game_axe:Leather_wrap_5
+    400038: Game_axe:Leather_wrap_6
+    400040: Game_axe:Leather_wrap_7
+    400042: Game_axe:Leather_wrap_8
+    400044: Game_axe:Leather_wrap_9
+    400046: Game_axe:polySurface34
+    400048: Game_axe:polySurface35
+    400050: Game_axe:polySurface36
+    400052: Game_axe:polySurface37
+    400054: Game_axe:polySurface38
+    400056: Game_axe:polySurface39
+    400058: Game_axe:polySurface40
+    400060: Game_axe:Rivot_14
+    400062: Game_axe:Rivot_15
+    400064: Game_axe:Rivot_19
+    400066: Game_axe:Rivot_20
+    400068: Game_axe:Rivot_21
+    400070: Game_axe:Rivot_3
+    400072: Game_axe:Spike
+    400074: Game_axe:Spike_1
+    400076: Game_axe:Spike_2
+    400078: Game_axe:Wolf_Head
+    400080: Head_Jnt
+    400082: Jim_sAX_Geo
+    400084: JimArms_Rough__Corbin_:Armor
+    400086: JimArms_Rough__Corbin_:Armor__Piece_3
+    400088: JimArms_Rough__Corbin_:Armor_Piece_1
+    400090: JimArms_Rough__Corbin_:Armor_Piece_2
+    400092: JimArms_Rough__Corbin_:Armor_Piece_4
+    400094: JimArms_Rough__Corbin_:Armor_Piece_5
+    400096: JimArms_Rough__Corbin_:Arms
+    400098: JimArms_Rough__Corbin_:Fur
+    400100: JimArms_Rough__Corbin_:Geometry
+    400102: JimArms_Rough__Corbin_:Jim_s_Arm
+    400104: JimArms_Rough__Corbin_:pTorus10
+    400106: JimArms_Rough__Corbin_:pTorus11
+    400108: JimArms_Rough__Corbin_:pTorus2
+    400110: JimArms_Rough__Corbin_:pTorus3
+    400112: JimArms_Rough__Corbin_:pTorus4
+    400114: JimArms_Rough__Corbin_:pTorus5
+    400116: JimArms_Rough__Corbin_:pTorus6
+    400118: JimArms_Rough__Corbin_:pTorus7
+    400120: JimArms_Rough__Corbin_:pTorus8
+    400122: JimArms_Rough__Corbin_:pTorus9
+    400124: //RootNode
+    400126: L_Arm
+    400128: L_Elbow_Jnt
+    400130: L_Finger
+    400132: L_Finger 1
+    400134: L_Finger 2
+    400136: L_Finger_1
+    400138: L_finger_1
+    400140: L_finger_1 1
+    400142: L_Finger__tip_1
+    400144: L_Finger__tip_1 1
+    400146: L_Finger_Tip
+    400148: L_Finger_Tip 1
+    400150: L_forearm
+    400152: L_Hand
+    400154: L_Index
+    400156: L_index
+    400158: L_Index 1
+    400160: L_IndexFinger01_Jnt
+    400162: L_IndexFinger02_Jnt
+    400164: L_IndexFinger_Jnt
+    400166: L_indexTip
+    400168: L_indexTip 1
+    400170: L_MiddleFinger01_Jnt
+    400172: L_MiddleFinger02_Jnt
+    400174: L_MiddleFinger_Jnt
+    400176: L_Pinky
+    400178: L_Pinky 1
+    400180: L_Pinky 2
+    400182: L_Pinky01_Jnt
+    400184: L_Pinky02_Jnt
+    400186: L_Pinky_Jnt
+    400188: L_Pinkytip
+    400190: L_Pinkytip 1
+    400192: L_RingFinger01_Jnt
+    400194: L_RingFinger02_Jnt
+    400196: L_RingFinger_Jnt
+    400198: L_Shoulder
+    400200: L_Shoulder_Jnt
+    400202: L_Thumb
+    400204: L_Thumb 1
+    400206: L_Thumb 2
+    400208: L_Thumb 3
+    400210: L_Thumb 4
+    400212: L_Thumb01_Jnt
+    400214: L_Thumb02_Jnt
+    400216: L_Thumb_Jnt
+    400218: L_Wrist_Jnt
+    400220: R__Arm
+    400222: R_Arm
+    400224: R_Elbow_Jnt
+    400226: R_Finger
+    400228: R_Finger1
+    400230: R_Forearm
+    400232: R_Hand
+    400234: R_Index
+    400236: R_Pinky
+    400238: R_shoulder
+    400240: R_Shoulder_Jnt
+    400242: R_Thumb
+    400244: R_Wrist_Jnt
+    400246: rstPersonJim_Geo_Grp
+    400248: rstPersonJim_Jnt
+    400250: Spine_Jnt_Grp
+    2300000: Game_axe:Head_1
+    2300002: Game_axe:Head_2
+    2300004: Game_axe:Head_3
+    2300006: Game_axe:Head_4
+    2300008: Game_axe:Hilt
+    2300010: Game_axe:Hilt_1
+    2300012: Game_axe:Hilt_4
+    2300014: Game_axe:Hilt_5
+    2300016: Game_axe:Hilt_6
+    2300018: Game_axe:Leather_wrap
+    2300020: Game_axe:Leather_wrap_1
+    2300022: Game_axe:leather_wrap_10
+    2300024: Game_axe:Leather_wrap_2
+    2300026: Game_axe:Leather_wrap_3
+    2300028: Game_axe:Leather_wrap_4
+    2300030: Game_axe:Leather_wrap_5
+    2300032: Game_axe:Leather_wrap_6
+    2300034: Game_axe:Leather_wrap_7
+    2300036: Game_axe:Leather_wrap_8
+    2300038: Game_axe:Leather_wrap_9
+    2300040: Game_axe:polySurface34
+    2300042: Game_axe:polySurface35
+    2300044: Game_axe:polySurface36
+    2300046: Game_axe:polySurface37
+    2300048: Game_axe:polySurface38
+    2300050: Game_axe:polySurface39
+    2300052: Game_axe:polySurface40
+    2300054: Game_axe:Rivot_14
+    2300056: Game_axe:Rivot_15
+    2300058: Game_axe:Rivot_19
+    2300060: Game_axe:Rivot_20
+    2300062: Game_axe:Rivot_21
+    2300064: Game_axe:Rivot_3
+    2300066: Game_axe:Spike
+    2300068: Game_axe:Spike_1
+    2300070: Game_axe:Spike_2
+    2300072: Game_axe:Wolf_Head
+    2300074: JimArms_Rough__Corbin_:Armor__Piece_3
+    2300076: JimArms_Rough__Corbin_:Armor_Piece_1
+    2300078: JimArms_Rough__Corbin_:Armor_Piece_2
+    2300080: JimArms_Rough__Corbin_:Armor_Piece_4
+    2300082: JimArms_Rough__Corbin_:Armor_Piece_5
+    2300084: JimArms_Rough__Corbin_:Fur
+    2300086: JimArms_Rough__Corbin_:pTorus10
+    2300088: JimArms_Rough__Corbin_:pTorus11
+    2300090: JimArms_Rough__Corbin_:pTorus2
+    2300092: JimArms_Rough__Corbin_:pTorus3
+    2300094: JimArms_Rough__Corbin_:pTorus4
+    2300096: JimArms_Rough__Corbin_:pTorus5
+    2300098: JimArms_Rough__Corbin_:pTorus6
+    2300100: JimArms_Rough__Corbin_:pTorus7
+    2300102: JimArms_Rough__Corbin_:pTorus8
+    2300104: JimArms_Rough__Corbin_:pTorus9
+    2300106: L_Arm
+    2300108: L_Finger
+    2300110: L_Finger 1
+    2300112: L_Finger 2
+    2300114: L_Finger_1
+    2300116: L_finger_1
+    2300118: L_finger_1 1
+    2300120: L_Finger__tip_1
+    2300122: L_Finger__tip_1 1
+    2300124: L_Finger_Tip
+    2300126: L_Finger_Tip 1
+    2300128: L_forearm
+    2300130: L_Hand
+    2300132: L_Index
+    2300134: L_index
+    2300136: L_Index 1
+    2300138: L_indexTip
+    2300140: L_indexTip 1
+    2300142: L_Pinky
+    2300144: L_Pinky 1
+    2300146: L_Pinky 2
+    2300148: L_Pinkytip
+    2300150: L_Pinkytip 1
+    2300152: L_Shoulder
+    2300154: L_Thumb
+    2300156: L_Thumb 1
+    2300158: L_Thumb 2
+    2300160: L_Thumb 3
+    2300162: L_Thumb 4
+    2300164: R__Arm
+    2300166: R_Arm
+    2300168: R_Finger
+    2300170: R_Finger1
+    2300172: R_Forearm
+    2300174: R_Hand
+    2300176: R_Index
+    2300178: R_Pinky
+    2300180: R_shoulder
+    2300182: R_Thumb
+    3300000: Game_axe:Head_1
+    3300002: Game_axe:Head_2
+    3300004: Game_axe:Head_3
+    3300006: Game_axe:Head_4
+    3300008: Game_axe:Hilt
+    3300010: Game_axe:Hilt_1
+    3300012: Game_axe:Hilt_4
+    3300014: Game_axe:Hilt_5
+    3300016: Game_axe:Hilt_6
+    3300018: Game_axe:Leather_wrap
+    3300020: Game_axe:Leather_wrap_1
+    3300022: Game_axe:leather_wrap_10
+    3300024: Game_axe:Leather_wrap_2
+    3300026: Game_axe:Leather_wrap_3
+    3300028: Game_axe:Leather_wrap_4
+    3300030: Game_axe:Leather_wrap_5
+    3300032: Game_axe:Leather_wrap_6
+    3300034: Game_axe:Leather_wrap_7
+    3300036: Game_axe:Leather_wrap_8
+    3300038: Game_axe:Leather_wrap_9
+    3300040: Game_axe:polySurface34
+    3300042: Game_axe:polySurface35
+    3300044: Game_axe:polySurface36
+    3300046: Game_axe:polySurface37
+    3300048: Game_axe:polySurface38
+    3300050: Game_axe:polySurface39
+    3300052: Game_axe:polySurface40
+    3300054: Game_axe:Rivot_14
+    3300056: Game_axe:Rivot_15
+    3300058: Game_axe:Rivot_19
+    3300060: Game_axe:Rivot_20
+    3300062: Game_axe:Rivot_21
+    3300064: Game_axe:Rivot_3
+    3300066: Game_axe:Spike
+    3300068: Game_axe:Spike_1
+    3300070: Game_axe:Spike_2
+    3300072: Game_axe:Wolf_Head
+    3300074: JimArms_Rough__Corbin_:Armor__Piece_3
+    3300076: JimArms_Rough__Corbin_:Armor_Piece_1
+    3300078: JimArms_Rough__Corbin_:Armor_Piece_2
+    3300080: JimArms_Rough__Corbin_:Armor_Piece_4
+    3300082: JimArms_Rough__Corbin_:Armor_Piece_5
+    3300084: JimArms_Rough__Corbin_:Fur
+    3300086: JimArms_Rough__Corbin_:pTorus10
+    3300088: JimArms_Rough__Corbin_:pTorus11
+    3300090: JimArms_Rough__Corbin_:pTorus2
+    3300092: JimArms_Rough__Corbin_:pTorus3
+    3300094: JimArms_Rough__Corbin_:pTorus4
+    3300096: JimArms_Rough__Corbin_:pTorus5
+    3300098: JimArms_Rough__Corbin_:pTorus6
+    3300100: JimArms_Rough__Corbin_:pTorus7
+    3300102: JimArms_Rough__Corbin_:pTorus8
+    3300104: JimArms_Rough__Corbin_:pTorus9
+    3300106: L_Arm
+    3300108: L_Finger
+    3300110: L_Finger 1
+    3300112: L_Finger 2
+    3300114: L_Finger_1
+    3300116: L_finger_1
+    3300118: L_finger_1 1
+    3300120: L_Finger__tip_1
+    3300122: L_Finger__tip_1 1
+    3300124: L_Finger_Tip
+    3300126: L_Finger_Tip 1
+    3300128: L_forearm
+    3300130: L_Hand
+    3300132: L_Index
+    3300134: L_index
+    3300136: L_Index 1
+    3300138: L_indexTip
+    3300140: L_indexTip 1
+    3300142: L_Pinky
+    3300144: L_Pinky 1
+    3300146: L_Pinky 2
+    3300148: L_Pinkytip
+    3300150: L_Pinkytip 1
+    3300152: L_Shoulder
+    3300154: L_Thumb
+    3300156: L_Thumb 1
+    3300158: L_Thumb 2
+    3300160: L_Thumb 3
+    3300162: L_Thumb 4
+    3300164: R__Arm
+    3300166: R_Arm
+    3300168: R_Finger
+    3300170: R_Finger1
+    3300172: R_Forearm
+    3300174: R_Hand
+    3300176: R_Index
+    3300178: R_Pinky
+    3300180: R_shoulder
+    3300182: R_Thumb
+    4300000: JimArms_Rough__Corbin_:Armor_Piece_1
+    4300002: JimArms_Rough__Corbin_:pTorus2
+    4300004: JimArms_Rough__Corbin_:pTorus3
+    4300006: JimArms_Rough__Corbin_:Armor_Piece_2
+    4300008: JimArms_Rough__Corbin_:pTorus5
+    4300010: JimArms_Rough__Corbin_:pTorus4
+    4300012: JimArms_Rough__Corbin_:Armor__Piece_3
+    4300014: JimArms_Rough__Corbin_:pTorus7
+    4300016: JimArms_Rough__Corbin_:pTorus6
+    4300018: JimArms_Rough__Corbin_:Armor_Piece_4
+    4300020: JimArms_Rough__Corbin_:pTorus8
+    4300022: JimArms_Rough__Corbin_:pTorus9
+    4300024: JimArms_Rough__Corbin_:Armor_Piece_5
+    4300026: JimArms_Rough__Corbin_:pTorus11
+    4300028: JimArms_Rough__Corbin_:pTorus10
+    4300030: JimArms_Rough__Corbin_:Fur
+    4300032: R_Arm
+    4300034: L_Shoulder
+    4300036: L_Arm
+    4300038: L_forearm
+    4300040: L_Hand
+    4300042: L_Pinky
+    4300044: L_Pinky
+    4300046: L_Pinkytip
+    4300048: L_Thumb
+    4300050: L_Thumb
+    4300052: L_Thumb
+    4300054: L_Finger
+    4300056: L_Finger
+    4300058: L_Finger_Tip
+    4300060: L_index
+    4300062: L_Index
+    4300064: L_indexTip
+    4300066: L_Finger_1
+    4300068: L_finger_1
+    4300070: L_Finger__tip_1
+    4300072: R_shoulder
+    4300074: R__Arm
+    4300076: R_Forearm
+    4300078: R_Hand
+    4300080: R_Pinky
+    4300082: L_Pinky
+    4300084: L_Pinkytip
+    4300086: R_Thumb
+    4300088: L_Thumb
+    4300090: L_Thumb
+    4300092: R_Finger
+    4300094: L_Finger
+    4300096: L_Finger_Tip
+    4300098: R_Index
+    4300100: L_Index
+    4300102: L_indexTip
+    4300104: R_Finger1
+    4300106: L_finger_1
+    4300108: L_Finger__tip_1
+    4300110: Game_axe:Wolf_Head
+    4300112: Game_axe:polySurface34
+    4300114: Game_axe:polySurface35
+    4300116: Game_axe:polySurface36
+    4300118: Game_axe:polySurface37
+    4300120: Game_axe:polySurface38
+    4300122: Game_axe:polySurface39
+    4300124: Game_axe:polySurface40
+    4300126: Game_axe:Leather_wrap
+    4300128: Game_axe:Leather_wrap_3
+    4300130: Game_axe:Leather_wrap_2
+    4300132: Game_axe:Leather_wrap_1
+    4300134: Game_axe:Leather_wrap_4
+    4300136: Game_axe:Leather_wrap_6
+    4300138: Game_axe:Leather_wrap_5
+    4300140: Game_axe:Leather_wrap_7
+    4300142: Game_axe:leather_wrap_10
+    4300144: Game_axe:Leather_wrap_9
+    4300146: Game_axe:Leather_wrap_8
+    4300148: Game_axe:Hilt
+    4300150: Game_axe:Hilt_4
+    4300152: Game_axe:Hilt_5
+    4300154: Game_axe:Hilt_6
+    4300156: Game_axe:Hilt_1
+    4300158: Game_axe:Spike_2
+    4300160: Game_axe:Spike_1
+    4300162: Game_axe:Spike
+    4300164: Game_axe:Head_3
+    4300166: Game_axe:Head_4
+    4300168: Game_axe:Head_2
+    4300170: Game_axe:Head_1
+    4300172: Game_axe:Rivot_15
+    4300174: Game_axe:Rivot_14
+    4300176: Game_axe:Rivot_21
+    4300178: Game_axe:Rivot_20
+    4300180: Game_axe:Rivot_3
+    4300182: Game_axe:Rivot_19
+    7400000: im2_Jim2_Idle
+    7400002: im2_Jim2_Jump
+    7400004: im2_Jim2_Falling
+    7400006: im2_Jim2_Landing
+    7400008: im2_Jim2_Walking
+    7400010: im2_Jim2_Attack1FrontSwing
+    7400012: im2_Jim2_Attack1BackSwing
+    7400014: im2_Jim2_Holster
+    7400016: im2_Jim2_Attack2Charge
+    7400018: im2_Jim2_Attack2Slam
+    7400020: im2_Jim2_Recovery1
+    7400022: im2_Jim2_Recovery2
+    7400024: Take 001 (12)
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: im2_Jim2_Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Jump
+      takeName: Take 001
+      firstFrame: 1023
+      lastFrame: 1046
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Falling
+      takeName: Take 001
+      firstFrame: 1420
+      lastFrame: 1435
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: im2_Jim2_Landing
+      takeName: Take 001
+      firstFrame: 1046
+      lastFrame: 1074
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Walking
+      takeName: Take 001
+      firstFrame: 1082
+      lastFrame: 1110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Attack1FrontSwing
+      takeName: Take 001
+      firstFrame: 1144
+      lastFrame: 1155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Attack1BackSwing
+      takeName: Take 001
+      firstFrame: 1155
+      lastFrame: 1166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Holster
+      takeName: Take 001
+      firstFrame: 1173
+      lastFrame: 1185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Attack2Charge
+      takeName: Take 001
+      firstFrame: 1250
+      lastFrame: 1337
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Attack2Slam
+      takeName: Take 001
+      firstFrame: 1337
+      lastFrame: 1350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: im2_Jim2_Recovery1
+      takeName: Take 001
+      firstFrame: 1492
+      lastFrame: 1524
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: im2_Jim2_Recovery2
+      takeName: Take 001
+      firstFrame: 1539
+      lastFrame: 1550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
