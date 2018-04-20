@@ -16,6 +16,7 @@ public class Damager : MonoBehaviour {
 		
 		//ElementManager elementManager = GetComponent<ElementManager>();
 		Health objHealth = other.GetComponent<Health> ();						//gets the health script from the collider data, it pulls it either way so might as well use the data
+		//print(objHealth);
 
 		if (objHealth != null)
 		{

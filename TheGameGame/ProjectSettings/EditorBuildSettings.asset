@@ -9,20 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/UI_Master_Scene.unity
     guid: 161a3e36477d7cf47bbebe3e97bd243c
   - enabled: 1
-    path: Assets/Scenes/Chrystel_Level.unity
-    guid: adb04aebf777a42a4908e1dd4b885fa4
-  - enabled: 1
-    path: Assets/Scenes/Level_Hite_2.unity
-    guid: d2773c8cf31e13341b697e0b01ababa7
-  - enabled: 1
-    path: Assets/Scenes/LSNewVolcanoLevel.unity
-    guid: 0dd50523729f8ff4291fe94aa129985f
-  - enabled: 1
-    path: Assets/Scenes/JakeTestLevel.unity
-    guid: 73805b7608b53d14aa12163e8efefbe8
-  - enabled: 1
-    path: Assets/Scenes/CandiceLevel_Config_1.unity
-    guid: c2252bd1fe9162148bee17023da68100
-  - enabled: 1
-    path: Assets/Scenes/CandiceLevel_Config_2.unity
-    guid: 9a7c8aa930ab443668c789850524258e
+    path: Assets/Scenes/JFConcept_Alexa.unity
+    guid: 4b0f37521c73f2046b3b948d973a59af
