@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 114867410458729920}
   - component: {fileID: 114709038904963412}
   - component: {fileID: 114211983582589016}
-  - component: {fileID: 114110617718923210}
   m_Layer: 12
   m_Name: Test Enemy (S)
   m_TagString: Untagged
@@ -135,19 +134,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114110617718923210
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1868071661920794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62316e4356dd340e3b530710ef9736c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  baseDamage: 1
-  baseKnockBack: 0
 --- !u!114 &114180451699166306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -221,6 +207,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseDamage: 1
   baseKnockBack: 1
+  hitboxType: 0
+  directionalObject: {fileID: 0}
 --- !u!114 &114709038904963412
 MonoBehaviour:
   m_ObjectHideFlags: 1

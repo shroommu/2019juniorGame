@@ -21,13 +21,10 @@ public class DisplayDamage : MonoBehaviour {
 
 	private GameObject player;
 
-	void Awake()
-	{
-		player = canvasManager.GetComponent<CanvasManager>().player;
-	}
-
 	public void StartGame()
 	{
+		player = canvasManager.GetComponent<CanvasManager>().player;
+
 		damage100img = damage100meter.GetComponent<Image>();
 		damage200img = damage200meter.GetComponent<Image>();
 		damage300img = damage300meter.GetComponent<Image>();

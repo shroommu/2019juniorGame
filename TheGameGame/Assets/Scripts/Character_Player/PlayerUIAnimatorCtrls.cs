@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class PlayerUIAnimatorCtrls : MonoBehaviour {
 
-	private Animator animator;
+	public Animator animatorUI;
 
 	public void StartGame()
 	{
-		animator = GetComponent<Animator>();
+		animatorUI = GetComponent<Animator>();
 	}
 
 	public void PickUpElement()
 	{
-		animator.SetTrigger("pickupElement");
+		animatorUI.SetTrigger("pickupElement");
 	}
 
 	public void SwapElement()
 	{
-		animator.SetTrigger("swapElement");
+		animatorUI.SetTrigger("swapElement");
 	}
 
 	public void UseElement()
 	{
-		animator.SetTrigger("useElement");
+		animatorUI.SetTrigger("useElement");
 	}
 
 }

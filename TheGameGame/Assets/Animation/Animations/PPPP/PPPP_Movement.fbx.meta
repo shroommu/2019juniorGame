@@ -3,7 +3,7 @@ guid: a10a305e3d701f748a5bcc4cf24abffb
 timeCreated: 1519940254
 licenseType: Pro
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Abdomen
     100002: Chest
@@ -221,7 +221,7 @@ ModelImporter:
     4300062: Hip
     4300064: Chest
     4300066: CrossBow
-    7400000: PPPPMovement
+    7400000: im_PPPPMovement
     9500000: //RootNode
     13700000: LeftBackArm
     13700002: LeftElbow
@@ -240,10 +240,17 @@ ModelImporter:
     13700028: RightShoulder
     13700030: RightWrist
     13700032: Sword
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 18fb96bf63a1ebc419f46a26292044ea, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -256,6 +263,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -265,7 +273,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: PPPPMovement
+      name: im_PPPPMovement
       takeName: Take 001
       firstFrame: 1
       lastFrame: 24
@@ -336,7 +344,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ea526cc93b9cd8f4b8fc378612efe7f2,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6f880b6481a3d48c89abf3c40cb69940,
     type: 3}
   animationType: 2
   humanoidOversampling: 1

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerAttack : MonoBehaviour {
 
@@ -8,6 +9,10 @@ public class PlayerAttack : MonoBehaviour {
 	public Rigidbody playerRb;
 	public bool canAttack = true;
 	public float launchForce = 10;
+
+	public UnityEvent hammerDownAttack;
+	public UnityEvent attackTrailVFX;
+
 
 	// Use this for initialization
 	void Start () {
@@ -25,14 +30,16 @@ public class PlayerAttack : MonoBehaviour {
 		if(Input.GetButtonDown("Fire1"))
 		{
 			Attack1();
+			attackTrailVFX.Invoke ();
 		}
 		if(Input.GetButtonUp("Fire1"))
 		{
 		//	Attack1Cancel();
 		}
-		if(Input.GetButtonDown("Fire2"))
+		if(Input.GetButtonUp("Fire2"))
 		{
 			Attack2();
+			hammerDownAttack.Invoke ();
 		}
 		if(Input.GetButtonDown("Ability03"))
 		{

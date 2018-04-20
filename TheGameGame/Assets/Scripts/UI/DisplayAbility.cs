@@ -14,13 +14,10 @@ public class DisplayAbility : MonoBehaviour {
 
 	private GameObject player;
 
-	void Awake()
-	{
-		player = canvasManager.GetComponent<CanvasManager>().player;
-	}
-
 	public void StartGame()
 	{
+		player = canvasManager.GetComponent<CanvasManager>().player;
+
 		playerAnim = player.GetComponent<Animator>();
 	}
 
@@ -42,5 +39,4 @@ public class DisplayAbility : MonoBehaviour {
 			yield return null;
 		}
 	}
-
 }

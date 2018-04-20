@@ -13,14 +13,10 @@ public class DisplayPentagram : MonoBehaviour {
 
 	private GameObject player;
 
-	void Awake()
-	{
-		player = canvasManager.GetComponent<CanvasManager>().player;
-	}
-
-
 	public void StartGame ()
 	{
+		player = canvasManager.GetComponent<CanvasManager>().player;
+
 		elementManager = player.GetComponent<ElementManager>();
 	}
 	
