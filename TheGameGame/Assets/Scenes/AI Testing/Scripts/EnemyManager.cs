@@ -25,5 +25,15 @@ namespace Complete
 				renderers[i].material.color = m_PlayerColor;
 			}
 		}
+
+
+		public void SetupPlayerEnemy ()
+        {
+            MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer> ();
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                renderers[i].material.color = m_PlayerColor;
+            }
+        }
     }
 }
