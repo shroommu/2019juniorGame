@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName = "PluggableAI/AIAction/BPatrol")]
-public class PatrolAction : ABS_AIAction
+[CreateAssetMenu (menuName = "PluggableAI/AIAction/SMPatrol")]
+public class SmallMediumPatrolAction : ABS_AIAction
 {
     public override void Act(StateController controller)
     {
@@ -17,7 +17,7 @@ public class PatrolAction : ABS_AIAction
 
         if (controller.navMeshAgent.remainingDistance <= controller.navMeshAgent.stoppingDistance && !controller.navMeshAgent.pathPending) 
         {
-            controller.nextWayPoint = (controller.nextWayPoint + 1) % controller.wayPointList.Count;
+            controller.nextWayPoint = Random.Range(0, controller.wayPointList.Count);
             Debug.Log("Waypoint reached");
         }
     }

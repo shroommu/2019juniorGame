@@ -3422,19 +3422,18 @@ Transform:
 --- !u!114 &1862301325
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114078769623781078, guid: 9e9f578fc10c9094a976429e47f83be0,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1862301323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f58ce99c63d18740a97eb489c37a298, type: 3}
+  m_Script: {fileID: 11500000, guid: 80763073577079f4ab085f7ed78ae390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   attackAnimator: {fileID: 333781482}
   playerRb: {fileID: 319103215}
   canAttack: 1
-  launchForce: 15
+  launchForce: 30
 --- !u!114 &1862301326
 MonoBehaviour:
   m_ObjectHideFlags: 0

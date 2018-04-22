@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName = "PluggableAI/Decisions/ActiveState")]
+[CreateAssetMenu (menuName = "PluggableAI/Decisions/ActiveStateDecision")]
 public class ActiveStateDecision : ABS_Decision 
 {
     public override bool Decide (StateController controller)
