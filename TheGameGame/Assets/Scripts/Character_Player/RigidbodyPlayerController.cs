@@ -20,6 +20,9 @@ public class RigidbodyPlayerController : MonoBehaviour {
 	public float jumpPower = 15f;
 	public float fallSpeedModifier = 5f;	//amount of force added to players when falling downward
 	public float fallSpeedModifierOffset = 5f;	//amount of offset before fallSpeedModifier is applied
+
+	[Range(0f, 0.2f)]
+	public float groundedHeight = 0.1f;
 	public Vector3 moveVector;		//the vector the player is moving in
 
 	public Vector3 rbVelocity;		//velocity of rigidbody to display in inspector
@@ -85,14 +88,20 @@ public class RigidbodyPlayerController : MonoBehaviour {
 	public bool RBGrounded() //returns a bool of if the player is grounded or not
 	{
 		RaycastHit hit;
-		if(Physics.SphereCast(transform.position, capCollider.radius, Vector3.down, out hit, 1 - (capCollider.radius/capCollider.height + .1f)))
+		if(Physics.SphereCast(transform.position, capCollider.radius, Vector3.down, out hit, 1 - (capCollider.radius/capCollider.height + groundedHeight)))
 		{
 			if(Vector3.Angle(hit.normal, Vector3.up) < slopeAngle)
 			{
+				PlayerGroundStick(hit.point);
 				return true;
 			}
 		}
 		return false;
+	}
+
+	public void PlayerGroundStick(Vector3 _position) //sticks the player to the ground when going down slopes
+	{
+		transform.position = new Vector3(transform.position.x, _position.y + 1, transform.position.z);
 	}
 
 	void Inputs()	//deternine the moveVector and mouse controls
