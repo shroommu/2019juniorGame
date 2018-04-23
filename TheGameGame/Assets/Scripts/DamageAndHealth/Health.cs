@@ -5,6 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour {
 
 	public int currentDamage;
+	public int maxDamage = 100;
 
 	public ElementManager elementManager;
 	private SO_Elemental.elementType elementType;
@@ -97,6 +98,10 @@ public class Health : MonoBehaviour {
 	{
 
 		currentDamage += _dam;
+		if (currentDamage > maxDamage && usesNav)
+		{
+			KillEnemy();
+		}
 
         //print(currentDamage);
 		_dir = Vector3.Normalize(_dir);
@@ -122,6 +127,13 @@ public class Health : MonoBehaviour {
 			_playerUIAnim.SetTrigger("injured");
 		}
 	}
+
+	public void KillEnemy()
+	{
+		GetComponent<AddScore>().Add();
+		Destroy(gameObject);
+	}
+	
 
 	Vector3 calculateForce(Vector3 _forceVec, float num, float num2){						//simple way to multiply vector3s by floats or ints (i do it a few times)
 		// _forceVec.x *= num2 * num;

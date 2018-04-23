@@ -37824,10 +37824,8 @@ MonoBehaviour:
   characterCam: {fileID: 821889849}
   slopeAngle: 45
   moveSpeed: 10
-  accelRate: 2
   decelRate: 1
   minSpeed: 1
-  slideFactor: 1
   jumpPower: 5
   fallSpeedModifier: 5
   fallSpeedModifierOffset: 5
@@ -37884,6 +37882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDamage: 0
+  maxDamage: 0
   elementManager: {fileID: 0}
 --- !u!136 &465456477
 CapsuleCollider:
@@ -80449,6 +80448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameStateManager: {fileID: 1634045309}
   scoreText: {fileID: 1006899177}
+  currentScore: 0
 --- !u!114 &2060910687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80549,7 +80549,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2060910686}
-        m_MethodName: Display
+        m_MethodName: AddScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
