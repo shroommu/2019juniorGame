@@ -2241,7 +2241,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1272074618842068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.146, z: 0}
+  m_LocalPosition: {x: 235, y: 68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4414953886631432}
@@ -5692,13 +5692,12 @@ MonoBehaviour:
   characterCam: {fileID: 20646312951880500}
   slopeAngle: 45
   moveSpeed: 10
-  accelRate: 2
   decelRate: 1
   minSpeed: 1
-  slideFactor: 1
   jumpPower: 5
   fallSpeedModifier: 5
   fallSpeedModifierOffset: 5
+  groundedHeight: 0
   moveVector: {x: 0, y: 0, z: 0}
   rbVelocity: {x: 0, y: 0, z: 0}
   mouseRotY: 0
@@ -5809,6 +5808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDamage: 0
+  maxDamage: 0
   elementManager: {fileID: 0}
 --- !u!114 &114475915622181070
 MonoBehaviour:
@@ -5843,11 +5843,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1218104979526778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f58ce99c63d18740a97eb489c37a298, type: 3}
+  m_Script: {fileID: 11500000, guid: 72689accb19862d40b908f855bb235ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   attackAnimator: {fileID: 95440748790076440}
-  playerRb: {fileID: 0}
+  playerRb: {fileID: 54595694287115658}
   canAttack: 1
   launchForce: 15
   hammerDownAttack:
