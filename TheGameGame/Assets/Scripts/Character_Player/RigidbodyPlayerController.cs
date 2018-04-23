@@ -12,17 +12,22 @@ public class RigidbodyPlayerController : MonoBehaviour {
 
 	public float slopeAngle = 45f;	//make slope character is able to walk at
 	public float moveSpeed = 10f;	//speed the character walks at
-	public float accelRate = 2f;		//speed the character accelerates
+	//public float accelRate = 2f;		//speed the character accelerates
 	public float decelRate = 1f;		//amount the character decelerates
 	public float minSpeed = 1f;	//how slow the player has to be moving to stop sliding for deceleration
-	public float slideFactor = 1;	//how fast character moves so they slide instead of have controll of character, currently
+	//public float slideFactor = 1;	//how fast character moves so they slide instead of have controll of character, currently
 									//currently using movespeed for this
 	public float jumpPower = 15f;
 	public float fallSpeedModifier = 5f;	//amount of force added to players when falling downward
 	public float fallSpeedModifierOffset = 5f;	//amount of offset before fallSpeedModifier is applied
-	public Vector3 moveVector;		//the vector the player is moving in
 
+	[Range(0f, 0.2f)]
+	public float groundedHeight = 0.1f;
+	
+	public Vector3 moveVector;		//the vector the player is moving in
 	public Vector3 rbVelocity;		//velocity of rigidbody to display in inspector
+
+	private bool isJumping = false;
 
 	public float mouseRotY;
 	public float mouseRotX;
@@ -73,26 +78,38 @@ public class RigidbodyPlayerController : MonoBehaviour {
 		if(rb.velocity.y <= 0 + fallSpeedModifierOffset)
 		{
 			rb.AddForce(Vector3.down * fallSpeedModifier);
+			isJumping = false;
 		}
 	}
 
 	public void Jump()
 	{
+		isJumping = true;
 		rb.velocity = new Vector3(rb.velocity.x, jumpPower, rb.velocity.z);
 		rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
 	}
 
 	public bool RBGrounded() //returns a bool of if the player is grounded or not
 	{
-		RaycastHit hit;
-		if(Physics.SphereCast(transform.position, capCollider.radius, Vector3.down, out hit, 1 - (capCollider.radius/capCollider.height + .1f)))
+		if (!isJumping)
 		{
-			if(Vector3.Angle(hit.normal, Vector3.up) < slopeAngle)
+			RaycastHit hit;
+			if(Physics.SphereCast(transform.position, capCollider.radius, Vector3.down, out hit, 1 - (capCollider.radius/capCollider.height + groundedHeight)))
 			{
-				return true;
+				if(Vector3.Angle(hit.normal, Vector3.up) < slopeAngle)
+				{
+					PlayerGroundStick(hit.point);
+					return true;
+				}
 			}
 		}
+		
 		return false;
+	}
+
+	public void PlayerGroundStick(Vector3 _position) //sticks the player to the ground when going down slopes
+	{
+		transform.position = new Vector3(transform.position.x, _position.y + 1, transform.position.z);
 	}
 
 	void Inputs()	//deternine the moveVector and mouse controls
