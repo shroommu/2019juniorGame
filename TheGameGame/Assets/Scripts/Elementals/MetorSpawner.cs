@@ -17,7 +17,7 @@ public class MetorSpawner : MonoBehaviour {
 	public float spawnTime;
 	
 	[Tooltip("The angle the meteor is shot at")]
-	public float shotAngle;
+	public float shotAngle = 80f;
 
 	public GameObject hitMarker;
 
