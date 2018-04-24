@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114897569797866062}
   - component: {fileID: 114635042706142102}
   - component: {fileID: 114560313595191440}
+  - component: {fileID: 114873101362805222}
   m_Layer: 12
   m_Name: Test AI Enemy (L)
   m_TagString: Untagged
@@ -182,7 +183,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f87a764c8665b7c478f9942c3fc1086b, type: 2}
+  - {fileID: 2100000, guid: 431b3240dfa95e740bb4d5dc6c95ce6e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -319,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1908bad9076f90408463d9f2c3a8ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so_Enemy: {fileID: 11400000, guid: 8e783b2de3321ce489a8ce90cf3bdf29, type: 2}
+  so_Enemy: {fileID: 11400000, guid: 780edb083461967459fc64d8a8dc3068, type: 2}
 --- !u!114 &114843508127020778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -332,7 +333,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDamage: 0
+  maxDamage: 100
   elementManager: {fileID: 0}
+--- !u!114 &114873101362805222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009004216892258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7aa4c9189015b4439cddafec324c072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addScoreEvent: {fileID: 11400000, guid: 85946d1496e8ca549b7fb32a5e5aa5d6, type: 2}
+  score: 100
 --- !u!114 &114897569797866062
 MonoBehaviour:
   m_ObjectHideFlags: 1

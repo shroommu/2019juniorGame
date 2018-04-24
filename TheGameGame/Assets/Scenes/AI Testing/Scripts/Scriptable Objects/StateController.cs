@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using Complete;
+//using Complete;
 
 public class StateController : MonoBehaviour {
 
@@ -15,38 +15,23 @@ public class StateController : MonoBehaviour {
 
 
     [HideInInspector] public NavMeshAgent navMeshAgent;
-//    [HideInInspector] public Complete.EnemyShooting EnemyShooting;
-    [HideInInspector] public List<Transform> wayPointList;
+    public List<Transform> wayPointList;
     [HideInInspector] public int nextWayPoint;
     [HideInInspector] public Transform chaseTarget;
     [HideInInspector] public float stateTimeElapsed;
 
-    public bool aiActive;
-
-
     void Awake () 
     {
-//        EnemyShooting = GetComponent<Complete.EnemyShooting> ();
         navMeshAgent = GetComponent<NavMeshAgent> ();
     }
 
-    public void SetupAI(bool aiActivationFromEnemyManager, List<Transform> wayPointsFromEnemyManager)
+    public void SetupAI(List<Transform> wayPointsFromEnemyManager)
     {
         wayPointList = wayPointsFromEnemyManager;
-        aiActive = aiActivationFromEnemyManager;
-        if (aiActive) 
-        {
-            navMeshAgent.enabled = true;
-        } else 
-        {
-            navMeshAgent.enabled = false;
-        }
     }
 
     void Update()
     {
-        if (!aiActive)
-            return;
         currentState.UpdateState (this);
     }
 
