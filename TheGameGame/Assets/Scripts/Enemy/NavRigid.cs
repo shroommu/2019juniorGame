@@ -141,11 +141,12 @@ public class NavRigid : MonoBehaviour {
 
 	IEnumerator CheckGrounding()
 	{
+		
 		while(isGrounded == false || VelocityCheck())
 		{
 			yield return new WaitForSeconds(.1f);
-			RaycastHit hit;
-			if(Physics.SphereCast(transform.position, 0.1f, Vector3.down, out hit, agent.height/2, groundMask))
+			RaycastHit _hit;
+			if(Physics.SphereCast(transform.position, 0.1f, Vector3.down, out _hit, agent.height/2, groundMask))
 			{
 				isGrounded = true;
 			}
@@ -156,9 +157,14 @@ public class NavRigid : MonoBehaviour {
 		//	print("checking if grounded");
 		}
 	//	print("Slide check done!");
-		rb.isKinematic = true;
-		agent.enabled = true;
-		agent.SetDestination(destination.position);
+	NavMeshHit _navHit;
+		if(NavMesh.SamplePosition(transform.position, out _navHit, agent.height * 2, NavMesh.AllAreas))
+		{
+			rb.isKinematic = true;
+			agent.enabled = true;
+			agent.SetDestination(destination.position);
+		}
+		
 	//	print(destination.position);
 
 	}

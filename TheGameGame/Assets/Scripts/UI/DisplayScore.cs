@@ -9,6 +9,7 @@ public class DisplayScore : MonoBehaviour {
 	private Animator gameStateMachine;
 
 	public Text scoreText;
+	public int currentScore = 0;
 
 	public void StartGame()
 	{
@@ -17,6 +18,14 @@ public class DisplayScore : MonoBehaviour {
 
 	public void Display()
 	{
-		scoreText.text = "Score " + gameStateMachine.GetInteger("score").ToString();
+		//scoreText.text = "Score " + gameStateMachine.GetInteger("score").ToString();
+		scoreText.text = "Score " + currentScore.ToString();
 	}
+
+	public void AddScore()
+	{
+		currentScore++;
+		Display();
+	}
+	
 }

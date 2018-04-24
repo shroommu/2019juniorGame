@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4697639937716228}
   - component: {fileID: 136477976106475194}
   - component: {fileID: 114702310645891578}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 114867410458729920}
   - component: {fileID: 114709038904963412}
   - component: {fileID: 114211983582589016}
+  - component: {fileID: 114308329199096950}
   m_Layer: 12
   m_Name: Test Enemy (S)
   m_TagString: Untagged
@@ -127,8 +128,8 @@ Rigidbody:
   m_GameObject: {fileID: 1868071661920794}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.1
+  m_AngularDrag: 0.1
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
@@ -145,9 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9394e1d41cf86d14bbc542b8df0db516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
+  destination: {fileID: 4697731457141854, guid: fa8853df766bdf44f97cb31d9b5d669d,
+    type: 2}
   slideMag: 1
-  pushMag: 1
+  pushMag: 10
   pushbackMod: 1.1
   groundMask:
     serializedVersion: 2
@@ -194,6 +196,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lfVelocity: {x: 0, y: 0, z: 0}
+--- !u!114 &114308329199096950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868071661920794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7aa4c9189015b4439cddafec324c072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addScoreEvent: {fileID: 11400000, guid: 85946d1496e8ca549b7fb32a5e5aa5d6, type: 2}
+  score: 1
 --- !u!114 &114702310645891578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,6 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDamage: 0
+  maxDamage: 20
   elementManager: {fileID: 0}
 --- !u!136 &136477976106475194
 CapsuleCollider:
