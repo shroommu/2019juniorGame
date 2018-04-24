@@ -32,7 +32,10 @@ public class StateController : MonoBehaviour {
 
     void Update()
     {
-        currentState.UpdateState (this);
+        if(navMeshAgent.enabled)
+        {
+            currentState.UpdateState (this);
+        }
     }
 
     void OnDrawGizmos()
@@ -61,11 +64,13 @@ public class StateController : MonoBehaviour {
             OnExitState ();
         }
     }
-        public bool CheckIfCountDownElapsed(float duration)
+    
+    public bool CheckIfCountDownElapsed(float duration)
     {
         stateTimeElapsed += Time.deltaTime;
         return (stateTimeElapsed >= duration);
     }
+
     private void OnExitState()
     {
         stateTimeElapsed = 0;
