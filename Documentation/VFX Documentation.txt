@@ -1,0 +1,57 @@
+VFX Readme
+
+https://docs.google.com/spreadsheets/d/1QDXO13_ZfZaPpAkO9t7rjcTSoKve3PuktIUEDxy5dUo/edit?usp=sharing
+
+Use particleSystem.Play instead of SetActive() in the code. It will make it look smoother without instant cut outs.
+
+Use the naming conventions:
+
+Name - Type of Attack - Element
+
+We need to optimize the particle systems. They are too intense as is. Less particles.
+
+
+
+
+
+------------------
+
+
+
+
+Particle Tutorials as of 4/24/2018:
+
+Here is a good tutorial to go over all of the settings you can use when creating particles. This goes over each section of a particle system. The tutorial is from Brackeys so you know it is good.
+https://www.youtube.com/watch?v=FEA1wTMJAR0
+
+Here are a list Youtube Channels to get you started with Particles.
+DucVu FX - Lots of great tutorials.
+https://www.youtube.com/channel/UC5ZauAWNyh931gRJUqB1QPw
+
+ChromeFXFilms - great water and fire tutorials
+https://www.youtube.com/playlist?list=PL7jHp7lcsDo6yK4IcHtAORNoz3YgvgDPL
+
+Mirza - Lots of cool effects
+https://www.youtube.com/user/TheMirzaBeig/featured
+
+imn nam 
+https://www.youtube.com/channel/UC74Ictcvlnz9WiEfpyhmiXA
+
+Gabriel Aguiar Prod. - Fantastic tutorials, very easy to follow and understand
+https://www.youtube.com/channel/UCtb1s859RTxx-RIgFs5ZVQA
+
+Sirhaian'Arts
+https://www.youtube.com/channel/UCUqIetx0scoe79qZTovn9BA
+
+Holistic3d - great tutorials, very thorough, goes over lots of unity information.
+https://www.youtube.com/channel/UCp_SOgsRYdLfIEWLjM62ZJg
+
+SpeedTutor - Quick and to the point tutorials
+https://www.youtube.com/user/SpeedTutor/featured
+
+Specific References
+
+Ground Pound Dust Cloud
+https://www.youtube.com/watch?v=WFfS7HcG8qE&index=3&list=PLj0TSSTwoqAw1j_FFf2Pg9fYuNX5wVSwf
+Fireball/meteor reference help
+https://www.youtube.com/watch?v=-P09r-ALN38
