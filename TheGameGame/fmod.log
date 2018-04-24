@@ -1,10 +1,13 @@
-[LOG] System::create                           : Header version = 1.10.03. Current version = 1.10.03.
+[LOG] System::create                           : Header version = 1.10.04. Current version = 1.10.04.
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
 [LOG] Manager::init                            : maxchannels = 1024 studioflags = 00000009 flags 00000000 extradriverdata 0x0.
-[LOG] SystemI::init                            : Initialize version=11003 (93157), maxchannels=1024, flags=0x00030000
+[LOG] SystemI::init                            : Initialize version=11004 (93853), maxchannels=1024, flags=0x00030000
 [LOG] OutputCoreAudio::enumerate               : Enumerating...
 [LOG] OutputCoreAudio::enumerate               : Found output driver: "Built-in Output".
-[LOG] OutputCoreAudio::enumerate               : Found output driver: "HDMI".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (2ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (64ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Movavi Sound Grabber".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Multi-Output Device".
 [LOG] OutputCoreAudio::enumerate               : Done.
 [LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
@@ -12,7 +15,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x13cc60208 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x13825a808 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -22,8 +25,118 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Profile::init                            : Profiler listening on port: 9264
-[ERR] FMOD_OS_File_Open                        : fopen failed to open 'FMOD/FantasyHordeGame/Build/Desktop/.strings.bank', errno = 2
-[ERR] RuntimeBankModel::openFile               : Failed to open file 'FMOD/FantasyHordeGame/Build/Desktop/.strings.bank'
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSound                     : filename = FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13f081108 : node = 0x13f016550
+[LOG] SystemI::createSound                     : add node to async list : head = 0x142fda3c8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13f081108
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 14190528
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 14061600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13f016668
+[LOG] SystemI::createSound                     :     filename = FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0x138e918b8 : node = 0x138e2a310
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x142fda3c8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='small_waterfall_001', format=2, channels=2, frequency=48000, lengthbytes=910816, lengthpcm=3830595, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.197083.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13f081108
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x138e918b8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 14190528
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 14061600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138e2a428
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='boiling fire', format=2, channels=2, frequency=48000, lengthbytes=172256, lengthpcm=710948, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.679352.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x138e918b8
+[LOG] SoundI::getSubSound                      : sound 0x13f081108.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x138e918b8.  Subsound index 0 / 1
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13ddbb2d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13ddbb2d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1591f2828
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1591f2828
+[LOG] SystemI::createSound                     : filename = FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a115a58 : node = 0x13a11bb90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x142fda3c8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a115a58
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 14190528
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 14061600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a11bca8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='boiling fire', format=2, channels=2, frequency=48000, lengthbytes=172256, lengthpcm=710948, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.679352.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a115a58
+[LOG] SoundI::getSubSound                      : sound 0x13a115a58.  Subsound index 0 / 1
+[LOG] SoundI::release                          : boiling fire (0x138e918b8)
+[LOG] SoundI::release                          :     boiling fire (0x1591f2698)
+[LOG] SoundI::release                          :     boiling fire (0x1591f2828)
+[LOG] SystemI::createSound                     : filename = FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10e59e598 : node = 0x1444816f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x142fda3c8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10e59e598
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 14190528
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 14061600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x144481808
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='boiling fire', format=2, channels=2, frequency=48000, lengthbytes=172256, lengthpcm=710948, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.679352.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10e59e598
+[LOG] SoundI::getSubSound                      : sound 0x10e59e598.  Subsound index 0 / 1
+[LOG] SoundI::release                          : boiling fire (0x13a115a58)
+[LOG] SoundI::release                          :     boiling fire (0x1443b5348)
+[LOG] SoundI::release                          :     boiling fire (0x1443b6ed8)
+[LOG] SystemI::createSound                     : filename = FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a118968 : node = 0x13a11bb90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x142fda3c8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a118968
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/FMOD/FantasyHordeGame/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 14190528
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 14061600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a11bca8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='boiling fire', format=2, channels=2, frequency=48000, lengthbytes=172256, lengthpcm=710948, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.679352.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a118968
+[LOG] SoundI::getSubSound                      : sound 0x13a118968.  Subsound index 0 / 1
+[LOG] SoundI::release                          : boiling fire (0x10e59e598)
+[LOG] SoundI::release                          :     boiling fire (0x1443b87b8)
+[LOG] SoundI::release                          :     boiling fire (0x1591f2698)
+[LOG] SoundI::release                          : boiling fire (0x13a118968)
+[LOG] SoundI::release                          :     boiling fire (0x13f0713e8)
+[LOG] SoundI::release                          :     boiling fire (0x13f0a4118)
+[LOG] SoundI::release                          : small_waterfall_001 (0x13f081108)
+[LOG] SoundI::release                          :     small_waterfall_001 (0x13ddbb148)
+[LOG] SoundI::release                          :     small_waterfall_001 (0x13ddbb2d8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
