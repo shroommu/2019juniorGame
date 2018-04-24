@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 114943547194588222}
   - component: {fileID: 114047909530677724}
   - component: {fileID: 114458107695609344}
+  - component: {fileID: 114657138822351778}
   m_Layer: 12
   m_Name: Test AI Enemy (S)
   m_TagString: Untagged
@@ -250,6 +251,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lfVelocity: {x: 0, y: 0, z: 0}
+--- !u!114 &114657138822351778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926433133210006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7aa4c9189015b4439cddafec324c072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addScoreEvent: {fileID: 11400000, guid: 85946d1496e8ca549b7fb32a5e5aa5d6, type: 2}
+  score: 10
 --- !u!114 &114872282920080176
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -274,6 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDamage: 0
+  maxDamage: 100
   elementManager: {fileID: 0}
 --- !u!114 &114943547194588222
 MonoBehaviour:

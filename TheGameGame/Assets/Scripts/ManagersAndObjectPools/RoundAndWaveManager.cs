@@ -85,6 +85,15 @@ public class RoundAndWaveManager : MonoBehaviour {
 			GameObject _enemy = Instantiate(enemyList[_enemySpawnNum], currentSpawnPoint.transform.position, currentSpawnPoint.transform.rotation);
 			activeEnemiesList.Add(_enemy);
 
+			List<Transform> _waypointList = new List<Transform>();
+
+			foreach (Transform child in currentSpawnPoint.transform)
+			{
+				_waypointList.Add(child);
+			}
+
+			_enemy.GetComponent<StateController>().SetupAI(_waypointList);
+
 			//sets new value of currentwave.wavedngval
 			currentRound.currentWave.waveDngVal -= enemyList[_enemySpawnNum].GetComponent<EnemyData>().so_Enemy.dangerRating;
 			//print("currentWave danger value" + currentRound.currentWave.waveDngVal);

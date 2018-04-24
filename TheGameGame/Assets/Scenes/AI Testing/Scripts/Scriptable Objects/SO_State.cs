@@ -17,9 +17,9 @@ public class SO_State : ScriptableObject
 	private void DoActions(StateController controller)
 	{
 		for (int i =0; i < actions.Length; i++)
-			{
+		{
 			actions [i].Act (controller);
-			}
+		}
 
 	}
 	private void CheckTransitions(StateController controller)
