@@ -92,8 +92,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1682282185462586}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -175.2, y: 49, z: -10.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 184.01657, y: 290.5, z: 109.59206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4546090185287618}
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fcca38a1cb35b44ae2860b13fdddb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: {x: 0, y: 0, z: 0}
+  rotateSpeed: {x: 0, y: 10, z: 0}
 --- !u!114 &114759078608860204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -163,9 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5166294afaaae45ae0132602d6d394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 0}
+  meteor: {fileID: 1441305603754960, guid: 54669a09b7c74d14880c5c0e4b4bdc0a, type: 2}
   meteorSpawnPoint: {fileID: 4546090185287618}
   meteorRadius: {fileID: 1137026012053668}
-  spawnTime: 15
+  spawnTime: 5
   shotAngle: 80
   hitMarker: {fileID: 0}
