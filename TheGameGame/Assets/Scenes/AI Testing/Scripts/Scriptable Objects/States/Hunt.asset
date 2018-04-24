@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cead96e41033c4689cd2a77ea1b85a, type: 3}
+  m_Name: Hunt
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 4d69444a082f8f84fb29f8f90ced4ad5, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: dc0236f68c0aac145892a8afa44ec61b, type: 2}
+    trueState: {fileID: 11400000, guid: 314db71d9b9dd8f4c87561f696641537, type: 2}
+    falseState: {fileID: 11400000, guid: 8bf07d2f4c09d2d4b99b9104a332243b, type: 2}
+  sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}
