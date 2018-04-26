@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JFConcept_Alexa.unity
     guid: 4b0f37521c73f2046b3b948d973a59af
+  - enabled: 1
+    path: Assets/Scenes/JFConcept_Alexa_002.unity
+    guid: b5802311691a95949ab38e2ef2aae90a

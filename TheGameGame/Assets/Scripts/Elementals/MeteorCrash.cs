@@ -17,7 +17,7 @@ public class MeteorCrash : MonoBehaviour {
 
 	void Update()
 	{
-		rb.velocity = transform.forward * speed;
+	//	rb.velocity = transform.forward * speed;
 	}
 
 	void OnCollisionEnter()
@@ -34,7 +34,7 @@ public class MeteorCrash : MonoBehaviour {
 		GameObject _elemental = Instantiate (elementals[_type], transform.position, transform.rotation);
 
 		_elemental.SetActive (true);
-
+		_elemental.GetComponent<Rigidbody>().velocity = rb.velocity;
 		//destroys meteor
 		Destroy (gameObject);
 	}

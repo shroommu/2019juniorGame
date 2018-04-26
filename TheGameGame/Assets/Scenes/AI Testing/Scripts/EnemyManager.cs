@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections.Generic;
@@ -18,12 +18,22 @@ namespace Complete
 		public void SetupAI(List<Transform> wayPointList)
 		{
 			m_StateController = m_Instance.GetComponent<StateController> ();
-			m_StateController.SetupAI (true, wayPointList);
+			//m_StateController.SetupAI (true, wayPointList);
 			MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer> ();
 			for (int i = 0; i < renderers.Length; i++)
 			{
 				renderers[i].material.color = m_PlayerColor;
 			}
 		}
+
+
+		public void SetupPlayerEnemy ()
+        {
+            MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer> ();
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                renderers[i].material.color = m_PlayerColor;
+            }
+        }
     }
-}
+}*/
