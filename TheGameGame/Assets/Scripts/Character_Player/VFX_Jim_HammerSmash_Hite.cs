@@ -12,15 +12,15 @@ public class VFX_Jim_HammerSmash_Hite : MonoBehaviour {
 
 	public ElementManager elementManager;
 
-	public void StartGame()
+	public void Start()
 	{
-		elementManager = transform.parent.transform.parent.gameObject.GetComponent<ElementManager>();
+		elementManager = GameObject.FindWithTag("Player").GetComponent<ElementManager>();
 	}
 
 	public void HammerVFX_Call()
 	{
 		//checks ElementManager for current element to determine what element VFX to use
-		HammerVFX_On (attackDown [(int)elementManager.currentElemental.GetComponent<ElementalData>().so_Elemental.type - 1]);
+		HammerVFX_On (attackDown [(int)elementManager.currentElement - 1]);
 	}
 
 	public void HammerVFX_On(GameObject currentVFX)

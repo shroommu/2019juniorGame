@@ -10,17 +10,17 @@ public class AttackTrail_Jim_Hite : MonoBehaviour {
 
 	public ElementManager elementManager;
 
-	public void StartGame()
+	public void Start()
 	{
-		elementManager = transform.parent.transform.parent.gameObject.GetComponent<ElementManager>();
+		elementManager = GameObject.FindWithTag("Player").GetComponent<ElementManager>();
 		print("Attack VFX " + elementManager);
 	}
 
 	public void TrailVFX_Call()
 	{
 		//checks ElementManager for current element to determine what element VFX to use
-		TrailVFX_On (attackTrail [(int)elementManager.currentElemental.GetComponent<ElementalData>().so_Elemental.type - 1]);
-		print("element number " + (int)elementManager.currentElemental.GetComponent<ElementalData>().so_Elemental.type);
+		TrailVFX_On (attackTrail [(int)elementManager.currentElement - 1]);
+		print("element number " + ((int)elementManager.currentElement - 1));
 	}
 
 	public void TrailVFX_On(GameObject currentVFX)
